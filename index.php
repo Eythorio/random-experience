@@ -17,8 +17,6 @@
             $("#menu").click(function(){
                 $("#wrapper").animate({"margin-left":"0"});
             });
-
-
         });
 
         </script>
