@@ -1,16 +1,16 @@
 body,html {
-            margin:0;
-            height:100%;
-            width:100%;
-        }
+    margin:0;
+    height:100%;
+    width:100%;
+}
 
 body {
-	/*overflow: hidden;*/
     font-family: 'Open Sans';
+    overflow: hidden;
 }
 
  p {
- 	font-size: 3em;
+ 	font-size: 2.5em;
  	font-weight: 300;
  	line-height: 2em;
 
@@ -28,9 +28,11 @@ img {
 	vertical-align: middle;
 }
 
+
 #menu {
 	position:fixed;
-	bottom:0; width:100%;
+	bottom:0;
+	width:100%;
 	max-width: 800px;
 	background-color: green;
 	padding:0.5em 0;
@@ -53,7 +55,6 @@ nav a{
 
 #wrapper {
 	width:160%;
-	height:800px;
 	border:1px
 	solid green;
 	display:inline-block;
@@ -61,15 +62,20 @@ nav a{
 
 #nav-wrap {
 	width:50%;
-	height:100%;
 	background-color:yellow;
 	display:inline-block;
 	}
 
+#nav-wrap p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 #content {
 	width:49%;
-	height:100%;
 	background-color:purple;
 	display:inline-block;
+	vertical-align: top;
 }
+
 
