@@ -1,5 +1,4 @@
 $(function(){
-
 // some Jquery to control switching between right and left side of the website
             $("#sub-wrapper, #sub-content-wrapper, #activate").click(function(e){
                 e.stopPropagation();
