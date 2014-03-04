@@ -14,13 +14,6 @@ body {
     overflow: hidden;
 }
 
-p {
- 	display:inline;
- 	font-size: 2.5em;
- 	line-height: 2em;
- 	font-weight: 400;
- }
-
 a {
 	font-weight: 600;
 	color:#39A617;
@@ -36,6 +29,10 @@ img {
 i{
 	font-size: 2em;
 	color: #39A617;
+}
+
+h1 {
+	font-size:3.5em;
 }
 
 /*wrapper for the entire site*/
@@ -69,14 +66,22 @@ i{
 	padding: 2em;
 	height: 100% !important;
 	overflow: auto !important;
+	color:white;
 }
 
 #main-content-wrapper{
 	height:100%;
-	padding: 2em;
+	padding: 3em 2em;
 	overflow: auto;
 	margin-right: -15px;
 }
+
+#main-content-wrapper p {
+ 	display:inline;
+ 	font-size: 2.5em;
+ 	line-height: 2em;
+ 	font-weight: 400;
+ }
 
 
 @media screen and (max-width: 500px) {
