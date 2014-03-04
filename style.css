@@ -10,6 +10,7 @@ body {
 }
 
  p {
+ 	display:inline;
  	font-size: 2.5em;
  	font-weight: 300;
  	line-height: 2em;
@@ -66,10 +67,6 @@ nav a{
 	display:inline-block;
 	}
 
-#main-wrapper p {
-	margin-left: 1em;
-	margin-right: 1em;
-}
 
 #sub-wrapper {
 	background-color: #39A617;
@@ -81,7 +78,7 @@ nav a{
 
 #main-content-wrapper{
 	/*overflow: scroll;*/
-	padding: .5em;
+	padding: 2em;
 	height: 100%;
 	overflow: scroll;
 }

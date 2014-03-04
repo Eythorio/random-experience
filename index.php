@@ -11,7 +11,7 @@
         <script type="text/javascript">
 
         $(document).ready(function(){
-            $("#sub-wrapper, #sub-content-wrapper").click(function(){
+            $("#sub-wrapper, #sub-content-wrapper, #activate").click(function(){
                 $("#wrapper").animate({"margin-left":"-60%"});
             });
 
@@ -28,7 +28,11 @@
         <div id="wrapper">
             <div id="main-wrapper">
                 <section id='main-content-wrapper'>
-                    <p>Hello! We're<a href="#"><img src="img/randoms.png" alt="randoms"/></a> and we are running a <a href="#">campaign</a> where<span> 1/50 </span>of<a href="#"><img src="img/candy-bag.gif" alt="randoms"/></a> has a <a>prize</a> in it. We're giving away <a href="#"><img src="img/rostick.png"></a>and much more. If you're a winner <a>activate your 10 digit code</a> and tag us <a>#rowntrees</a> in your
+                    <p>Hello! We're<a href="#"><img src="img/randoms.png" alt="randoms"/></a> and we are running a <a href="#">campaign</a> where<span> 1/50 </span>of<a href="#"><img src="img/candy-bag.gif" alt="randoms"/></a> has a <a>prize</a> in it. We're giving away <a href="#"><img src="img/rostick.png"></a>and much more. If you're a winner </p>
+                    <form action="activation.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
+                    <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
+                    <input type="submit" name="go" value="Go" id="activate" class="button"></form>
+                    <p>and tag us <a>#rowntrees</a> in your
                     <a><img src="img/instagram.jpeg"></a>
                     <a><img src="img/is320.jpg"></a>
                     <a><img src="img/twitter.jpg"></a>
@@ -47,7 +51,7 @@
             </div>
             <div id="sub-wrapper">
                 <section id='sub-content-wrapper'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, expedita dolore unde et magnam earum ipsa perspiciatis possimus quia vel alias ut eveniet ullam sint obcaecati voluptatibus aperiam natus ratione.</p>
+                    <?php echo $out?>
                 </section>
             </div>
         </div>
