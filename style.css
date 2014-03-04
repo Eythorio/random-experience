@@ -10,7 +10,7 @@ body,html {
 }
 
 body {
-    font-family: 'Original Surfer';
+    font-family: sans-serif,'Original Surfer';
     overflow: hidden;
 }
 

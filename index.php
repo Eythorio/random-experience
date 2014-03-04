@@ -7,41 +7,9 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
+        <script src="scripts.js"></script>
         <title>Rowntrees Randoms dk</title>
         <link href="style.css" type="text/css" rel="stylesheet"/>
-
-        <script type="text/javascript">
-
-
-
-        $(document).ready(function(){
-
-            // some Jquery to control switching between right and left side of the website
-            $("#sub-wrapper, #sub-content-wrapper, #activate").click(function(e){
-                e.stopPropagation();
-                $("#wrapper").animate({"margin-left":"-60%"});
-            });
-
-            $("#main-wrapper, #main-content-wrapper").click(function(e){
-                e.stopPropagation();
-                $("#wrapper").animate({"margin-left":"0"});
-            });
-
-
-            //uses the rumble plugin to shake the links and images on hover
-            $("a").jrumble({
-                speed: 30
-            });
-
-            $("a").hover(function(){
-                $(this).trigger("startRumble");
-            }, function(){
-                $(this).trigger("stopRumble");
-            });
-        });
-
-        </script>
-
     </head>
 
     <body>
@@ -72,15 +40,9 @@
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, expedita dolore unde et magnam earum ipsa perspiciatis possimus quia vel alias ut eveniet ullam sint obcaecati voluptatibus aperiam natus ratione.</p>
+                <?php echo $out?>
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
         </div> <!-- entire site wrapper -->
-
-                    <?php echo $out?>
-                </section>
-            </div>
-        </div>
-
     </body>
     </html>
