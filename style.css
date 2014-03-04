@@ -72,6 +72,7 @@ nav a{
 }
 
 #sub-wrapper {
+	background-color: #39A617;
 	width:49%;
 	height:100%;
 	display:inline-block;
@@ -79,13 +80,18 @@ nav a{
 }
 
 #main-content-wrapper{
-	overflow: scroll;
+	/*overflow: scroll;*/
 	padding: .5em;
+	height: 100%;
+	overflow: scroll;
 }
 
 #sub-content-wrapper{
-	overflow: scroll;
+	/*overflow: scroll;*/
+	background-color: #39A617;
 	padding: .5em;
+	height: 100%;
+	overflow: scroll;
 }
 
 
