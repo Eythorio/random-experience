@@ -10,6 +10,8 @@
 
         <script type="text/javascript">
 
+
+        // some Jquery to control switching between right and left side of the website
         $(document).ready(function(){
             $("#sub-wrapper, #sub-content-wrapper").click(function(){
                 $("#wrapper").animate({"margin-left":"-60%"});
@@ -25,8 +27,11 @@
     </head>
 
     <body>
+        <!-- entire site wrapper -->
         <div id="wrapper">
+            <!-- main menu/content on the left side of the site -->
             <div id="main-wrapper">
+                <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
                     <p>Hello! We're<a href="#"><img src="img/randoms.png" alt="randoms"/></a> and we are running a <a href="#">campaign</a> where<span> 1/50 </span>of<a href="#"><img src="img/candy-bag.gif" alt="randoms"/></a> has a <a>prize</a> in it. We're giving away <a href="#"><img src="img/rostick.png"></a>and much more. If you're a winner <a>activate your 10 digit code</a> and tag us <a>#rowntrees</a> in your
                     <a><img src="img/instagram.jpeg"></a>
@@ -34,22 +39,19 @@
                     <a><img src="img/twitter.jpg"></a>
                     </p>
 
-                    <!-- <div id="menu">
-                        <nav>
-                            <a>Home</a>
-                            <a>Campaign</a>
-                            <a>Prizes</a>
-                            <a>Our Winners</a>
-                            <a>About Us</a>
-                        </nav>
-                    </div> -->
-                </section>
-            </div>
-            <div id="sub-wrapper">
+
+                </section> <!-- content of the left half of site -->
+            </div> <!-- the left side of the site -->
+
+
+
+            <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
+
+                <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, expedita dolore unde et magnam earum ipsa perspiciatis possimus quia vel alias ut eveniet ullam sint obcaecati voluptatibus aperiam natus ratione.</p>
-                </section>
-            </div>
-        </div>
+                </section> <!-- content wrapper - right side -->
+            </div> <!-- wrapper for the right side of the site -->
+        </div> <!-- entire site wrapper -->
     </body>
     </html>

@@ -1,18 +1,23 @@
+/*
+GENERAL STYLINGS
+*/
+
 body,html {
     margin:0;
-    height:100%;
+    height:100% !important;
     width:100%;
+    overflow: hidden !important;
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'American Typewriter';
     overflow: hidden;
 }
 
- p {
+p {
  	font-size: 2.5em;
- 	font-weight: 300;
  	line-height: 2em;
+ 	font-weight: 400;
 
  }
 
@@ -28,30 +33,7 @@ img {
 	vertical-align: middle;
 }
 
-
-#menu {
-	position:fixed;
-	bottom:0;
-	width:100%;
-	max-width: 800px;
-	background-color: #39A617;
-	padding:0.5em 0;
-}
-
-nav {
-	text-align:center;
-}
-
-nav a{
-	display:inline-block;
-	font-weight:300;
-	font-size: 1em;
-	line-height:1em;
-	text-decoration: none;
-}
-
-
-
+/*wrapper for the entire site*/
 #wrapper {
 	width:160%;
 	height:100%;
@@ -60,39 +42,48 @@ nav a{
 	display:inline-block;
 	}
 
+/*wrapper for the left side of the site*/
 #main-wrapper {
-	width:50%;
-	height:100%;
+	width:50% !important;
+	height:100% !important;
 	display:inline-block;
 	}
 
-#main-wrapper p {
-	margin-left: 1em;
-	margin-right: 1em;
+	#main-wrapper p {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+/*content inside the right side of site*/
+#main-content-wrapper{
+	padding: .5em;
+	height: 100% !important;
+	width: 100% !important;
+	overflow: auto;
 }
 
+
+/*wrapper for the right half of the site*/
 #sub-wrapper {
 	background-color: #39A617;
-	width:49%;
-	height:100%;
+	width:49% !important;
+	height:100% !important;
 	display:inline-block;
 	vertical-align: top;
 }
 
-#main-content-wrapper{
-	/*overflow: scroll;*/
-	padding: .5em;
-	height: 100%;
-	overflow: scroll;
-}
-
 #sub-content-wrapper{
-	/*overflow: scroll;*/
 	background-color: #39A617;
 	padding: .5em;
-	height: 100%;
-	overflow: scroll;
+	height: 100% !important;
+	width: 100% !important;
+	overflow: auto !important;
 }
 
 
+@media screen and (max-width: 500px) {
 
+	p{
+		font-size: 1.75em;
+	}
+}
