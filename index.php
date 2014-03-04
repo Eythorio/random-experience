@@ -6,6 +6,7 @@
         <link href='http://fonts.googleapis.com/css?family=Original+Surfer' rel='stylesheet' type='text/css'>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
         <title>Rowntrees Randoms dk</title>
         <link href="style.css" type="text/css" rel="stylesheet"/>
 
@@ -22,6 +23,16 @@
             $("#main-wrapper, #main-content-wrapper").click(function(e){
                 e.stopPropagation();
                 $("#wrapper").animate({"margin-left":"0"});
+            });
+
+            $("a").jrumble({
+                speed: 30
+            });
+
+            $("a").hover(function(){
+                $(this).trigger("startRumble");
+            }, function(){
+                $(this).trigger("stopRumble");
             });
         });
 
