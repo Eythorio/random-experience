@@ -17,7 +17,6 @@ body {
 p {
 
  	display:inline;
-
  	font-size: 2.5em;
  	line-height: 2em;
  	font-weight: 400;
@@ -58,14 +57,6 @@ img {
 	}
 
 /*content inside the right side of site*/
-#main-content-wrapper{
-	padding: .5em;
-	height: 100% !important;
-	width: 100% !important;
-	overflow: auto;
-}
-
-
 
 /*wrapper for the right half of the site*/
 #sub-wrapper {
@@ -77,21 +68,20 @@ img {
 }
 
 
+#sub-content-wrapper{
+	background-color: #39A617;
+	padding: 2em;
+	height: 100% !important;
+	overflow: auto !important;
+}
+
 #main-content-wrapper{
-	/*overflow: scroll;*/
+	height:100%;
 	padding: 2em;
 	height: 100%;
 	overflow: scroll;
 }
 
-
-#sub-content-wrapper{
-	background-color: #39A617;
-	padding: .5em;
-	height: 100% !important;
-	width: 100% !important;
-	overflow: auto !important;
-}
 
 @media screen and (max-width: 500px) {
 
