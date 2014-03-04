@@ -14,7 +14,12 @@ body {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 p {
+=======
+ p {
+ 	display:inline;
+>>>>>>> natasha
  	font-size: 2.5em;
  	line-height: 2em;
  	font-weight: 400;
@@ -49,6 +54,7 @@ img {
 	display:inline-block;
 	}
 
+<<<<<<< HEAD
 	#main-wrapper p {
 		margin-left: 1em;
 		margin-right: 1em;
@@ -61,6 +67,8 @@ img {
 	width: 100% !important;
 	overflow: auto;
 }
+=======
+>>>>>>> natasha
 
 
 /*wrapper for the right half of the site*/
@@ -72,6 +80,16 @@ img {
 	vertical-align: top;
 }
 
+<<<<<<< HEAD
+=======
+#main-content-wrapper{
+	/*overflow: scroll;*/
+	padding: 2em;
+	height: 100%;
+	overflow: scroll;
+}
+
+>>>>>>> natasha
 #sub-content-wrapper{
 	background-color: #39A617;
 	padding: .5em;
