@@ -11,11 +11,13 @@
         <script type="text/javascript">
 
         $(document).ready(function(){
-            $("#sub-wrapper, #sub-content-wrapper, #activate").click(function(){
+            $("#sub-wrapper, #sub-content-wrapper, #activate").click(function(e){
+                e.stopPropagation();
                 $("#wrapper").animate({"margin-left":"-60%"});
             });
 
-            $("#main-wrapper, #main-content-wrapper").click(function(){
+            $("#main-wrapper, #main-content-wrapper").click(function(e){
+                e.stopPropagation();
                 $("#wrapper").animate({"margin-left":"0"});
             });
         });
