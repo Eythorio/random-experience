@@ -83,10 +83,14 @@ h1 {
  	font-weight: 400;
  }
 
+ #main-content-wrapper p:last-child {
+ 	padding-bottom:6em;
+ }
+
 
 @media screen and (max-width: 500px) {
 
-	p{
+	#main-content-wrapper p {
 		font-size: 1.75em;
 	}
 }
