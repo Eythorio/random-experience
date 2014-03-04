@@ -18,7 +18,7 @@ body {
 
 a {
 	font-weight: 600;
-	color:green;
+	color:#39A617;
 	text-decoration: underline;
 }
 
@@ -34,7 +34,7 @@ img {
 	bottom:0;
 	width:100%;
 	max-width: 800px;
-	background-color: green;
+	background-color: #39A617;
 	padding:0.5em 0;
 }
 
@@ -47,7 +47,6 @@ nav a{
 	font-weight:300;
 	font-size: 1em;
 	line-height:1em;
-	color:white;
 	text-decoration: none;
 }
 
@@ -64,7 +63,6 @@ nav a{
 #main-wrapper {
 	width:50%;
 	height:100%;
-	background-color:yellow;
 	display:inline-block;
 	}
 
@@ -76,9 +74,19 @@ nav a{
 #sub-wrapper {
 	width:49%;
 	height:100%;
-	background-color:purple;
 	display:inline-block;
 	vertical-align: top;
 }
+
+#main-content-wrapper{
+	overflow: scroll;
+	padding: .5em;
+}
+
+#sub-content-wrapper{
+	overflow: scroll;
+	padding: .5em;
+}
+
 
 
