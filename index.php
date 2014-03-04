@@ -55,16 +55,16 @@
 
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
-<<<<<<< HEAD
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, expedita dolore unde et magnam earum ipsa perspiciatis possimus quia vel alias ut eveniet ullam sint obcaecati voluptatibus aperiam natus ratione.</p>
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
         </div> <!-- entire site wrapper -->
-=======
+
                     <?php echo $out?>
                 </section>
             </div>
         </div>
->>>>>>> natasha
+
     </body>
     </html>
