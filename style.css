@@ -60,18 +60,18 @@ nav a{
 	display:inline-block;
 	}
 
-#nav-wrap {
+#main-wrapper {
 	width:50%;
 	background-color:yellow;
 	display:inline-block;
 	}
 
-#nav-wrap p {
+#main-wrapper p {
 	margin-left: 1em;
 	margin-right: 1em;
 }
 
-#content {
+#sub-wrapper {
 	width:49%;
 	background-color:purple;
 	display:inline-block;
