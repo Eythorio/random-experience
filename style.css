@@ -15,12 +15,10 @@ body {
 }
 
 p {
-
  	display:inline;
  	font-size: 2.5em;
  	line-height: 2em;
  	font-weight: 400;
-
  }
 
 a {
@@ -49,14 +47,8 @@ img {
 	width:50% !important;
 	height:100% !important;
 	display:inline-block;
+	overflow: hidden;
 	}
-
-	#main-wrapper p {
-		margin-left: 1em;
-		margin-right: 1em;
-	}
-
-/*content inside the right side of site*/
 
 /*wrapper for the right half of the site*/
 #sub-wrapper {
@@ -66,7 +58,6 @@ img {
 	display:inline-block;
 	vertical-align: top;
 }
-
 
 #sub-content-wrapper{
 	background-color: #39A617;
@@ -78,8 +69,8 @@ img {
 #main-content-wrapper{
 	height:100%;
 	padding: 2em;
-	height: 100%;
-	overflow: scroll;
+	overflow: auto;
+	margin-right: -15px;
 }
 
 
