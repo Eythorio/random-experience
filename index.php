@@ -11,11 +11,11 @@
         <script type="text/javascript">
 
         $(document).ready(function(){
-            $("#sub-wrapper").click(function(){
+            $("#sub-wrapper, #sub-content-wrapper").click(function(){
                 $("#wrapper").animate({"margin-left":"-60%"});
             });
 
-            $("#main-wrap").click(function(){
+            $("#main-wrapper, #main-content-wrapper").click(function(){
                 $("#wrapper").animate({"margin-left":"0"});
             });
         });
