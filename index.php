@@ -76,7 +76,7 @@ $out="";
                     <p id='heading'>
                         Hello! We're
 
-                        <a href="aboutus.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a>
 
                         <br>
 
