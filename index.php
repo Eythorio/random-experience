@@ -114,21 +114,36 @@ if (isset($_GET['page'])){
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
-                    <p>Hello! We're
-                        <a href="aboutus.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a> and we are
-                        <a href="campaign.php" class="link campaign"><img src="img/running.png" alt=""></a> a
-                        <a id='campaign' href="campaign.php" class="link campaign">campaign</a> where<span> 1/50 </span>of
-                        <a href="aboutus.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a> has
-                        <a href="prizes.php" class="link prizes"><img src="img/prize.gif" alt=""></a> in it. We're giving away
-                        <a href="prizes.php" class="link prizes"><img src="img/rostick.png"></a>and much more. If you're a
-                        <a href="winners.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>
+                    <p>
+                        Hello! We're
+
+                        <a href="aboutus.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a>
+
+                        <br>
+
+                        We're giving away
+
+                        <a href="prizes.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>and much more...<span>
+
+                        <br>
+
+                        1/50 </span> of
+                        <a href="aboutus.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a> has a RANDOM
+                        <a href="prizes.php" class="link prizes"><img src="img/gift-box.png" alt=""></a> in it.
+
+                        <br>
+
+                        Are you a lucky
+                        <a href="winners.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
                     </p>
                     <form action="#" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
                         <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
                         <input type="submit" name="page" value="activate" id="activate">
                     </form>
-                    <p>and tag us
-                        <a>#rowntrees</a> in your
+
+                    <br>
+                    <p>
+                        <a><img src="img/hashtag.png" alt=""></a>
                         <a href=""><i class= 'fa fa-instagram'> </i></a>
                         <a href=""><i class= 'fa fa-facebook-square'> </i></a>
                         <a href=""><i class= 'fa fa-twitter-square'> </i></a>
