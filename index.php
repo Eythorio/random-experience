@@ -1,38 +1,5 @@
 <?php
 $out="";
-
-
-// Natatsha - just talk to me on messages and hipchat and I can explain why I did what I did
-
-if (isset($_GET['page'])){
-
-        switch($_GET['page']){
-
-//                 case 'aboutus':
-//                     include("aboutus.php");
-//                     break;
-
-//                 case 'winners':
-//                     include("winners.php");
-//                     break;
-
-//                 case 'prizes':
-//                     include("prizes.php");
-//                     break;
-
-                 case 'activate':
-                     include("activation.php");
-                     break;
-
-//                     case 'campaign':
-//                     include("campaign.php");
-//                     break;
-
-//                   default:
-//                     include("campaign.php");
-        }
-    }
-
 ?>
 
 <!DOCTYPE html>
@@ -87,39 +54,15 @@ if (isset($_GET['page'])){
 
                       return false;
                    });
-                <?php
 
-                // still need this bit to send the activation code on through
-                   if (isset($_GET['page'])){
+                    $("#activate").click(function() {
+                        $("#sub-content-wrapper").load("activation.php", {'activationcode': <?php echo "'".$_GET['activationcode']."'"?>});
 
-                      switch($_GET['page']){
-
-                   //      case 'aboutus':
-                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
-                   //          break;
-
-                   //      case 'winners':
-                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
-                   //          break;
-
-                   //      case 'prizes':
-                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
-                   //          break;
-
-                         case 'activate':
-                             echo "$('#wrapper').animate({'margin-left':'-60%'});";
-                             break;
-
-                   //      case 'campaign':
-                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
-                   //          break;
-
-                   //      default:
-                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
-                         }
-                     }
-                 ?>
+                      return false;
+                   });
+               
             });
+
         </script>
     </head>
 
@@ -142,20 +85,20 @@ if (isset($_GET['page'])){
 
                         We're giving away
 
-                        <a href="prizes.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>and much more...<span>
+                        <a href="index.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>and much more...<span>
 
                         <br>
 
                         1/50 </span> of
-                        <a href="aboutus.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a> has a RANDOM
-                        <a href="prizes.php" class="link prizes"><img src="img/gift-box.png" alt=""></a> in it.
+                        <a href="index.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a> has a RANDOM
+                        <a href="index.php" class="link prizes"><img src="img/gift-box.png" alt=""></a> in it.
 
                         <br>
 
                         Are you a lucky
                         <a href="winners.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
                     </p>
-                    <form action="#" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
+                    <form action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
                         <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
                         <input type="submit" name="page" value="activate" id="activate">
                     </form>
@@ -182,7 +125,6 @@ if (isset($_GET['page'])){
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
 
-                    <?php echo $out; ?>
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
            <footer>
