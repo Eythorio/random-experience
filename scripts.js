@@ -1,6 +1,6 @@
 $(function(){
 // some Jquery to control switching between right and left side of the website
-            $("#sub-wrapper, #sub-content-wrapper, #activate").click(function(e){
+            $("#sub-wrapper, #sub-content-wrapper, #activate,a, .link").click(function(e){
                 e.stopPropagation();
                 $("#wrapper").animate({"margin-left":"-60%"});
             });
@@ -9,7 +9,6 @@ $(function(){
                 e.stopPropagation();
                 $("#wrapper").animate({"margin-left":"0"});
             });
-
 
             //uses the rumble plugin to shake the links and images on hover
             $("a").jrumble({

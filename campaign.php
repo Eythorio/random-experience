@@ -1,5 +1,1 @@
-<?php
-$out.="
-<h1>The Campaign</h1>
-"
-?>
+<h1>THE campaign bitches!!!!!</h1>

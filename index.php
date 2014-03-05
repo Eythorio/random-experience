@@ -5,28 +5,28 @@ if (isset($_GET['page'])){
 
         switch($_GET['page']){
 
-                case 'aboutus':
-                    include("aboutus.php");
-                    break;
+//                 case 'aboutus':
+//                     include("aboutus.php");
+//                     break;
 
-                case 'winners':
-                    include("winners.php");
-                    break;
+//                 case 'winners':
+//                     include("winners.php");
+//                     break;
 
-                case 'prizes':
-                    include("prizes.php");
-                    break;
+//                 case 'prizes':
+//                     include("prizes.php");
+//                     break;
 
-                case 'activate':
-                    include("activation.php");
-                    break;
+                 case 'activate':
+                     include("activation.php");
+                     break;
 
-                    case 'campaign':
-                    include("campaign.php");
-                    break;
+//                     case 'campaign':
+//                     include("campaign.php");
+//                     break;
 
-                  default:
-                    include("campaign.php");
+//                   default:
+//                     include("campaign.php");
         }
     }
 
@@ -44,6 +44,67 @@ if (isset($_GET['page'])){
         <script src="scripts.js"></script>
         <title>Rowntrees Randoms dk</title>
         <link href="style.css" type="text/css" rel="stylesheet"/>
+
+        <script>
+            $(document).ready(function(){
+
+                    $(".aboutus").click(function() {
+                        $("#sub-content-wrapper").load("aboutus.php");
+
+                      return false;
+                   });
+
+                    $(".winners").click(function() {
+                        $("#sub-content-wrapper").load("winners.php");
+
+                      return false;
+                   });
+
+                    $(".prizes").click(function() {
+                        $("#sub-content-wrapper").load("prizes.php");
+
+                      return false;
+                   });
+
+
+
+                    $(".campaign").click(function() {
+                        $("#sub-content-wrapper").load("campaign.php");
+
+                      return false;
+                   });
+                <?php
+                   if (isset($_GET['page'])){
+
+                      switch($_GET['page']){
+
+                   //      case 'aboutus':
+                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
+                   //          break;
+
+                   //      case 'winners':
+                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
+                   //          break;
+
+                   //      case 'prizes':
+                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
+                   //          break;
+
+                         case 'activate':
+                             echo "$('#wrapper').animate({'margin-left':'-60%'});";
+                             break;
+
+                   //      case 'campaign':
+                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
+                   //          break;
+
+                   //      default:
+                   //          echo "$('#wrapper').animate({'margin-left':'-60%'});";
+                         }
+                     }
+                 ?>
+            });
+        </script>
     </head>
 
     <body>
@@ -53,14 +114,24 @@ if (isset($_GET['page'])){
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
-                    <p>Hello! We're<a href="index.php?page=aboutus" class="link"><img src="img/randoms.png" alt="randoms"/></a> and we are <a href="index.php?page=campaign" class="link"><img src="img/running.png" alt=""></a> a <a href="index.php?page=campaign" class="link">campaign</a> where<span> 1/50 </span>of<a href="index.php?page=aboutus" class="link"><img src="img/candy-bag.gif" alt="randoms"/></a> has <a href="index.php?page=prizes" class="link"><img src="img/prize.gif" alt=""></a> in it. We're giving away <a href="index.php?page=prizes" class="link"><img src="img/rostick.png"></a>and much more. If you're a <a href="index.php?page=winners" class="link"><img src="img/winner.jpg" alt=""></img></a> </p>
+                    <p>Hello! We're
+                        <a href="aboutus.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a> and we are
+                        <a href="campaign.php" class="link campaign"><img src="img/running.png" alt=""></a> a
+                        <a id='campaign' href="campaign.php" class="link campaign">campaign</a> where<span> 1/50 </span>of
+                        <a href="aboutus.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a> has
+                        <a href="prizes.php" class="link prizes"><img src="img/prize.gif" alt=""></a> in it. We're giving away
+                        <a href="prizes.php" class="link prizes"><img src="img/rostick.png"></a>and much more. If you're a
+                        <a href="winners.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>
+                    </p>
                     <form action="#" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
-                    <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
-                    <input type="submit" name="page" value="activate" id="activate"></form>
-                    <p>and tag us <a>#rowntrees</a> in your
-                    <a href=""><i class= 'fa fa-instagram'> </i></a>
-                    <a href=""><i class= 'fa fa-facebook-square'> </i></a>
-                    <a href=""><i class= 'fa fa-twitter-square'> </i></a>
+                        <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
+                        <input type="submit" name="page" value="activate" id="activate">
+                    </form>
+                    <p>and tag us
+                        <a>#rowntrees</a> in your
+                        <a href=""><i class= 'fa fa-instagram'> </i></a>
+                        <a href=""><i class= 'fa fa-facebook-square'> </i></a>
+                        <a href=""><i class= 'fa fa-twitter-square'> </i></a>
                     </p>
 
 
@@ -74,7 +145,7 @@ if (isset($_GET['page'])){
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
 
-                <?php echo $out?>
+                    <?php echo $out; ?>
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
         </div> <!-- entire site wrapper -->
