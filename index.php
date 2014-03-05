@@ -55,12 +55,7 @@ $out="";
                       return false;
                    });
 
-                    $("#activate").click(function() {
-                        $("#sub-content-wrapper").load("activation.php", {'activationcode': <?php echo "'".$_GET['activationcode']."'"?>});
 
-                      return false;
-                   });
-               
             });
 
         </script>
@@ -76,7 +71,7 @@ $out="";
                     <p id='heading'>
                         Hello! We're
 
-                        <a href="index.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img src="img/randoms.png" alt="randoms" id="logo"/></a>
 
                         <br>
 
@@ -96,7 +91,7 @@ $out="";
                         <br>
 
                         Are you a lucky
-                        <a href="winners.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
+                        <a href="index.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
                     </p>
                     <form action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
                         <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">

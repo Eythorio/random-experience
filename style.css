@@ -27,6 +27,10 @@ img {
 	vertical-align: middle;
 }
 
+#logo {
+	height: 1.5em;
+}
+
 i{
 	font-size: 2em;
 	color: #39A617;
