@@ -10,8 +10,9 @@ body,html {
 }
 
 body {
-    font-family: sans-serif,'Original Surfer';
+    font-family: "Amatic SC",'Original Surfer';
     overflow: hidden;
+	font-size: 1.2em;
 }
 
 a {
@@ -34,6 +35,11 @@ i{
 h1 {
 	font-size:3.5em;
 }
+
+#heading{
+	font-size: 5em !important;
+}
+
 
 /*wrapper for the entire site*/
 #wrapper {
@@ -88,7 +94,7 @@ h1 {
  #main-content-wrapper p:last-child {
  	padding-bottom:6em;
  }
- 
+
  #share-button{
 	position: fixed;
 	background-image: url("img/randoms_icon.png");
@@ -147,12 +153,12 @@ input[type="checkbox"]{
 
 .social {
   transform-origin:50% 0%;
-  
+
   -webkit-transform: scale(0) translateY(-190px);
   -moz-transform:scale(0) translateY(-190px);
   -o-transform:scale(0) translateY(-190px);
   transform:scale(0) translateY(-190px);
-  
+
   opacity:0;
 }
 ul {
@@ -171,7 +177,7 @@ ul {
 
 ul li {
   font-size:20px;
-  
+
   cursor:pointer;
   width:60px;
   margin:0;

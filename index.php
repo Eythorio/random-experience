@@ -1,6 +1,9 @@
 <?php
 $out="";
 
+
+// Natatsha - just talk to me on messages and hipchat and I can explain why I did what I did
+
 if (isset($_GET['page'])){
 
         switch($_GET['page']){
@@ -37,14 +40,27 @@ if (isset($_GET['page'])){
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <link href='http://fonts.googleapis.com/css?family=Original+Surfer' rel='stylesheet' type='text/css'>
+
+
+        <!-- icons -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Original+Surfer' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+
+        <!-- jquery, rumble, and custom scripts  -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
         <script src="scripts.js"></script>
-        <title>Rowntrees Randoms dk</title>
+
+        <!-- stylesheet -->
         <link href="style.css" type="text/css" rel="stylesheet"/>
 
+        <title>Rowntrees Randoms dk</title>
+
+
+        <!-- uses Jquery and ajax I think to load the page on click without disrupting or slowing the page slide that we have implemented -->
         <script>
             $(document).ready(function(){
 
@@ -66,14 +82,14 @@ if (isset($_GET['page'])){
                       return false;
                    });
 
-
-
                     $(".campaign").click(function() {
                         $("#sub-content-wrapper").load("campaign.php");
 
                       return false;
                    });
                 <?php
+
+                // still need this bit to send the activation code on through
                    if (isset($_GET['page'])){
 
                       switch($_GET['page']){
@@ -114,12 +130,15 @@ if (isset($_GET['page'])){
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
-                    <p>
+                    <p id='heading'>
                         Hello! We're
 
                         <a href="aboutus.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a>
 
                         <br>
+
+                    </p>
+                    <p>
 
                         We're giving away
 
@@ -144,6 +163,9 @@ if (isset($_GET['page'])){
                     <br>
                     <p>
                         <a><img src="img/hashtag.png" alt=""></a>
+
+                        <br>
+
                         <a href=""><i class= 'fa fa-instagram'> </i></a>
                         <a href=""><i class= 'fa fa-facebook-square'> </i></a>
                         <a href=""><i class= 'fa fa-twitter-square'> </i></a>
