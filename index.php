@@ -163,6 +163,22 @@ if (isset($_GET['page'])){
                     <?php echo $out; ?>
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
+           <footer>
+              <h1 class="nextle">© 2014 Nestlé</h1>
+              <main>
+                  <div id="content">
+                    <input type="checkbox" class="checkbox" id="share">
+                    <label for="share" class="label entypo-export" id="share-button"></label>
+                    <div class="social">
+                      <ul>
+                        <li class="entypo-twitter"><a id="twitter"></a></li>
+                       <li class="entypo-facebook"><a id="facebook"></a></li>
+                        <li class="entypo-instagram"><a id="instagram"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+              </main>
+          </footer>
         </div> <!-- entire site wrapper -->
     </body>
     </html>
