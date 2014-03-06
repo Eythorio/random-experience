@@ -79,7 +79,6 @@ i{
 	text-align: center;
 }
 
-
 #main-content-wrapper p {
  	display:inline;
  	font-weight: 400;
@@ -282,6 +281,12 @@ li[class*="instagram"] {
 	background-position: -85px -9px;
 }
 
+
+/**
+***
+	MOBILE STYLES
+***
+**/
 @media screen and (max-width: 500px) {
 
 
@@ -302,6 +307,12 @@ li[class*="instagram"] {
 		height: 2em;
 	}
 
+	#share-button{
+		background-size: 200px;
+		width: 50px;
+		height: 48px;
+	}
+
 	.mobile{
 		display: block !important;
 		margin-top: 0;
@@ -320,11 +331,11 @@ li[class*="instagram"] {
 	}
 
 	#content {
-	text-align: right;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	padding: 30px 25px;
-	height: 10px;
-}
+		text-align: right;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		padding: 30px 25px;
+		height: 10px;
+	}
 }

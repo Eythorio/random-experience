@@ -46,7 +46,7 @@ if ((isset($_GET['form']))&&($_GET['form']=='activate')){
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
                     <h1>
-                        Hello Denmark!!!
+                        Hej Denmark!!!
                     </h1>
 
                     <h2>
