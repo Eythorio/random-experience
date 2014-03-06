@@ -100,9 +100,9 @@ if ((isset($_GET['page']))&&($_GET['page']=='activate')){
                         Are you a lucky
                         <a href="index.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
                     </p>
-                    <form action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
-                        <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
-                        <input type="submit" name="page" value="activate" id="activate">
+                    <form action="index.php" method="get" enctype="multipart/form-data">
+                        <input type="text" name="activationcode" placeholder="Enter The Code" class="placeholder">
+                        <input type="submit" name="page" value="Go!" id="activate">
                     </form>
 
                     <br>

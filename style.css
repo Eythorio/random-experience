@@ -98,8 +98,56 @@ h1 {
  #main-content-wrapper p:last-child {
  	padding-bottom:6em;
  }
+ 
+/*------------------------------------------*/
+/* 			Here Starts a Button Form			*/
+/*----------------------------------------*/
 
- #share-button{
+form {
+	display: inline;
+}
+
+input.placeholder {
+	text-align: center;
+	font-size: 18px;
+	width: 200px;
+	height: 60px;
+	vertical-align: middle;
+	border: 5px solid #39A617;
+	border-radius: 7px 0px 0px 7px;
+	outline: none;
+}
+
+input.placeholder:focus {
+	background-color: #F2F1F1;
+	border: none;
+	padding: 6px;
+}
+
+input[type="submit"] {
+	width: 100px;
+	height: 72px;
+	font-family: "Amatic SC",'Original Surfer';
+	font-size: 50px;
+	cursor: pointer;
+	vertical-align: middle;
+	background-color: #39A617;
+	border: 5px solid #39A617;
+	border-radius: 0px 7px 7px 0px;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+input[type="submit"]:focus {
+	background-color: #14301a;
+	border: 5px solid #14301a;
+	color: #FFFFFF;
+}
+
+/*------------------------------------------*/
+
+#share-button{
 	position: fixed;
 	background-image: url("img/randoms_icon.png");
 	background-repeat: no-repeat;
@@ -110,6 +158,10 @@ h1 {
 	bottom: 0;
 	right: 0;
 	margin: 7px;
+}
+
+.checkbox:checked ~ #share-button {
+	background-position: 0px -73px;
 }
 
 footer{
