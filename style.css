@@ -130,11 +130,6 @@ i{
 	color:white;
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> Janis
  #main-content-wrapper p:last-child {
  	padding-bottom:6em;
  }
@@ -191,8 +186,6 @@ input[type="submit"]:focus {
 	border: 5px solid #14301a;
 	color: #FFFFFF;
 }
-
-/*------------------------------------------*/
 
 #share-button{
 	position: fixed;
@@ -393,18 +386,24 @@ li[class*="instagram"] {
 		height: 2em;
 	}
 
-<<<<<<< HEAD
-	form input{
-		margin-top: .3em;
-		margin-bottom: .3em;
+	input.placeholder {
+		width: 125px;
+		height: 40px;
+		font-size: .7em;
 	}
 
+	input[type="submit"] {
+		width: 50px;
+		height: 52px;
+		font-size: 2em;
+
+	}
 
 	#share-button{
 		background-size: 200px;
 		width: 50px;
 		height: 48px;
-=======
+	}
 	#share-button{
 		background-size: 200px;
 		background-position: 0px 0px;
@@ -416,8 +415,8 @@ li[class*="instagram"] {
 		background-position: 0px -48px;
 		width: 50px;
 		height: 48px;
-		
->>>>>>> Janis
+
+
 	}
 
 	.mobile{
@@ -438,20 +437,20 @@ li[class*="instagram"] {
 	}
 
 	#content {
-<<<<<<< HEAD
+
 		text-align: right;
 		position: fixed;
 		right: 0;
 		bottom: 0;
 		padding: 30px 25px;
 		height: 10px;
-=======
+
 		padding: 20px 15px;
 		height: 5px;
 	}
-	
+
 	footer .nextle {
 		right: 4em;
->>>>>>> Janis
+
 	}
 }
