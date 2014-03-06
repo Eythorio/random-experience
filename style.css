@@ -16,27 +16,31 @@ body {
 }
 
 h1{
-	font-size: 6em;
+	font-size: 4em;
 	margin-top: .5em;
 	margin-bottom: 0;
 	font-weight: 400;
 }
 
 h2{
-	font-size: 5em;
+	font-size: 3em;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: 400;
 }
 
 img {
-	height:3.5em;
+	height:3em;
 	width:auto;
 	vertical-align: middle;
 }
 
+form{
+	display: inline;
+}
+
 .desktop {
-	display: block !important;
+	display: block;
 	margin-top: 0;
 	margin-bottom: 0;
 	}
@@ -79,7 +83,7 @@ i{
 #main-content-wrapper p {
  	display:inline;
  	font-weight: 400;
- 	font-size: 3.5em;
+ 	font-size: 3em;
  	line-height: 1.2em;
  }
 

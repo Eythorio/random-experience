@@ -26,7 +26,7 @@ if ((isset($_GET['form']))&&($_GET['form']=='activate')){
         <!-- jquery, rumble, and custom scripts  -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
-        <script src="scripts.js"></script>
+        <script src="js/scripts.js"></script>
 
         <!-- stylesheet -->
         <link href="style.css" type="text/css" rel="stylesheet"/>
@@ -35,37 +35,7 @@ if ((isset($_GET['form']))&&($_GET['form']=='activate')){
 
 
         <!-- uses Jquery and ajax I think to load the page on click without disrupting or slowing the page slide that we have implemented -->
-        <script>
-            $(document).ready(function(){
 
-                    $(".aboutus").click(function() {
-                        $("#sub-content-wrapper").load("aboutus.php");
-
-                      return false;
-                   });
-
-                    $(".winners").click(function() {
-                        $("#sub-content-wrapper").load("winners.php");
-
-                      return false;
-                   });
-
-                    $(".prizes").click(function() {
-                        $("#sub-content-wrapper").load("prizes.php");
-
-                      return false;
-                   });
-
-                    $(".campaign").click(function() {
-                        $("#sub-content-wrapper").load("campaign.php");
-
-                      return false;
-                   });
-
-
-            });
-
-        </script>
     </head>
 
     <body>
@@ -78,9 +48,6 @@ if ((isset($_GET['form']))&&($_GET['form']=='activate')){
                     <h1>
                         Hello Denmark!!!
                     </h1>
-
-
-                    <br>
 
                     <h2>
                         We're
@@ -96,24 +63,15 @@ if ((isset($_GET['form']))&&($_GET['form']=='activate')){
                         We're giving away
 
                         <a href="index.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>
-
-                        <br>
-
                         and much more...<span>
 
                         <br>
 
                         1/50 </span> of every
-
-                        <br>
-
                         <a href="index.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a>
-
-                        <br>
 
                          has a RANDOM
 
-                        <br>
                         <a href="index.php" class="link prizes"><img src="img/gift-box.png" alt=""></a> in it.
 
                         <br>
