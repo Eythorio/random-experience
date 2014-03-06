@@ -8,13 +8,19 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 
 	switch ($_GET['form']){
 
-		default:
-		//holding the code value entered
-		$code=$_GET['activationcode'];
+		case 'information';
+		$fname=$_GET['fname'];
+		$lname=$_GET['lname'];
+		$email=$_GET['email'];
+		$email=$_GET['email'];
+		$email=$_GET['city'];
+
+		break;
+
+		case 'activate':
+		//getting the category
+		$category=get_category($_GET['activationcode']);
 		//getting the category of given code
-		$resultcategory = mysql_query("SELECT category FROM re_activation_code where code='$code'");
-		$datacategory=mysql_fetch_assoc($resultcategory);
-		$category=$datacategory['category'];
 
 		$out.="
 		<p>You entered $code. We just need some more information before we can show you you're prizes:</p>
