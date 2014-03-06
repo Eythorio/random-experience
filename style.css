@@ -15,6 +15,12 @@ body {
     font-weight: 400;
 }
 
+
+/***
+***
+	HEADINGS
+***
+***/
 h1{
 	font-size: 4em;
 	margin-top: .5em;
@@ -29,16 +35,28 @@ h2{
 	font-weight: 400;
 }
 
+
+/***
+	IMAGES
+***/
 img {
 	height:3em;
 	width:auto;
 	vertical-align: middle;
 }
 
+
+/***
+	FORM
+***/
 form{
 	display: inline;
 }
 
+
+/***
+	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
+***/
 .desktop {
 	display: block;
 	margin-top: 0;
@@ -49,19 +67,22 @@ form{
 	display: none !important;
 	}
 
+/***
+	SOCIAL ICONS ON HOMEPAGE
+***/
 i{
 	font-size: 2em;
 	color: #39A617;
 }
 
-/*wrapper for the entire site*/
+/*WRAPPER FOR THE ENTIRE SITE*/
 #wrapper {
 	width:160%;
 	height:100%;
 	display:inline-block;
 	}
 
-/*wrapper for the left side of the site*/
+/*LEFT HAND SIDE OF THE SITE*/
 #main-wrapper {
 	width:50% !important;
 	height:100% !important;
@@ -69,7 +90,7 @@ i{
 	overflow: hidden;
 	}
 
-
+/*CONTENT BOX ON THE LEFT HAND SIDE */
 #main-content-wrapper{
 	height:100%;
 	padding: 1em 2em;
@@ -92,7 +113,7 @@ i{
  }
 
 
-/*wrapper for the right half of the site*/
+/*RIGHT SIDE OF THE SITE*/
 #sub-wrapper {
 	background-color: #39A617;
 	width:49% !important;
@@ -108,7 +129,6 @@ i{
 	overflow: auto !important;
 	color:white;
 }
-
 
 
 
