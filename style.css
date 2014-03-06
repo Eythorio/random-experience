@@ -130,8 +130,11 @@ i{
 	color:white;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> Janis
  #main-content-wrapper p:last-child {
  	padding-bottom:6em;
  }
@@ -220,6 +223,7 @@ footer{
 	bottom: 0;
 	font-size: 17px;
 	right: 6em;
+	padding: 12px
 }
 
 #content {
@@ -389,6 +393,7 @@ li[class*="instagram"] {
 		height: 2em;
 	}
 
+<<<<<<< HEAD
 	form input{
 		margin-top: .3em;
 		margin-bottom: .3em;
@@ -399,6 +404,20 @@ li[class*="instagram"] {
 		background-size: 200px;
 		width: 50px;
 		height: 48px;
+=======
+	#share-button{
+		background-size: 200px;
+		background-position: 0px 0px;
+		width: 50px;
+		height: 48px;
+	}
+	.checkbox:checked ~ #share-button{
+		background-size: 200px;
+		background-position: 0px -48px;
+		width: 50px;
+		height: 48px;
+		
+>>>>>>> Janis
 	}
 
 	.mobile{
@@ -419,11 +438,20 @@ li[class*="instagram"] {
 	}
 
 	#content {
+<<<<<<< HEAD
 		text-align: right;
 		position: fixed;
 		right: 0;
 		bottom: 0;
 		padding: 30px 25px;
 		height: 10px;
+=======
+		padding: 20px 15px;
+		height: 5px;
+	}
+	
+	footer .nextle {
+		right: 4em;
+>>>>>>> Janis
 	}
 }
