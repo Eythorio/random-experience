@@ -10,7 +10,7 @@ function get_category($activationcode){
 
 	}
 
-function upload_info($var, $var1, $var2){
+function upload_info($email, $fname, $lname){
 	
 	$sql ="INSERT INTO webgallery(id, imagename, title, category, date)
           VALUES (' ', '$destination', '$title', '$category', NOW())";
