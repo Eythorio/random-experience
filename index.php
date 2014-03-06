@@ -84,9 +84,9 @@ if ((isset($_GET['form']))&&($_GET['form']=='Go')){
                     </p>
 
 
-                    <form class='desktop' action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
-                        <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
-                        <input type="submit" name="form" value="Go" id="activate">
+                    <form class='desktop' action="index.php" method="get" enctype="multipart/form-data">
+                        <input class='placeholder' type="text" name="activationcode" placeholder="activate your code...">
+                        <input class='placeholder' type="submit" name="form" value="Go" id="activate">
                     </form>
 
 
@@ -108,9 +108,9 @@ if ((isset($_GET['form']))&&($_GET['form']=='Go')){
 
                     </p>
 
-                    <form class='mobile' action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
-                        <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
-                        <input type="submit" name="form" value="activate" id="activate">
+                    <form class='mobile' action="index.php" method="get" enctype="multipart/form-data">
+                        <input class ='placeholder 'type="text" name="activationcode" placeholder="activate your code...">
+                        <input class ='placeholder 'type="submit" name="form" value="Go!" id="activate">
                     </form>
 
                     <p class='mobile'>

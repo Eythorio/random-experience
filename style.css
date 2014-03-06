@@ -132,19 +132,22 @@ i{
 
 
 
-<<<<<<< HEAD
-=======
  #main-content-wrapper p:last-child {
  	padding-bottom:6em;
  }
- 
+
 /*------------------------------------------*/
 /* 			Here Starts a Button Form			*/
 /*----------------------------------------*/
->>>>>>> Janis
+
 
 form {
 	display: inline;
+}
+
+form input{
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 input.placeholder {
@@ -177,6 +180,7 @@ input[type="submit"] {
 	outline: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	margin-left: -2px;
 }
 
 input[type="submit"]:focus {
@@ -384,6 +388,12 @@ li[class*="instagram"] {
 	img{
 		height: 2em;
 	}
+
+	form input{
+		margin-top: .3em;
+		margin-bottom: .3em;
+	}
+
 
 	#share-button{
 		background-size: 200px;
