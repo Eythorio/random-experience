@@ -12,49 +12,77 @@ body,html {
 body {
     font-family: "Amatic SC",'Original Surfer';
     overflow: hidden;
-	font-size: 1.2em;
+    font-weight: 400;
 }
 
-a {
-	font-weight: 600;
-	color:#39A617;
-	text-decoration: underline;
+
+/***
+***
+	HEADINGS
+***
+***/
+h1{
+	font-size: 4em;
+	margin-top: .5em;
+	margin-bottom: 0;
+	font-weight: 400;
 }
 
+h2{
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+
+/***
+	IMAGES
+***/
 img {
 	height:3em;
 	width:auto;
 	vertical-align: middle;
 }
 
-#logo {
-	height: 1.5em;
+
+/***
+	FORM
+***/
+form{
+	display: inline;
 }
 
+
+/***
+	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
+***/
+.desktop {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+.mobile {
+	display: none !important;
+	}
+
+/***
+	SOCIAL ICONS ON HOMEPAGE
+***/
 i{
 	font-size: 2em;
 	color: #39A617;
 }
 
-h1 {
-	font-size:3.5em;
-}
-
-#heading{
-	font-size: 5em !important;
-}
-
-
-/*wrapper for the entire site*/
+/*WRAPPER FOR THE ENTIRE SITE*/
 #wrapper {
 	width:160%;
 	height:100%;
-	border:1px
-	solid green;
 	display:inline-block;
 	}
 
-/*wrapper for the left side of the site*/
+/*LEFT HAND SIDE OF THE SITE*/
 #main-wrapper {
 	width:50% !important;
 	height:100% !important;
@@ -62,7 +90,30 @@ h1 {
 	overflow: hidden;
 	}
 
-/*wrapper for the right half of the site*/
+/*CONTENT BOX ON THE LEFT HAND SIDE */
+#main-content-wrapper{
+	height:100%;
+	padding: 1em 2em;
+	overflow: auto;
+	margin-right: -15px;
+	margin-left: 1em;
+	text-align: center;
+}
+
+#main-content-wrapper p {
+ 	display:inline;
+ 	font-weight: 400;
+ 	font-size: 3em;
+ 	line-height: 1.2em;
+ }
+
+
+ #main-content-wrapper p:last-child {
+ 	padding-bottom:6em;
+ }
+
+
+/*RIGHT SIDE OF THE SITE*/
 #sub-wrapper {
 	background-color: #39A617;
 	width:49% !important;
@@ -78,22 +129,6 @@ h1 {
 	overflow: auto !important;
 	color:white;
 }
-
-#main-content-wrapper{
-	height:100%;
-	padding: 3em 2em;
-	overflow: auto;
-	margin-right: -15px;
-	margin-left: 2em;
-	text-align: center;
-}
-
-#main-content-wrapper p {
- 	display:inline;
- 	font-size: 2.5em;
- 	line-height: 2em;
- 	font-weight: 400;
- }
 
  #main-content-wrapper p:last-child {
  	padding-bottom:6em;
@@ -176,6 +211,7 @@ footer{
 	bottom: 0;
 	font-size: 17px;
 	right: 6em;
+	padding: 12px
 }
 
 #content {
@@ -319,9 +355,69 @@ li[class*="instagram"] {
 	background-position: -85px -9px;
 }
 
+
+/**
+***
+	MOBILE STYLES
+***
+**/
 @media screen and (max-width: 500px) {
 
+
+	/*switches out the mobile and desktop main text*/
+	.desktop{
+		display: none !important;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+
+	h2{
+		font-size: 3em;
+	}
+
+	img{
+		height: 2em;
+	}
+
+	#share-button{
+		background-size: 200px;
+		background-position: 0px 0px;
+		width: 50px;
+		height: 48px;
+	}
+	.checkbox:checked ~ #share-button{
+		background-size: 200px;
+		background-position: 0px -48px;
+		width: 50px;
+		height: 48px;
+		
+	}
+
+	.mobile{
+		display: block !important;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	#main-content-wrapper{
+		margin-left: 0;
+		padding-left: 1em;
+	}
+
 	#main-content-wrapper p {
-		font-size: 1.75em;
+		font-size: 3em;
+		line-height: 1em;
+		margin-left: none;
+	}
+
+	#content {
+		padding: 20px 15px;
+		height: 5px;
+	}
+	
+	footer .nextle {
+		right: 4em;
 	}
 }
