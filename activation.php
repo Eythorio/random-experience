@@ -25,16 +25,16 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 		<form action='index.php' method='get' enctype='multipart/form-data'>
 		<input type='text' name='fname' placeholder='First Name'/>
 		<input type='text' name='lname' placeholder='Last Name'/>
-		<input type='text' name='email' placeholder='Email Address'/>"
+		<input type='text' name='email' placeholder='Email Address'/>";
 		
-		if($category!='very high'){}
+		if($category!='very high'){
 
 		$out.="<select name='city'>
 		<option value='Copenhagen'>København</option>
 		<option value='Aalborg'>Aalborg</option>
 		<option value='Aarhus'>Aarhus</option>
 		<option value='roskilde'>Roskilde</option>
-		</select>"
+		</select>";
 
 		}
 		
