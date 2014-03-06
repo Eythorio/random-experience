@@ -1,7 +1,10 @@
 <?php
+session_start();
+$_SESSION['activationcode']="";
+
 $out="";
 
-if ((isset($_GET['form']))&&($_GET['form']=='activate')){
+if ((isset($_GET['form']))&&($_GET['form']=='Go')){
 
     include('activation.php');
 
@@ -83,7 +86,7 @@ if ((isset($_GET['form']))&&($_GET['form']=='activate')){
 
                     <form class='desktop' action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
                         <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
-                        <input type="submit" name="form" value="activate" id="activate">
+                        <input type="submit" name="form" value="Go" id="activate">
                     </form>
 
 
