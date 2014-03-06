@@ -2,30 +2,38 @@
 $out=" ";
 include("dbconnect.php");
 
-$out.="
-<h1>Congratulations!</h1>
-<p>Choose from the following selection of prizes</p>
-<form action='#' method='get' enctype='multipart/form-data'>
-";
+if ((isset($_GET['form']))&&($_GET['form']!=null)){
+	
+	$out.="<h1>Congratulations!yo</h1>";
 
-//getting the category of given code
+	switch ($_GET['form']){
 
-	$code=$_GET['activationcode'];
-	$resultcategory = mysql_query("SELECT category FROM re_activation_code where code='$code'");
-	$datacategory=mysql_fetch_assoc($resultcategory);
-	$category=$datacategory['category'];
+		default:
+		//holding the code value entered
+		$code=$_GET['activationcode'];
+		//getting the category of given code
+		$resultcategory = mysql_query("SELECT category FROM re_activation_code where code='$code'");
+		$datacategory=mysql_fetch_assoc($resultcategory);
+		$category=$datacategory['category'];
 
-//selecting the prizes
-	$prizes="SELECT * FROM re_prize where category='$category'";
-	$resultprizes=mysql_query($prizes);
+		$out.="
+		<p>You entered $code. We just need some more information before we can show you you're prizes:</p>
+		<form action='index.php' method='get' enctype='multipart/form-data'>
+		<input type='text' name='fname' placeholder='First Name'/>
+		<input type='text' name='lname' placeholder='Last Name'/>
+		<input type='text' name='email' placeholder='Email Address'/>
+		<select name='city'>
+		<option value='Copenhagen'>København</option>
+		<option value='Aalborg'>Aalborg</option>
+		<option value='Aarhus'>Aarhus</option>
+		<option value='roskilde'>Roskilde</option>
+		</select>
+		<button type='submit' name='form' value='information'>Submit Information</button>
+		";
+		break;
 
-//outing the different prizes into a radio input
-	while($dataprizes=mysql_fetch_assoc($resultprizes)){
-	$prizename=$dataprizes['name'];
-	$out.="<input type='radio' name='prize' value='$prizename'>$prizename<br>";
-	}
-
-	$out.="<input type='submit' name='submit' value='activate'></form>";
+		}
+}
 
 ?>
 
