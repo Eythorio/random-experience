@@ -1,5 +1,12 @@
 <?php
 $out="";
+
+if ((isset($_GET['page']))&&($_GET['page']=='activate')){
+
+    include('activation.php');
+
+};
+
 ?>
 
 <!DOCTYPE html>
@@ -119,7 +126,7 @@ $out="";
 
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
-
+                <?php echo $out?>
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
            <footer>
