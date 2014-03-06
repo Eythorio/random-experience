@@ -1,6 +1,6 @@
 $(function(){
 // some Jquery to control switching between right and left side of the website
-    $("#sub-wrapper, #sub-content-wrapper, #activate,a, .link").click(function(e){
+    $("#sub-wrapper, #sub-content-wrapper, #activate, .link").click(function(e){
         e.stopPropagation();
         $("#wrapper").animate({"margin-left":"-60%"});
     });
@@ -8,6 +8,12 @@ $(function(){
     $("#main-wrapper, #main-content-wrapper").click(function(e){
         e.stopPropagation();
         $("#wrapper").animate({"margin-left":"0"});
+    });
+
+    $(".back, #back-button").click(function(e){
+        e.stopPropagation();
+        $("#wrapper").animate({"margin-left" : "0"});
+        return false;
     });
 
     //uses the rumble plugin to shake the links and images on hover

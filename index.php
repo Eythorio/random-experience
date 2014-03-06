@@ -48,6 +48,7 @@ if ((isset($_GET['form']))&&($_GET['form']=='Go')){
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
+
                     <h1>
                         Hej Denmark!!!
                     </h1>
@@ -154,10 +155,15 @@ if ((isset($_GET['form']))&&($_GET['form']=='Go')){
 
 
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
-
+                <div class="back">
+                    <a id='back-button' href="">
+                        <i class='fa fa-arrow-circle-left back-icon'></i>Back</a>
+                </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
-                <?php echo $out?>
+
+
+                    <?php echo $out?>
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
            <footer>
@@ -169,7 +175,7 @@ if ((isset($_GET['form']))&&($_GET['form']=='Go')){
                     <div class="social">
                       <ul>
                         <li class="entypo-twitter"><a id="twitter"></a></li>
-                       <li class="entypo-facebook"><a id="facebook"></a></li>
+                        <li class="entypo-facebook"><a id="facebook"></a></li>
                         <li class="entypo-instagram"><a id="instagram"></a></li>
                       </ul>
                     </div>
