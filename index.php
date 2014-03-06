@@ -1,7 +1,7 @@
 <?php
 $out="";
 
-if ((isset($_GET['page']))&&($_GET['page']=='activate')){
+if ((isset($_GET['form']))&&($_GET['form']=='activate')){
 
     include('activation.php');
 
@@ -14,7 +14,7 @@ if ((isset($_GET['page']))&&($_GET['page']=='activate')){
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-
+        <meta name="viewport" content="width=device-width"/>
 
         <!-- icons -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -75,24 +75,45 @@ if ((isset($_GET['page']))&&($_GET['page']=='activate')){
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
-                    <p id='heading'>
-                        Hello! We're
+                    <h1>
+                        Hello Denmark!!!
+                    </h1>
 
-                        <a href="index.php" class="link aboutus"><img src="img/randoms.png" alt="randoms" id="logo"/></a>
 
-                        <br>
+                    <br>
 
-                    </p>
-                    <p>
+                    <h2>
+                        We're
+
+                        <a href="index.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a>
+                    </h2>
+
+                    <br>
+
+
+                    <p class='desktop'>
 
                         We're giving away
 
-                        <a href="index.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>and much more...<span>
+                        <a href="index.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>
 
                         <br>
 
-                        1/50 </span> of
-                        <a href="index.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a> has a RANDOM
+                        and much more...<span>
+
+                        <br>
+
+                        1/50 </span> of every
+
+                        <br>
+
+                        <a href="index.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a>
+
+                        <br>
+
+                         has a RANDOM
+
+                        <br>
                         <a href="index.php" class="link prizes"><img src="img/gift-box.png" alt=""></a> in it.
 
                         <br>
@@ -100,13 +121,16 @@ if ((isset($_GET['page']))&&($_GET['page']=='activate')){
                         Are you a lucky
                         <a href="index.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
                     </p>
-                    <form action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
+
+
+                    <form class='desktop' action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
                         <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
-                        <input type="submit" name="page" value="activate" id="activate">
+                        <input type="submit" name="form" value="activate" id="activate">
                     </form>
 
-                    <br>
-                    <p>
+
+                    <p class='desktop'>
+                        <br>
                         <a><img src="img/hashtag.png" alt=""></a>
 
                         <br>
@@ -116,6 +140,52 @@ if ((isset($_GET['page']))&&($_GET['page']=='activate')){
                         <a href=""><i class= 'fa fa-twitter-square'> </i></a>
                     </p>
 
+
+                    <p class="mobile">
+                        Are you a lucky
+                        <a href="index.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
+
+                    </p>
+
+                    <form class='mobile' action="index.php" method="get" enctype="multipart/form-data" style="display:inline;z-index:100;">
+                        <input type="text" name="activationcode" placeholder="activate your code..." style="width:150px; height:30px;">
+                        <input type="submit" name="form" value="activate" id="activate">
+                    </form>
+
+                    <p class='mobile'>
+
+                        We're giving away
+
+                        <br>
+
+                        <a href="index.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>
+
+                        <br>
+
+                        and much more...<span>
+
+                        <br>
+
+                        1/50 </span> of
+
+                        <br>
+
+                        <a href="index.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a>
+
+                        <br>
+
+                        has a RANDOM
+
+                        <br>
+
+                        <a href="index.php" class="link prizes"><img src="img/gift-box.png" alt=""></a>
+
+                        <br>
+
+                        in it.
+
+                        <br>
+                    </p>
 
                 </section> <!-- content of the left half of site -->
             </div> <!-- the left side of the site -->

@@ -12,45 +12,48 @@ body,html {
 body {
     font-family: "Amatic SC",'Original Surfer';
     overflow: hidden;
-	font-size: 1.2em;
+    font-weight: 400;
 }
 
-a {
-	font-weight: 600;
-	color:#39A617;
-	text-decoration: underline;
+h1{
+	font-size: 6em;
+	margin-top: .5em;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+h2{
+	font-size: 5em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 400;
 }
 
 img {
-	height:3em;
+	height:3.5em;
 	width:auto;
 	vertical-align: middle;
 }
 
-#logo {
-	height: 1.5em;
-}
+.desktop {
+	display: block !important;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+.mobile {
+	display: none !important;
+	}
 
 i{
 	font-size: 2em;
 	color: #39A617;
 }
 
-h1 {
-	font-size:3.5em;
-}
-
-#heading{
-	font-size: 5em !important;
-}
-
-
 /*wrapper for the entire site*/
 #wrapper {
 	width:160%;
 	height:100%;
-	border:1px
-	solid green;
 	display:inline-block;
 	}
 
@@ -61,6 +64,30 @@ h1 {
 	display:inline-block;
 	overflow: hidden;
 	}
+
+
+#main-content-wrapper{
+	height:100%;
+	padding: 1em 2em;
+	overflow: auto;
+	margin-right: -15px;
+	margin-left: 1em;
+	text-align: center;
+}
+
+
+#main-content-wrapper p {
+ 	display:inline;
+ 	font-weight: 400;
+ 	font-size: 3.5em;
+ 	line-height: 1.2em;
+ }
+
+
+ #main-content-wrapper p:last-child {
+ 	padding-bottom:6em;
+ }
+
 
 /*wrapper for the right half of the site*/
 #sub-wrapper {
@@ -79,25 +106,9 @@ h1 {
 	color:white;
 }
 
-#main-content-wrapper{
-	height:100%;
-	padding: 3em 2em;
-	overflow: auto;
-	margin-right: -15px;
-	margin-left: 2em;
-	text-align: center;
-}
 
-#main-content-wrapper p {
- 	display:inline;
- 	font-size: 2.5em;
- 	line-height: 2em;
- 	font-weight: 400;
- }
 
- #main-content-wrapper p:last-child {
- 	padding-bottom:6em;
- }
+
 
  #share-button{
 	position: fixed;
@@ -269,7 +280,47 @@ li[class*="instagram"] {
 
 @media screen and (max-width: 500px) {
 
-	#main-content-wrapper p {
-		font-size: 1.75em;
+
+	/*switches out the mobile and desktop main text*/
+	.desktop{
+		display: none !important;
 	}
+
+	h1{
+		font-size: 3em;
+	}
+
+	h2{
+		font-size: 3em;
+	}
+
+	img{
+		height: 2em;
+	}
+
+	.mobile{
+		display: block !important;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	#main-content-wrapper{
+		margin-left: 0;
+		padding-left: 1em;
+	}
+
+	#main-content-wrapper p {
+		font-size: 3em;
+		line-height: 1em;
+		margin-left: none;
+	}
+
+	#content {
+	text-align: right;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	padding: 30px 25px;
+	height: 10px;
+}
 }
