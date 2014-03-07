@@ -1,0 +1,961 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fonte",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"activate",
+				"activate"
+			],
+			[
+				"act",
+				"activationcode"
+			],
+			[
+				"sub-",
+				"sub-content-wrapper"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"nav",
+				"nav-wrap"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"magrin",
+				"margin-left"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"font-siz",
+				"font-size-h1"
+			],
+			[
+				"brand-",
+				"brand-secondary"
+			],
+			[
+				"brand",
+				"brand-secondary"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"se",
+				"secondary-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"her",
+				"hero-text-align"
+			],
+			[
+				"h1",
+				"h1-text-align"
+			],
+			[
+				"filter",
+				"filter_nav"
+			],
+			[
+				"backrou",
+				"background-color"
+			],
+			[
+				"person",
+				"person_wrapper"
+			],
+			[
+				"all",
+				"all_posts"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"header",
+				"header_about_links"
+			],
+			[
+				"cont",
+				"contact_details"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"filter_",
+				"filter_wrapper_dekstop"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"search",
+				"search_box"
+			],
+			[
+				"seach",
+				"search_box"
+			],
+			[
+				"mysql_fet",
+				"mysql_fetch_assoc"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"server",
+				"server_file"
+			],
+			[
+				"chec",
+				"check_type"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"mysqli_re",
+				"mysqli_real_escape_string"
+			],
+			[
+				"mysqli",
+				"mysqli_real_escape_string"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"erro",
+				"error_msg"
+			],
+			[
+				"_",
+				"_FILES"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mysql_",
+				"mysql_query"
+			],
+			[
+				"mysqli_fetch",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"mysqli_conn",
+				"mysqli_connect_errno"
+			],
+			[
+				"mysql_s",
+				"mysql_select_db"
+			],
+			[
+				"image",
+				"imagename"
+			],
+			[
+				"myse",
+				"mysql_error"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"the",
+				"the_db"
+			],
+			[
+				"P",
+				"_POST"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"red",
+				"redirect_to"
+			],
+			[
+				"n",
+				"new_location"
+			],
+			[
+				"sub",
+				"subt_result"
+			],
+			[
+				"add",
+				"add_result"
+			],
+			[
+				"reu",
+				"result_array"
+			],
+			[
+				"val",
+				"val2"
+			],
+			[
+				"re",
+				"result2"
+			],
+			[
+				"say",
+				"say_hello_to"
+			],
+			[
+				"test",
+				"test2"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"outline",
+				"sublimelinter_fill_outlines"
+			],
+			[
+				"scene",
+				"scene3-action"
+			],
+			[
+				"background-a",
+				"background-attachment"
+			],
+			[
+				"repla",
+				"replaceText"
+			],
+			[
+				"tit",
+				"title-wrapper"
+			],
+			[
+				"end",
+				"end-button"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"scene2-1",
+				"scene2-1-wrapper"
+			],
+			[
+				"scene2",
+				"scene2-1"
+			],
+			[
+				"prin",
+				"princetower"
+			],
+			[
+				"prince",
+				"princecrying"
+			],
+			[
+				"falling",
+				"fallingitems"
+			],
+			[
+				"fall",
+				"falling-objects"
+			],
+			[
+				"sc",
+				"scene3"
+			],
+			[
+				"under",
+				"underwear3"
+			],
+			[
+				"un",
+				"underwear3"
+			],
+			[
+				"new",
+				"newLocation"
+			],
+			[
+				"menu",
+				"menu_items"
+			],
+			[
+				"up",
+				"up-button-img"
+			],
+			[
+				"about",
+				"about-first-p"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"abut",
+				"about-first-p"
+			],
+			[
+				"mat",
+				"margin-left"
+			],
+			[
+				"zoom",
+				"zoomOut"
+			],
+			[
+				"zoo",
+				"zoomOut"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"s",
+				"street_art_gallery"
+			],
+			[
+				"p",
+				"p	padding"
+			],
+			[
+				"men",
+				"menu_items"
+			],
+			[
+				"poster",
+				"poster_img"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"op",
+				"opacity_control"
+			],
+			[
+				"opac",
+				"opacity_control_1"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"magin",
+				"margin-right"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "activation.php",
+			"settings":
+			{
+				"buffer_size": 1488,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Channel"
+			],
+			[
+				"istal",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 470.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/random-experience/activation.php",
+		"/Applications/MAMP/htdocs/random-experience/js/scripts.js",
+		"/Applications/MAMP/htdocs/random-experience/index.php",
+		"/Applications/MAMP/htdocs/random-experience/style.css",
+		"/Applications/MAMP/htdocs/random-experience/campaign.php",
+		"/Applications/MAMP/htdocs/random-experience/dbconnect.php",
+		"/Applications/MAMP/htdocs/random-experience/aboutus.php",
+		"/Applications/MAMP/htdocs/random-experience/scripts.js",
+		"/Applications/MAMP/htdocs/random-experience/test.html",
+		"/Users/luke/Dropbox/Random Experience/html-text-live/mockup.html",
+		"/Applications/MAMP/htdocs/project_2/_/php/1508-case-study.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/1508-team.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/1508-jumbotron.php",
+		"/Applications/MAMP/htdocs/project_2/about.php",
+		"/Applications/MAMP/htdocs/project_2/index.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/footer.php",
+		"/Applications/MAMP/htdocs/project_2/personal-site.php",
+		"/Applications/MAMP/htdocs/project_2/1508.php",
+		"/Applications/MAMP/htdocs/project_2/send-form-email.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/latest-work-jumbotron.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/navigation.php",
+		"/Applications/MAMP/htdocs/project_2/_/components/less/buttons.less",
+		"/Applications/MAMP/htdocs/project_2/contact.php",
+		"/Users/luke/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/project_2/_/php/personal-site-blurb.php",
+		"/Applications/MAMP/htdocs/project_2/portfolio.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/mobile-latest-work.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/html-head.php",
+		"/Applications/MAMP/htdocs/project_2/_/components/js/_myscript.js",
+		"/Applications/MAMP/htdocs/project_2/_/components/js/_bootstrap.js",
+		"/Applications/MAMP/htdocs/project_2/_/components/js/matchMedia.js",
+		"/Applications/MAMP/htdocs/project_2/_/php/hero-section.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/jumbotron.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/personal-jumbotron.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/personal-site-explanation.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/1508-purpose.php",
+		"/Applications/MAMP/htdocs/project_2/_/components/less/variables.less",
+		"/Applications/MAMP/htdocs/.htaccess",
+		"/Applications/MAMP/htdocs/project_2/.htaccess",
+		"/Applications/MAMP/htdocs/project_2/_/php/other-work-row.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/latest-work-carousel.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/1508-blurbs.php",
+		"/Applications/MAMP/htdocs/project_2/_/components/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/project_2/_/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/project_2/_/css/mystyles.css",
+		"/Applications/MAMP/htdocs/project_2/_/php/1508-logo-color.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/send-form-email.php",
+		"/Users/luke/Downloads/stanley/theme/contact.html",
+		"/Applications/MAMP/htdocs/project_2/_/components/less/_mystyles.less",
+		"/Applications/MAMP/htdocs/project_2/_/php/personal-blurbs.php",
+		"/Applications/MAMP/htdocs/project_2/new_portfolio.sublime-workspace",
+		"/Applications/MAMP/htdocs/project_2/_/php/1508-explanation.php",
+		"/Applications/MAMP/htdocs/project_2/projects/1508.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/three-about-blurbs.php",
+		"/Applications/MAMP/htdocs/project_2/_/php/three-blurbs.php",
+		"/Users/luke/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/luke/WEB/new_portfolio/project_2/_/components/js/_myscript.js",
+		"/Users/luke/WEB/new_portfolio/project_2/_/components/less/component-animations.less",
+		"/Users/luke/WEB/new_portfolio/project_2/_/components/less/_mystyles.less",
+		"/Users/luke/WEB/new_portfolio/project_2/_/css/mystyles.css",
+		"/Users/luke/WEB/new_portfolio/project_2/_/components/js/_bootstrap.js",
+		"/Users/luke/WEB/new_portfolio/project_2/_/js/bootstrap.js",
+		"/Users/luke/Documents/KEA/1st_Semester/assignments/html_work/personal_site/final/index.html",
+		"/Users/luke/Documents/KEA/1st_Semester/assignments/art_noveau/pixie.html",
+		"/Users/luke/WEB/new_portfolio/project/bower_components/foundation/scss/foundation/components/_sub-nav.scss",
+		"/Users/luke/WEB/new_portfolio/project/bower_components/foundation/scss/foundation/components/_magellan.scss",
+		"/Users/luke/WEB/new_portfolio/project/config.rb",
+		"/Users/luke/WEB/new_portfolio/project/scss/app.scss",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/postcontent.php",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/index.php",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/sftp-config.json",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/speaker.php",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/stylesheet.css",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/events.html",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/event.php",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/people.php",
+		"/Users/luke/Documents/KEA/assignments/1508/1508 Explore/knowledge.php",
+		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/keaweb",
+		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/luke/WEB/Porfolio/style.css",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384427653/keaweb/public_html/php/thumbs/thumbs.php",
+		"/Users/luke/Desktop/snippet.php",
+		"/Users/luke/Documents/KEA/assignments/KEA_gallery/upload.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384277180/keaweb/public_html/gallery_assignment/homepage.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384269026/keaweb/public_html/gallery_assignment/homepage.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384270257/keaweb/public_html/gallery_assignment/style.css",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384254635/keaweb/public_html/gallery_assignment/index2.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384262201/keaweb/public_html/gallery_assignment/practice2.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384265007/keaweb/public_html/gallery_assignment/style.css",
+		"/Users/luke/Documents/KEA/assignments/KEA_gallery/style.css",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384254816/keaweb/public_html/gallery_assignment/style.css",
+		"/Users/luke/Desktop/practice2_local.php",
+		"/private/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/fz3temp-1/practice2 2.php",
+		"/Users/luke/Documents/KEA/assignments/KEA_gallery/practice.php",
+		"/Users/luke/Documents/KEA/assignments/KEA_gallery/practice2.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384252632/keaweb/public_html/files4.php",
+		"/Users/luke/Documents/KEA/PHP/sql_lecture.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384196736/keaweb/public_html/php/gallery_upload.php",
+		"/Users/luke/Documents/KEA/PHP/gallery_upload.php",
+		"/Users/luke/Documents/KEA/gallery/databases.php",
+		"/Applications/MAMP/htdocs/PHP/form_processing.php",
+		"/Applications/MAMP/htdocs/PHP/img_upload.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384158438/keaweb/public_html/gallery/img_upload.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384158414/keaweb/public_html/gallery/form.php",
+		"/Applications/MAMP/htdocs/PHP/form.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384158367/keaweb/public_html/php/validations.php",
+		"/Applications/MAMP/htdocs/PHP/included_functions.php",
+		"/var/folders/dw/wvx0y35d6mng767sr58pmlfw0000gn/T/sublime-sftp-browse-1384105977/keaweb/public_html/php/validations.php",
+		"/Applications/MAMP/htdocs/PHP/validations.php",
+		"/Applications/MAMP/htdocs/PHP/form_single.php",
+		"/Applications/MAMP/htdocs/PHP/redirect.php",
+		"/Applications/MAMP/htdocs/PHP/headers.php",
+		"/Applications/MAMP/htdocs/PHP/second_page.php",
+		"/Applications/MAMP/htdocs/PHP/first_page.php",
+		"/Applications/MAMP/htdocs/PHP/function_deafults.php",
+		"/Applications/MAMP/htdocs/PHP/multiple_returns.php",
+		"/Applications/MAMP/htdocs/PHP/functions.php",
+		"/Applications/MAMP/htdocs/PHP/continue.php",
+		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/User/trailing_spaces.sublime-settings",
+		"/Applications/MAMP/htdocs/PHP/while.php",
+		"/Applications/MAMP/htdocs/PHP/switch.php",
+		"/Applications/MAMP/htdocs/PHP/constants.php",
+		"/Applications/MAMP/htdocs/PHP/type_casting.php",
+		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/luke/Documents/KEA/assignments/KEA_gallery/index.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"overflow",
+			"form",
+			"base",
+			"footer",
+			"gutter",
+			"@grid-gutter-width",
+			"container",
+			"about-img",
+			"sm",
+			"bg",
+			"hover",
+			"centered",
+			"port",
+			"#222",
+			"button",
+			"heade",
+			"other-work",
+			"p",
+			"transition",
+			"collapse",
+			"text",
+			"magell",
+			"primary-color",
+			"hover",
+			"button",
+			"header",
+			");\n",
+			"iamge",
+			"sub-n",
+			"center",
+			"grid",
+			"grid ",
+			"ifram",
+			"hover",
+			"monthly_bar",
+			"search_box",
+			"sign up",
+			"header",
+			"all",
+			"form",
+			"content",
+			"max",
+			" $",
+			"h2",
+			"$link",
+			"or",
+			"#text",
+			"story",
+			"maidfalling",
+			"scene2",
+			"scene2-5",
+			"scene3",
+			"scene3-wrapp",
+			"scene5-button",
+			"scene4-button",
+			"scene3-button",
+			"scene1-button",
+			"title-button",
+			"scene2-button",
+			"scene1-button",
+			"podcast",
+			"podacast",
+			"description",
+			"poster",
+			"portfolio_heading",
+			"intro",
+			"z-in",
+			"z",
+			"continer",
+			" \n",
+			">\n",
+			"*/\n",
+			"'>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "activation.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 157.0
+	},
+	"project": "randoms.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 103.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

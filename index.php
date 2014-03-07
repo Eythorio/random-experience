@@ -4,7 +4,7 @@ $_SESSION['activationcode']="";
 
 $out="";
 
-if ((isset($_GET['form']))&&($_GET['form']=='Go')){
+if (isset($_GET['form'])){
 
     include('activation.php');
 
