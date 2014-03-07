@@ -170,11 +170,14 @@ input.placeholder {
 	text-align: center;
 	font-size: 18px;
 	width: 200px;
-	height: 60px;
+	height: 70px;
 	vertical-align: middle;
 	border: 5px solid #39A617;
 	border-radius: 7px 0px 0px 7px;
 	outline: none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /*Safari*/
 }
 
 input.placeholder:focus {
@@ -185,7 +188,7 @@ input.placeholder:focus {
 
 input[type="submit"] {
 	width: 100px;
-	height: 72px;
+	height: 70px;
 	font-family: "Amatic SC",'Original Surfer';
 	font-size: 50px;
 	cursor: pointer;
