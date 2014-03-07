@@ -1,12 +1,14 @@
 <?php
 session_start();
 $_SESSION['activationcode']="";
+$code = $_SESSION['activationcode'];
 
 $out="";
 
 if (isset($_GET['form'])){
 
     include('activation.php');
+
 
 };
 
@@ -35,9 +37,6 @@ if (isset($_GET['form'])){
         <link href="style.css" type="text/css" rel="stylesheet"/>
 
         <title>Rowntrees Randoms dk</title>
-
-
-        <!-- uses Jquery and ajax I think to load the page on click without disrupting or slowing the page slide that we have implemented -->
 
     </head>
 
@@ -86,7 +85,7 @@ if (isset($_GET['form'])){
 
 
                     <form class='desktop' action="index.php" method="get" enctype="multipart/form-data">
-                        <input class='placeholder' type="text" name="activationcode" placeholder="activate your code...">
+                        <input id='code-input' class='placeholder' type="text" name="activationcode" placeholder="activate your code...">
                         <input class='placeholder' type="submit" name="form" value="Go" id="activate">
                     </form>
 
@@ -96,10 +95,6 @@ if (isset($_GET['form'])){
                         <a><img src="img/hashtag.png" alt=""></a>
 
                         <br>
-
-                        <a href=""><i class= 'fa fa-instagram'> </i></a>
-                        <a href=""><i class= 'fa fa-facebook-square'> </i></a>
-                        <a href=""><i class= 'fa fa-twitter-square'> </i></a>
                     </p>
 
 
