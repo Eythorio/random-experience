@@ -6,10 +6,11 @@ include("functions.php");
 
 if ((isset($_GET['form']))&&($_GET['form']!=null)){
 
-	$out.="<h1>Congratulations!yo</h1>";
+	$out.="<h1>Congratulations!</h1>";
 
 	switch ($_GET['form']){
 
+		// case for when activation code is entered
 		case 'Go':
 			//saving code
 			$_SESSION['activationcode']=$_GET['activationcode'];
@@ -21,34 +22,71 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 
 
 			$out.="
-			<p>You entered $code. We just need some more information before we can show you you're prizes:</p>
-			<form action='index.php' method='get' enctype='multipart/form-data'>
-			<input type='text' name='fname' placeholder='First Name'/>
-			<input type='text' name='lname' placeholder='Last Name'/>
-			<input type='text' name='email' placeholder='Email Address'/>";
+			<p>You entered a valid $code. What city do you want to have your prize in: </p>
+			<form action='index.php' method='get' enctype='multipart/form-data'>";
 
+			// puts out the city form if they didn't win a super awesome incredible prize
 			if($category!='very high'){
 
-				$out.="<select name='city'>
-				<option value='Copenhagen'>København</option>
-				<option value='Aalborg'>Aalborg</option>
-				<option value='Aarhus'>Aarhus</option>
-				<option value='roskilde'>Roskilde</option>
-				</select>";
+				$out.="
+				<input type='radio' name='city' value='Copenhagen'>København <br>
+				<input type='radio' name='city' value='Aalborg'>Aalborg <br>
+				<input type='radio' name='city' value='Aarhus'>Aarhus <br>
+				<input type='radio' name='city' value='roskilde'>Roskilde <br>
+				";
 
 			}
 
-			$out.="<button type='submit' name='form' value='information'>Submit Information</button>";
+			//select city button
+			$out.="<button type='submit' name='form' value='city-button'>Select City</button></form>";
 			break;
 
-		case 'information':
-
-			$fname=$_GET['fname'];
-			$lname=$_GET['lname'];
-			$email=$_GET['email'];
+		//case for when they have selected a city
+		case 'city-button':
+			//stores the session variable
+			$category=$_SESSION['category'];
 			$_SESSION['city']=$_GET['city'];
 			$city=$_SESSION['city'];
 
+			//selecting the prizes
+			$prizes="SELECT * FROM re_prize where category='$category' AND city = '$city'";
+			$resultprizes=mysql_query($prizes);
+
+			//outing the different prizes into a radio input
+
+			$out.="<form action='#' method='get' enctype='multipart/form-data'>";
+
+			//loop that grabs all the prizes
+			while($dataprizes=mysql_fetch_assoc($resultprizes)){
+				$prizename=$dataprizes['name'];
+				$out.="<input type='radio' 	name='prize' value='$prizename'>$prizename<br>";
+				}
+
+			$out.="<button type='submit' name='form' value='prize-button'>Select Prize</button></form>";
+
+			break;
+
+		case 'prize-button':
+			//grabs the chosen prize
+			$_SESSION['prize']=$_GET['prize'];
+			$chosenprize =$_SESSION['prize'];
+
+			// tells the user what prize they chose and then outputs a form that asks for the user's name and email and stuff
+			$out.="
+			<p>Almost done. You entered chose $chosenprize. We just need to know who you are so we can send you your prize!</p>
+			<form action='index.php' method='get' enctype='multipart/form-data'><br>
+			<input type='text' name='fname' placeholder='First Name'/><br>
+			<input type='text' name='lname' placeholder='Last Name'/><br>
+			<input type='text' name='email' placeholder='Email Address'/><br>";
+			$out.="<button type='submit' name='form' value='information'>submit</button></form>";
+
+			break;
+
+		case 'information':
+			//this puts the user's name into the database and stuff
+			$fname=$_GET['fname'];
+			$lname=$_GET['lname'];
+			$email=$_GET['email'];
 
 
 			$sql ="INSERT INTO re_winner_user(id, email, firstname, lastname)
@@ -60,21 +98,8 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 		    	//getting the category of given code
 				$category=$_SESSION['category'];
 
-		    	$out.= "<p>It's so awesome that you won, $fname. These are the prizes in $city that you can chose from. Pick one that looks awesome to you! </p>";
-		    	 //selecting the prizes
-				$prizes="SELECT * FROM re_prize where category='$category' AND city = '$city'";
-				$resultprizes=mysql_query($prizes);
-
-				//outing the different prizes into a radio input
-				//
-				$out.="<form action='#' method='get' enctype='multipart/form-data'>";
-
-				while($dataprizes=mysql_fetch_assoc($resultprizes)){
-					$prizename=$dataprizes['name'];
-					$out.="<input type='radio' 	name='prize' value='$prizename'>$prizename<br>";
-				}
-
-				$out.="<button type='submit' name='form' value='prize'>submit</button></form>";
+				//sends them a message saying we will send them an email.
+		    	$out.= "<p>It's so awesome that you won. You should get an email for your soon.</p>";
 
 		    } else {
 				$out.= "uh oh luke, it isn't working";

@@ -72,6 +72,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/randoms_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28893,
+		"inputAbbreviatedPath": "\/img\/randoms_icon.png",
+		"outputAbbreviatedPath": "\/img\/randoms_icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/roskilde-ticket.png": {
 		"fileType": 32768,
 		"ignore": 0,

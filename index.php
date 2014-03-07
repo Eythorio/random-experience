@@ -56,7 +56,7 @@ if (isset($_GET['form'])){
                     <h2>
                         We're
 
-                        <a href="index.php" class="link aboutus"><img src="img/randoms.png" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
                     </h2>
 
                     <br>
@@ -66,22 +66,22 @@ if (isset($_GET['form'])){
 
                         We're giving away
 
-                        <a href="index.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>
+                        <a href="index.php" class="link prizes"><img src="img/website/ticket.png"></a>
                         and much more...<span>
 
                         <br>
 
                         1/50 </span> of every
-                        <a href="index.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>
 
                          has a RANDOM
 
-                        <a href="index.php" class="link prizes"><img src="img/gift-box.png" alt=""></a> in it.
+                        <a href="index.php" class="link prizes"><img src="img/website/prize.png" alt=""></a> in it.
 
                         <br>
 
                         Are you a lucky
-                        <a href="index.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
+                        <a href="index.php" class="link winners"><img src="img/website/winner.png" alt=""></img></a>?
                     </p>
 
 
@@ -105,7 +105,7 @@ if (isset($_GET['form'])){
 
                     <p class="mobile">
                         Are you a lucky
-                        <a href="index.php" class="link winners"><img src="img/winner.jpg" alt=""></img></a>?
+                        <a href="index.php" class="link winners"><img src="img/website/winner.png" alt=""></img></a>?
 
                     </p>
 
@@ -120,7 +120,7 @@ if (isset($_GET['form'])){
 
                         <br>
 
-                        <a href="index.php" class="link prizes"><img src="img/roskilde-ticket.png"></a>
+                        <a href="index.php" class="link prizes"><img src="img/website/ticket.png"></a>
 
                         <br>
 
@@ -132,7 +132,7 @@ if (isset($_GET['form'])){
 
                         <br>
 
-                        <a href="index.php" class="link aboutus"><img src="img/candy-bag.gif" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>
 
                         <br>
 
@@ -140,7 +140,7 @@ if (isset($_GET['form'])){
 
                         <br>
 
-                        <a href="index.php" class="link prizes"><img src="img/gift-box.png" alt=""></a>
+                        <a href="index.php" class="link prizes"><img src="img/website/prize.png" alt=""></a>
 
                         <br>
 
@@ -156,8 +156,8 @@ if (isset($_GET['form'])){
 
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
                 <div class="back">
-                    <a id='back-button' href="">
-                        <i class='fa fa-arrow-circle-left back-icon'></i>Back</a>
+                    <a  href="">
+                        <img id='back-button' src="img/website/back.png" alt="">Back</a>
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
