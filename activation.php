@@ -62,7 +62,7 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 				$out.="<input type='radio' 	name='prize' value='$prizename'>$prizename<br>";
 				}
 
-			$out.="<button type='submit' name='form' value='prize-button'>Select City</button></form>";
+			$out.="<button type='submit' name='form' value='prize-button'>Select Prize</button></form>";
 
 			break;
 
