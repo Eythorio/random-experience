@@ -112,36 +112,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/website\/candy kopi.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32364,
-		"inputAbbreviatedPath": "\/img\/website\/candy kopi.png",
-		"outputAbbreviatedPath": "\/img\/website\/candy kopi.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/website\/candy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32364,
-		"inputAbbreviatedPath": "\/img\/website\/candy.png",
-		"outputAbbreviatedPath": "\/img\/website\/candy.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/website\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28695,
-		"inputAbbreviatedPath": "\/img\/website\/logo.png",
-		"outputAbbreviatedPath": "\/img\/website\/logo.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/website\/prize.png": {
 		"fileType": 32768,
 		"ignore": 0,

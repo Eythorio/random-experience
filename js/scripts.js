@@ -1,6 +1,6 @@
 $(function(){
 // some Jquery to control switching between right and left side of the website
-    $("#sub-wrapper, #sub-content-wrapper, #activate, .link").click(function(e){
+    $("#sub-wrapper, #sub-content-wrapper, .link").click(function(e){
         e.stopPropagation();
         $("#wrapper").animate({"margin-left":"-60%"});
     });

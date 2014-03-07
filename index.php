@@ -1,14 +1,12 @@
 <?php
 session_start();
 $_SESSION['activationcode']="";
-$code = $_SESSION['activationcode'];
 
 $out="";
 
 if (isset($_GET['form'])){
 
-    include('activation.php');
-
+   include('activation.php');
 
 };
 
@@ -38,6 +36,15 @@ if (isset($_GET['form'])){
 
         <title>Rowntrees Randoms dk</title>
 
+
+        <!-- <script>
+            $(function(){
+                    $(window).load(function() {
+
+                        $("#wrapper").animate({"margin-left":"-60%"});
+                });
+            });
+        </script> -->
     </head>
 
     <body>
