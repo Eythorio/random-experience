@@ -2,7 +2,7 @@ $(function(){
 // some Jquery to control switching between right and left side of the website
     $("#sub-wrapper, #sub-content-wrapper, #activate, .link").click(function(e){
         e.stopPropagation();
-        $("#wrapper").animate({"margin-left":"-60%"});
+        $("#wrapper").animate({"margin-left":"-58%"});
     });
 
     $("#main-wrapper, #main-content-wrapper").click(function(e){
@@ -53,4 +53,16 @@ $(function(){
 
         return false;
     });
+// Back button animation
+	$("#sub-wrapper, #sub-content-wrapper, #activate, .link").click(function() {
+//		$(".back").show();
+		$(".back").css('visibility', 'visible');
+	});
+		$("#main-content-wrapper").click(function() {
+		$(".back").css('visibility', 'hidden');
+	});
+	$(".back").click(function() {
+		$(".back").css('visibility', 'hidden');
+	});	
+//
 });

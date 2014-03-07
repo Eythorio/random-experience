@@ -96,10 +96,10 @@ if (isset($_GET['form'])){
                         <a><img src="img/hashtag.png" alt=""></a>
 
                         <br>
-
+<!--
                         <a href=""><i class= 'fa fa-instagram'> </i></a>
                         <a href=""><i class= 'fa fa-facebook-square'> </i></a>
-                        <a href=""><i class= 'fa fa-twitter-square'> </i></a>
+                        <a href=""><i class= 'fa fa-twitter-square'> </i></a>-->
                     </p>
 
 

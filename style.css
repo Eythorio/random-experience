@@ -5,6 +5,7 @@ GENERAL STYLINGS
 .back{
 	margin-top: 1em;
 	margin-left: .5em;
+	visibility: hidden;
 }
 .back a{
 	font-size: 3em;
@@ -18,7 +19,8 @@ GENERAL STYLINGS
 }
 
 #logo{
-	height:6em;
+	max-width: 100%;
+	height: auto;
 }
 
 body,html {
@@ -59,7 +61,7 @@ h2{
 	IMAGES
 ***/
 img {
-	height:4em;
+	height: 3em;
 	vertical-align: middle;
 }
 
@@ -410,7 +412,7 @@ li[class*="instagram"] {
 
 	input.placeholder {
 		width: 125px;
-		height: 40px;
+		height: 52px;
 		font-size: .7em;
 	}
 
