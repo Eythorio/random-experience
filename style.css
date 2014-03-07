@@ -13,11 +13,12 @@ GENERAL STYLINGS
 	color: white;
 }
 
-.back-icon{
-	color: white;
-	font-size: 1em;
-	margin-right: .2em;
+#back-button{
+	height: 1em;
+}
 
+#logo{
+	height:6em;
 }
 
 body,html {
@@ -58,8 +59,7 @@ h2{
 	IMAGES
 ***/
 img {
-	height:3em;
-	width:auto;
+	height:4em;
 	vertical-align: middle;
 }
 
