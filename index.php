@@ -110,7 +110,7 @@ if ((isset($_GET['form']))&&($_GET['form']=='Go')){
                     </p>
 
                     <form class='mobile' action="index.php" method="get" enctype="multipart/form-data">
-                        <input class ='placeholder 'type="text" name="activationcode" placeholder="activate your code...">
+                        <input class ='placeholder 'type="text" name="activationcode" placeholder="Enter your code">
                         <input class ='placeholder 'type="submit" name="form" value="Go" id="activate">
                     </form>
 
