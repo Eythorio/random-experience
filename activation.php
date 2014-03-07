@@ -21,25 +21,24 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 
 
 			$out.="
-			<p>You entered $code. We just need some more information before we can show you you're prizes:</p>
-			<form action='index.php' method='get' enctype='multipart/form-data'>
-			<input type='text' name='fname' placeholder='First Name'/>
-			<input type='text' name='lname' placeholder='Last Name'/>
-			<input type='text' name='email' placeholder='Email Address'/>";
+			<p>You entered a valid $code. What city do you want to have your prize in: </p>
+			<form action='index.php' method='get' enctype='multipart/form-data'>";
 
 			if($category!='very high'){
 
 				$out.="<select name='city'>
-				<option value='Copenhagen'>København</option>
-				<option value='Aalborg'>Aalborg</option>
-				<option value='Aarhus'>Aarhus</option>
-				<option value='roskilde'>Roskilde</option>
+				<option name='copenhagen' value='Copenhagen'>København</option>
+				<option name='aalborg' value='Aalborg'>Aalborg</option>
+				<option name='aarhus' value='Aarhus'>Aarhus</option>
+				<option name='roskile' value='roskilde'>Roskilde</option>
 				</select>";
 
 			}
 
-			$out.="<button type='submit' name='form' value='information'>Submit Information</button>";
+			$out.="<button type='submit' name='form' value='city-button'>Select City</button></form>";
 			break;
+
+		case ''
 
 		case 'information':
 
