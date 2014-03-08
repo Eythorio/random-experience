@@ -24,7 +24,7 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 
 				$out.="
 				<p>You entered a valid $code. What city do you want to have your prize in: </p>
-				<form action='index.php' method='get' enctype='multipart/form-data'>";
+				<form id= 'city-form' action='index.php' method='get' enctype='multipart/form-data'>";
 
 				// puts out the city form if they didn't win a super awesome incredible prize
 				if($category!='very high'){
@@ -39,7 +39,7 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 				}
 
 				//select city button
-				$out.="<button type='submit' name='form' value='city-button'>Select City</button></form>";
+				$out.="<button id='select-city-button'type='submit' name='form' value='city-button'>Select City</button></form>";
 				break;
 			} else{
 				$out.="You didn't enter a code... You'll need to go back and enter a valid activation code";

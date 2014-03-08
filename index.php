@@ -6,7 +6,7 @@ $out="";
 
 if (isset($_GET['form'])){
 
-   include('activation.php');
+    include('activation.php');
 
 };
 
@@ -37,14 +37,47 @@ if (isset($_GET['form'])){
         <title>Rowntrees Randoms dk</title>
 
 
-        <!-- <script>
+      <script>
             $(function(){
-                    $(window).load(function() {
+                $('#activate').click(function(e){
+                    e.preventDeafult();
+                    var actcode = $("#name").val();
 
-                        $("#wrapper").animate({"margin-left":"-60%"});
+                    $.get("activation.php", { activationcode: actcode, form : Go},
+                    function(data) {
+                        alert("Data Loaded: " + data);
                 });
+
+                // $('#activate').click(function(e){
+                //     e.preventDeafult();
+                //     var actcode = $('#activate-form').serialize();
+                //     $('#sub-content-wrapper').append(actcode);
+
+                //     $('#sub-content-wrapper').load(
+                //         "activation.php?" $.param({
+                //         activationcode: actcode });
+                //     );
+
+                //     $(window).load(function(){
+                //         $("#wrapper").animate({"margin-left":"-60%"});
+                //     });
+                // });
+
+                // $('#select-city-button').click(function(e){
+                //     var pickedcity = $('#city-form').serialize();
+
+                //     $('#sub-content-wrapper').load(
+                //         "activation.php?" $.param({
+                //         city: pickedcity });
+                //     );
+
+                //     $(window).load(function(){
+                //         $("#wrapper").animate({"margin-left":"-60%"});
+                //     });
+                // });
+
             });
-        </script> -->
+        </script>
     </head>
 
     <body>
@@ -91,9 +124,9 @@ if (isset($_GET['form'])){
                     </p>
 
 
-                    <form class='desktop' action="index.php" method="get" enctype="multipart/form-data">
+                    <form id='activate-form' class='desktop' action="index.php" method="get" enctype="multipart/form-data">
                         <input id='code-input' class='placeholder' type="text" name="activationcode" placeholder="activate your code...">
-                        <input class='placeholder' type="submit" name="form" value="Go" id="activate">
+                        <button class='placeholder' type="submit" name="form" value="Go" id="activate"> </button>
                     </form>
 
 
