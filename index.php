@@ -1,14 +1,4 @@
 <?php
-session_start();
-$_SESSION['activationcode']="";
-
-$out="";
-
-if (isset($_GET['form'])){
-
-    include('activation.php');
-
-};
 
 ?>
 
@@ -38,15 +28,103 @@ if (isset($_GET['form'])){
 
 
       <script>
-            $(function(){
-                $('#activate').click(function(e){
-                    e.preventDeafult();
-                    var actcode = $("#name").val();
 
-                    $.get("activation.php", { activationcode: actcode, form : Go},
-                    function(data) {
-                        alert("Data Loaded: " + data);
-                });
+    function SubmitCode() {
+        var code = $("#code").val();
+        $.post("activation-city.php", { code: code },
+        function(data) {
+            //alert("Data Loaded: " + data);
+
+            var div = document.getElementById('sub-content-wrapper');
+
+            div.innerHTML = div.innerHTML + data;
+        });
+    }
+
+
+    function SubmitCity() {
+
+        var cityForm = document.getElementById('city-form');
+
+        for(var i = 0; i < cityForm.city.length; i++){
+
+            if(cityForm.city[i].checked){
+                var chosenCity = cityForm.city[i].value;
+            }
+        }
+
+
+        $.post("city-prize.php", { city: chosenCity},
+        function(data) {
+            alert("Data Loaded: " + chosenCity);
+
+            var div = document.getElementById('sub-content-wrapper');
+
+            div.innerHTML =  data;
+        });
+    }
+
+    function SubmitPrize() {
+
+        var form = document.getElementById('prize-form');
+
+        for(var i = 0; i < form.prize.length; i++){
+
+            if(form.prize[i].checked){
+                var valueSelected = form.prize[i].value;
+            }
+        }
+
+
+        $.post("prize-user.php", { prize: valueSelected},
+        function(data) {
+            alert("Data Loaded: " + valueSelected);
+
+            var div = document.getElementById('sub-content-wrapper');
+
+            div.innerHTML =  data;
+        });
+    }
+
+    function SubmitConfirmation() {
+        var fname = $("#fname").val();
+        var lname = $("#lname").val();
+        var email = $("#email").val();
+
+        $.post("user-confirmation.php", { fname: fname, lname: lname, email: email  },
+        function(data) {
+            alert("Data Loaded: " + data);
+
+            var div = document.getElementById('sub-content-wrapper');
+
+            div.innerHTML = data;
+        });
+    }
+
+
+
+$(function(){
+    alert("it's working");
+
+});
+
+
+
+
+
+
+
+
+
+            // $(function(){
+            //     $('#activate').click(function(e){
+            //         e.preventDeafult();
+            //         var actcode = $("#name").val();
+
+            //         $.get("activation.php", { activationcode: actcode, form : Go},
+            //         function(data) {
+            //             alert("Data Loaded: " + data);
+            //     });
 
                 // $('#activate').click(function(e){
                 //     e.preventDeafult();
@@ -76,7 +154,7 @@ if (isset($_GET['form'])){
                 //     });
                 // });
 
-            });
+           // });
         </script>
     </head>
 
@@ -124,10 +202,16 @@ if (isset($_GET['form'])){
                     </p>
 
 
-                    <form id='activate-form' class='desktop' action="index.php" method="get" enctype="multipart/form-data">
+                    <!-- <form id='activate-form' class='desktop' action="index.php" method="get" enctype="multipart/form-data">
                         <input id='code-input' class='placeholder' type="text" name="activationcode" placeholder="activate your code...">
                         <button class='placeholder' type="submit" name="form" value="Go" id="activate"> </button>
-                    </form>
+                    </form> -->
+
+                    <form action="activation-city.php" class='deaktop' method="post">
+
+ Activation Code: <input name='code' id='code' type="texr">
+ <input type="button" id="activate-button" onclick="SubmitCode();" value="Send" />
+ </form>
 
 
                     <p class='desktop'>
