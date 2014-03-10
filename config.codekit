@@ -2,6 +2,60 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16828",
 "files": {
+	"\/activation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/activation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/dbconnect.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dbconnect.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/functions.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/functions.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/gift-box.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10093,
+		"inputAbbreviatedPath": "\/img\/gift-box.png",
+		"outputAbbreviatedPath": "\/img\/gift-box.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hashtag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8263,
+		"inputAbbreviatedPath": "\/img\/hashtag.png",
+		"outputAbbreviatedPath": "\/img\/hashtag.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nyhavn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 967938,
+		"inputAbbreviatedPath": "\/img\/nyhavn.jpg",
+		"outputAbbreviatedPath": "\/img\/nyhavn.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/randoms.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9,6 +63,26 @@
 		"initialSize": 141664,
 		"inputAbbreviatedPath": "\/img\/randoms.png",
 		"outputAbbreviatedPath": "\/img\/randoms.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/randoms_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37522,
+		"inputAbbreviatedPath": "\/img\/randoms_icon.png",
+		"outputAbbreviatedPath": "\/img\/randoms_icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/roskilde-ticket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52473,
+		"inputAbbreviatedPath": "\/img\/roskilde-ticket.png",
+		"outputAbbreviatedPath": "\/img\/roskilde-ticket.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -21,6 +95,206 @@
 		"outputAbbreviatedPath": "\/img\/rostick.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/img\/website\/back.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12899,
+		"inputAbbreviatedPath": "\/img\/website\/back.png",
+		"outputAbbreviatedPath": "\/img\/website\/back.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website\/candy kopi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45221,
+		"inputAbbreviatedPath": "\/img\/website\/candy kopi.png",
+		"outputAbbreviatedPath": "\/img\/website\/candy kopi.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website\/candy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45230,
+		"inputAbbreviatedPath": "\/img\/website\/candy.png",
+		"outputAbbreviatedPath": "\/img\/website\/candy.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41673,
+		"inputAbbreviatedPath": "\/img\/website\/logo.png",
+		"outputAbbreviatedPath": "\/img\/website\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website\/prize.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21164,
+		"inputAbbreviatedPath": "\/img\/website\/prize.png",
+		"outputAbbreviatedPath": "\/img\/website\/prize.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website\/share.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17546,
+		"inputAbbreviatedPath": "\/img\/website\/share.png",
+		"outputAbbreviatedPath": "\/img\/website\/share.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website\/ticket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45168,
+		"inputAbbreviatedPath": "\/img\/website\/ticket.png",
+		"outputAbbreviatedPath": "\/img\/website\/ticket.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website\/winner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33141,
+		"inputAbbreviatedPath": "\/img\/website\/winner.png",
+		"outputAbbreviatedPath": "\/img\/website\/winner.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/winner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122130,
+		"inputAbbreviatedPath": "\/img\/winner.jpg",
+		"outputAbbreviatedPath": "\/img\/winner.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/jquery.jrumble.1.3.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.jrumble.1.3.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.jrumble.1.3-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/scripts-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/scripts-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/scripts-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/aboutus.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/aboutus.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/activation-city.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/activation-city.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/campaign.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/campaign.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/city-prize.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/city-prize.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/prize-user.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/prize-user.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/prizes.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/prizes.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/user-confirmation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/user-confirmation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/winners.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/winners.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		},
 	"\/test.html": {
 		"fileType": 8192,
