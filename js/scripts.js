@@ -31,25 +31,25 @@ $(function(){
 
 
     $(".aboutus").click(function() {
-        $("#sub-content-wrapper").load("aboutus.php");
+        $("#sub-content-wrapper").load("pages/aboutus.php");
 
         return false;
     });
 
     $(".winners").click(function() {
-        $("#sub-content-wrapper").load("winners.php");
+        $("#sub-content-wrapper").load("pages/winners.php");
 
         return false;
     });
 
     $(".prizes").click(function() {
-        $("#sub-content-wrapper").load("prizes.php");
+        $("#sub-content-wrapper").load("pages/prizes.php");
 
         return false;
     });
 
     $(".campaign").click(function() {
-        $("#sub-content-wrapper").load("campaign.php");
+        $("#sub-content-wrapper").load("pages/campaign.php");
 
         return false;
     });

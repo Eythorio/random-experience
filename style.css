@@ -2,25 +2,6 @@
 GENERAL STYLINGS
 */
 
-.back{
-	margin-top: 1em;
-	margin-left: .5em;
-}
-.back a{
-	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 0;
-	color: white;
-}
-
-#back-button{
-	height: 1em;
-}
-
-#logo{
-	height:6em;
-}
-
 body,html {
     margin:0;
     height:100% !important;
@@ -29,17 +10,38 @@ body,html {
 }
 
 body {
-    font-family: "Amatic SC",'Original Surfer';
+    font-family: sans-serif;
     overflow: hidden;
     font-weight: 400;
 }
+/*==========
+back button
+============*/
 
+.back{
+	margin-top: .5em;
+	margin-left: .5em;
+}
+.back a{
+	font-family: "Amatic SC",'Original Surfer';
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#back-button{
+	height: 1em;
+}
 
 /***
 ***
 	HEADINGS
 ***
 ***/
+
+h1, h2, h3, a {
+	font-family: "Amatic SC",'Original Surfer';
+}
 h1{
 	font-size: 4em;
 	margin-top: .5em;
@@ -48,21 +50,35 @@ h1{
 }
 
 h2{
+	color:white;
 	font-size: 3em;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: 400;
 }
 
+h2 span a{
+	background-color: #39A617;
+	color:white;
+	padding:0em 0.2em;
+}
+
+a{
+	text-decoration: none;
+}
 
 /***
 	IMAGES
 ***/
 img {
-	height:4em;
+	height:3em;
 	vertical-align: middle;
 }
 
+img.hashtag {
+	width:7em;
+	height:auto;
+}
 
 /***
 	FORM
@@ -106,15 +122,16 @@ i{
 	height:100% !important;
 	display:inline-block;
 	overflow: hidden;
+	background-image: url('img/nyhavn.jpg');
+	background-size: cover;
 	}
+
 
 /*CONTENT BOX ON THE LEFT HAND SIDE */
 #main-content-wrapper{
 	height:100%;
 	padding: 1em 2em;
 	overflow: auto;
-	margin-right: -15px;
-	margin-left: 1em;
 	text-align: center;
 }
 
@@ -133,7 +150,6 @@ i{
 
 /*RIGHT SIDE OF THE SITE*/
 #sub-wrapper {
-	background-color: #39A617;
 	width:49% !important;
 	height:100% !important;
 	display:inline-block;
@@ -141,11 +157,9 @@ i{
 }
 
 #sub-content-wrapper{
-	background-color: #39A617;
 	padding: 2em;
 	height: 100% !important;
 	overflow: auto !important;
-	color:white;
 }
 
  #main-content-wrapper p:last-child {

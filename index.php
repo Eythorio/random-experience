@@ -87,55 +87,29 @@ if (isset($_GET['form'])){
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
-
-                    <h1>
-                        Hej Denmark!!!
-                    </h1>
-
-                    <h2>
-                        We're
-
-                        <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
+                   <h2>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
                     </h2>
 
-                    <br>
 
+                       <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prize">prize</a></span>. We're giving away
 
-                    <p class='desktop'>
-
-                        We're giving away
-
-                        <a href="index.php" class="link prizes"><img src="img/website/ticket.png"></a>
-                        and much more...<span>
-
-                        <br>
-
-                        1/50 </span> of every
-                        <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>
-
-                         has a RANDOM
-
-                        <a href="index.php" class="link prizes"><img src="img/website/prize.png" alt=""></a> in it.
-
-                        <br>
+                        <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
+                        and much more...
 
                         Are you a lucky
-                        <a href="index.php" class="link winners"><img src="img/website/winner.png" alt=""></img></a>?
-                    </p>
-
+                       <span> <a href="index.php" class="link winners">winner</a></span>?
+                    </h2>
 
                     <form id='activate-form' class='desktop' action="index.php" method="get" enctype="multipart/form-data">
                         <input id='code-input' class='placeholder' type="text" name="activationcode" placeholder="activate your code...">
-                        <button class='placeholder' type="submit" name="form" value="Go" id="activate"> </button>
+                        <input class='placeholder' type="submit" name="form" value="Go" id="activate"/>
                     </form>
 
 
-                    <p class='desktop'>
-                        <br>
-                        <a><img src="img/hashtag.png" alt=""></a>
-
-                        <br>
-                    </p>
+                    <h2 class='desktop'>
+                        <a><img src="img/hashtag.png" alt="hashtag" class="hashtag"></a>
+                    </h2>
 
 
                     <p class="mobile">
@@ -196,7 +170,6 @@ if (isset($_GET['form'])){
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
-
 
                     <?php echo $out?>
                 </section> <!-- content wrapper - right side -->

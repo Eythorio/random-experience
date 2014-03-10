@@ -42,7 +42,7 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 				$out.="<button id='select-city-button'type='submit' name='form' value='city-button'>Select City</button></form>";
 				break;
 			} else{
-				$out.="You didn't enter a code... You'll need to go back and enter a valid activation code";
+				$out.="<p>You didn't enter a code... You'll need to go back and enter a valid activation code</p>";
 				break;
 			}
 		//case for when they have selected a city
