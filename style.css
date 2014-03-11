@@ -165,9 +165,11 @@ i{
 
 /*WRAPPER FOR THE ENTIRE SITE*/
 #wrapper {
+	position:absolute;
+	top:0;
+	left:0;
 	width:160%;
 	height:100%;
-	display:inline-block;
 	}
 
 /*LEFT HAND SIDE OF THE SITE*/
@@ -175,14 +177,20 @@ i{
 	width:50% !important;
 	height:100% !important;
 	display:inline-block;
+	position:relative;
+	top:0;
+	left:0;
 	overflow: hidden;
-	background-image: url('img/nyhavn.jpg');
-	background-size: cover;
+	dbackground-image: url('img/nyhavn.jpg');
+	dbackground-size: cover;
 	}
 
 
 /*CONTENT BOX ON THE LEFT HAND SIDE */
 #main-content-wrapper{
+	position:relative;
+	top:0;
+	left:0;
 	height:100%;
 	padding: 1em 2em;
 	overflow: auto;
@@ -359,7 +367,7 @@ input[type="checkbox"]{
 
   opacity:0;
 }
-ul {
+ul.socialm {
   position:relative;
   left:0;
   right:0;
@@ -373,7 +381,7 @@ ul {
   list-style:none;
 }
 
-ul li {
+ul.socialm li {
   font-size:20px;
 
   cursor:pointer;
@@ -385,9 +393,9 @@ ul li {
   display:block;
   height:22px;}
 
-ul li:hover {color:rgba(0,0,0,.5);}
+ul.socialm li:hover {color:rgba(0,0,0,.5);}
 
-ul:after {
+ul.socialm:after {
 	content: '';
 	display: block;
 	z-index: -1;
@@ -401,13 +409,13 @@ ul:after {
 	border-top: 20px solid #E63737;
 }
 
-li[class*="twitter"] {
+ul.socialm li[class*="twitter"] {
 	background:#6CDFEA;
 	padding:12px 0;
 	border-radius: 10px 0px 0px 10px;
 }
 
-li[class*="instagram"] {
+ul.socialm li[class*="instagram"] {
 	background:#E34429;
 	padding:12px 0;
 	border-radius: 0px 10px 10px 0px;
@@ -461,7 +469,39 @@ li[class*="instagram"] {
 	background-position: -85px -9px;
 }
 
+/**
+***
+	trying to make the slider work
+***
+**/
 
+#slider {
+
+	position:absolute !important;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+
+}
+
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{ position:relative; list-style:none;padding:0;margin:0;overflow:hidden;}
+li.bjqs-slide{position:absolute; }
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+
+
+ul.bjqs li img {
+	height:auto;
+	width:100%;
+}
 /**
 ***
 	MOBILE STYLES
@@ -470,7 +510,7 @@ li[class*="instagram"] {
 @media screen and (max-width: 500px) {
 
 	#wrapper{
-		width: 200%;
+		width: 200%;$
 	}
 	/*switches out the mobile and desktop main text*/
 	.desktop{
