@@ -6,11 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <meta name="viewport" content="width=device-width"/>
 
-        <!-- icons -->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
         <!-- fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Original+Surfer' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 
         <!-- jquery, rumble, and custom scripts  -->
@@ -102,32 +98,20 @@
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
-                   <h2>
+                    <h2>
                         Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
                     </h2>
 
-
-                       <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prize">prize</a></span>. We're giving away
+                    <article class="desktop">
+                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prize">prize</a></span>. We're giving away
 
                         <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
                         and much more...
 
                         Are you a lucky
                        <span> <a href="index.php" class="link winners">winner</a></span>?
-                    </h2>
-
-
-                    <form action="activation-city.php" class='deaktop' method="post">
-
- Activation Code: <input name='code' id='code' type="texr">
- <input type="button" id="activate-button" onclick="SubmitCode();" value="Send" />
- </form>
-
-
-                    <h2 class='desktop'>
-                        <a><img src="img/hashtag.png" alt="hashtag" class="hashtag"></a>
-                    </h2>
-
+                        </h2>
+                    </article>
 
                     <p class="mobile">
                         Are you a lucky
@@ -135,10 +119,20 @@
 
                     </p>
 
-                    <form class='mobile' action="index.php" method="get" enctype="multipart/form-data">
-                        <input class ='placeholder 'type="text" name="activationcode" placeholder="Enter your code">
-                        <input class ='placeholder 'type="submit" name="form" value="Go" id="activate">
+                    <form action="activation-city.php" class='' method="post">
+
+                        Activation Code: <input name='code' id='code' type="text">
+                        <input type="button" id="activate-button" onclick="SubmitCode();" value="Send" />
                     </form>
+
+
+                    <h2 class='desktop'>
+                        <a><img src="img/hashtag.png" alt="hashtag" class="hashtag"></a>
+                    </h2>
+
+
+
+
 
                     <p class='mobile'>
 
