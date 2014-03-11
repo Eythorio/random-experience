@@ -115,7 +115,7 @@
 
                     <p class="mobile">
                         Are you a lucky
-                        <a href="index.php" class="link winners"><img src="img/website/winner.png" alt=""></img></a>?
+                       <span> <a href="index.php" class="link winners">winner</a></span>?
 
                     </p>
 
@@ -130,23 +130,14 @@
                         <a><img src="img/hashtag.png" alt="hashtag" class="hashtag"></a>
                     </h2>
 
-
-
-
-
                     <p class='mobile'>
 
-                        We're giving away
+                        We're giving away <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
 
-                        <br>
 
-                        <a href="index.php" class="link prizes"><img src="img/website/ticket.png"></a>
-
-                        <br>
 
                         and much more...<span>
 
-                        <br>
 
                         1/50 </span> of
 
@@ -156,13 +147,9 @@
 
                         <br>
 
-                        has a RANDOM
+                        contains a random
 
-                        <br>
-
-                        <a href="index.php" class="link prizes"><img src="img/website/prize.png" alt=""></a>
-
-                        <br>
+                        <span><a href="#" class="link prize">prize</a></span>
 
                         in it.
 
