@@ -178,7 +178,7 @@
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
                 <div class="back">
                     <a  href="">
-                        <img id='back-button' src="img/website/back.png" alt="">Back</a>
+                        <img id='back-button' src="img/website/back.png" alt="">Home</a>
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
