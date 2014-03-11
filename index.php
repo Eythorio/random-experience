@@ -92,7 +92,6 @@
                 });
             }
 
-        });
         </script>
     </head>
 
@@ -133,10 +132,10 @@
 
                     </p>
 
-                    <form action="pages/activation-city.php" class='' method="post">
+                    <form action="index.php" class='' method="post">
 
                         <h4>Activation Code:</h4> <input name='code' id='code' type="text">
-                        <input type="button" id="activate-button" onclick="SubmitCode();" value="GO!" />
+                        <input type="button" id="activate-button" onClick="SubmitCode();" value="GO!" />
                     </form>
 
 
