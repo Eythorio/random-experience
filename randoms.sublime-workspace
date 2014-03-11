@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
+				"sub-con",
+				"sub-content-wrapper"
+			],
+			[
+				"ac",
+				"activationcode"
+			],
+			[
+				"act",
+				"actcode"
+			],
+			[
+				"acti",
+				"activationcode"
+			],
+			[
+				"actia",
+				"activation"
+			],
+			[
+				"activation",
+				"activationcode"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"radio",
+				"radio"
+			],
+			[
+				"city",
+				"city-button"
+			],
+			[
 				"margin",
 				"margin-left"
 			],
@@ -34,10 +74,6 @@
 			[
 				"activate",
 				"activate"
-			],
-			[
-				"act",
-				"activationcode"
 			],
 			[
 				"sub-",
@@ -154,10 +190,6 @@
 			[
 				"backg",
 				"background-color"
-			],
-			[
-				"ba",
-				"background-position"
 			],
 			[
 				"search",
@@ -482,48 +514,40 @@
 			[
 				"opac",
 				"opacity_control_1"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
-				"fl",
-				"float"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"po",
-				"position"
-			],
-			[
-				"backgrou",
-				"background"
-			],
-			[
-				"magin",
-				"margin-right"
-			],
-			[
-				"background",
-				"background-color"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 6774,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "activation.php",
 			"settings":
 			{
-				"buffer_size": 1488,
+				"buffer_size": 3602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 1748,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 7817,
 				"line_ending": "Unix"
 			}
 		}
@@ -535,7 +559,19 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -559,18 +595,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"pack",
 				"Package Control: Add Channel"
 			],
@@ -583,7 +607,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 470.0
+		"width": 456.0
 	},
 	"console":
 	{
@@ -604,12 +628,21 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/random-experience/activation.php",
-		"/Applications/MAMP/htdocs/random-experience/js/scripts.js",
-		"/Applications/MAMP/htdocs/random-experience/index.php",
+		"/Applications/MAMP/htdocs/random-experience/bjqs.css",
+		"/Applications/MAMP/htdocs/random-experience/js/bjqs-1.3.min.js",
+		"/Applications/MAMP/htdocs/random-experience/pages/city-prize.php",
+		"/Applications/MAMP/htdocs/random-experience/pages/prize-user.php",
+		"/Applications/MAMP/htdocs/random-experience/pages/activation-city.php",
 		"/Applications/MAMP/htdocs/random-experience/style.css",
-		"/Applications/MAMP/htdocs/random-experience/campaign.php",
+		"/Applications/MAMP/htdocs/random-experience/js/scripts.js",
+		"/Applications/MAMP/htdocs/random-experience/pages/user-confirmation.php",
+		"/Applications/MAMP/htdocs/random-experience/sftp-config.json",
+		"/Applications/MAMP/htdocs/random-experience/functions.php",
+		"/Applications/MAMP/htdocs/random-experience/activation.php",
+		"/Applications/MAMP/htdocs/random-experience/go.php",
 		"/Applications/MAMP/htdocs/random-experience/dbconnect.php",
+		"/Applications/MAMP/htdocs/random-experience/index.php",
+		"/Applications/MAMP/htdocs/random-experience/campaign.php",
 		"/Applications/MAMP/htdocs/random-experience/aboutus.php",
 		"/Applications/MAMP/htdocs/random-experience/scripts.js",
 		"/Applications/MAMP/htdocs/random-experience/test.html",
@@ -722,20 +755,11 @@
 		"/Applications/MAMP/htdocs/PHP/first_page.php",
 		"/Applications/MAMP/htdocs/PHP/function_deafults.php",
 		"/Applications/MAMP/htdocs/PHP/multiple_returns.php",
-		"/Applications/MAMP/htdocs/PHP/functions.php",
-		"/Applications/MAMP/htdocs/PHP/continue.php",
-		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
-		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/User/trailing_spaces.sublime-settings",
-		"/Applications/MAMP/htdocs/PHP/while.php",
-		"/Applications/MAMP/htdocs/PHP/switch.php",
-		"/Applications/MAMP/htdocs/PHP/constants.php",
-		"/Applications/MAMP/htdocs/PHP/type_casting.php",
-		"/Users/luke/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/luke/Documents/KEA/assignments/KEA_gallery/index.php"
+		"/Applications/MAMP/htdocs/PHP/functions.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -749,6 +773,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sub-con",
+			"form",
 			"overflow",
 			"form",
 			"base",
@@ -844,11 +870,44 @@
 			[
 				{
 					"buffer": 0,
-					"file": "activation.php",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1488,
+						"buffer_size": 6774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5615,
+								5615
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "activation.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3602,
 						"regions":
 						{
 						},
@@ -871,7 +930,72 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1672,
+								1672
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6973,
+								6973
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -953,7 +1077,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 103.0,
+	"side_bar_width": 147.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

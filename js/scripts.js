@@ -47,7 +47,7 @@ $(function(){
     });
 
     $(".campaign").click(function() {
-        $("#sub-content-wrapper").load("pages/campaign.php");
+        $("#sub-content-wrapper").load("pages/aboutus.php");
 
         return false;
     });

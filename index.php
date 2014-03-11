@@ -8,6 +8,7 @@
 
         <!-- fonts -->
         <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
 
         <!-- jquery, rumble, and custom scripts  -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -99,7 +100,7 @@
                 <!-- wrapper for all the content within this side of the site -->
                 <section id='main-content-wrapper'>
                     <h2>
-                        Hej Denmark!!! We're <br> <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
@@ -121,7 +122,7 @@
 
                     <form action="activation-city.php" class='' method="post">
 
-                        Activation Code: <input name='code' id='code' type="text">
+                        <h4>Activation Code:</h4> <input name='code' id='code' type="text">
                         <input type="button" id="activate-button" onclick="SubmitCode();" value="GO!" />
                     </form>
 

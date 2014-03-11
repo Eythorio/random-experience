@@ -26,16 +26,24 @@ if ($code) {
 	if($category!='very high'){
 
 		echo "
-		<input type='radio' name='city' class='city' value='Copenhagen'>København <br>
-		<input type='radio' name='city' class='city' value='Aalborg'>Aalborg <br>
-		<input type='radio' name='city' class='city' value='Aarhus'>Aarhus <br>
-		<input type='radio' name='city' class='city' value='roskilde'>Roskilde <br>
+
+			<input type='radio' name='city' class='city' value='Copenhagen'> København<br>
+
+
+			<input type='radio' name='city' class='city' value='Aalborg'> Aalborg<br>
+
+
+			<input type='radio' name='city' class='city' value='Aarhus'> Aarhus<br>
+
+
+			<input type='radio' name='city' class='city' value='roskilde'> Roskilde<br>
+
 		";
 
 	}
 
 	?>
-	<input id='city-button'type='button' value='Select City' onClick="SubmitCity();"></form>
+	<input id='city-button' class='city-style' type='button' value='Select City' onClick="SubmitCity();"></form>
 	<?php
 	//select city button
 
