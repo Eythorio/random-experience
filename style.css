@@ -2,6 +2,28 @@
 GENERAL STYLINGS
 */
 
+.back{
+	margin-top: 1em;
+	margin-left: .5em;
+	visibility: hidden;
+}
+.back a{
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+}
+
+#back-button{
+	height: 1em;
+}
+
+#logo{
+	max-width: 100%;
+	height: auto;
+}
+
+
 body,html {
     margin:0;
     height:100% !important;
@@ -71,7 +93,11 @@ a{
 	IMAGES
 ***/
 img {
+<<<<<<< HEAD
 	height:3em;
+=======
+	height: 3em;
+>>>>>>> Janis
 	vertical-align: middle;
 }
 
@@ -430,7 +456,7 @@ li[class*="instagram"] {
 
 	input.placeholder {
 		width: 125px;
-		height: 40px;
+		height: 52px;
 		font-size: .7em;
 	}
 
