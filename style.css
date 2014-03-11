@@ -19,9 +19,11 @@ GENERAL STYLINGS
 }
 
 #logo{
-	max-width: 100%;
-	height: auto;
+	height: 100%;
+	width: 100%;
+	max-width: 500px;
 }
+
 
 body,html {
     margin:0;
@@ -31,17 +33,38 @@ body,html {
 }
 
 body {
-    font-family: "Amatic SC",'Original Surfer';
+    font-family: "Amatic SC";
     overflow: hidden;
     font-weight: 400;
 }
+/*==========
+back button
+============*/
 
+.back{
+	margin-top: .5em;
+	margin-left: .5em;
+}
+.back a{
+	font-family: "Amatic SC";
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#back-button{
+	height: 1em;
+}
 
 /***
 ***
 	HEADINGS
 ***
 ***/
+
+h1, h2, h3, a {
+	font-family: "Amatic SC",'Original Surfer';
+}
 h1{
 	font-size: 4em;
 	margin-top: .5em;
@@ -50,27 +73,50 @@ h1{
 }
 
 h2{
+	color:white;
 	font-size: 3em;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: 400;
 }
 
+h2 span a{
+	background-color: #39A617;
+	color:white;
+	padding:0em 0.2em;
+}
+
+span a{
+	background-color: #39A617;
+	color:white;
+
+}
+
+a{
+	text-decoration: none;
+}
 
 /***
 	IMAGES
 ***/
 img {
-	height: 3em;
+
+	height:3em;
 	vertical-align: middle;
 }
 
+img.hashtag {
+	width:7em;
+	height:auto;
+}
 
 /***
 	FORM
 ***/
 form{
 	display: inline;
+	font-size: 3em;
+	color: white;
 }
 
 
@@ -108,16 +154,27 @@ i{
 	height:100% !important;
 	display:inline-block;
 	overflow: hidden;
+	background-image: url('img/nyhavn.jpg');
+	background-size: cover;
 	}
+
 
 /*CONTENT BOX ON THE LEFT HAND SIDE */
 #main-content-wrapper{
 	height:100%;
 	padding: 1em 2em;
 	overflow: auto;
-	margin-right: -15px;
-	margin-left: 1em;
 	text-align: center;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-ms-overflow-style: none; /*IE 10+*/
+	overflow: -moz-scrollbars-none; /*Firefox*/
+	text-align: center;
+}
+
+#main-content-wrapper::-webkit-scrollbar {
+	width: 0 !important
+
 }
 
 #main-content-wrapper p {
@@ -135,19 +192,17 @@ i{
 
 /*RIGHT SIDE OF THE SITE*/
 #sub-wrapper {
-	background-color: #39A617;
 	width:49% !important;
 	height:100% !important;
 	display:inline-block;
 	vertical-align: top;
+	background-color: #39A617;
 }
 
 #sub-content-wrapper{
-	background-color: #39A617;
 	padding: 2em;
 	height: 100% !important;
 	overflow: auto !important;
-	color:white;
 }
 
  #main-content-wrapper p:last-child {
@@ -168,7 +223,7 @@ form input{
 	margin-bottom: .5em;
 }
 
-input.placeholder {
+#code {
 	text-align: center;
 	font-size: 18px;
 	width: 200px;
@@ -183,13 +238,13 @@ input.placeholder {
 
 }
 
-input.placeholder:focus {
+#code:focus {
 	background-color: #F2F1F1;
 	border: none;
 	padding: 6px;
 }
 
-input[type="submit"] {
+input[type="button"] {
 	width: 100px;
 	height: 70px;
 	font-family: "Amatic SC",'Original Surfer';
@@ -202,10 +257,11 @@ input[type="submit"] {
 	outline: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	margin-left: -2px;
+	margin-left: -7px;
+	color: #FFFFFF;
 }
 
-input[type="submit"]:focus {
+input[type="button"]:focus {
 	background-color: #14301a;
 	border: 5px solid #14301a;
 	color: #FFFFFF;
@@ -392,10 +448,18 @@ li[class*="instagram"] {
 **/
 @media screen and (max-width: 500px) {
 
-
+	#wrapper{
+		width: 200%;
+	}
 	/*switches out the mobile and desktop main text*/
 	.desktop{
 		display: none !important;
+	}
+
+	.mobile{
+		display: block !important;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	h1{
@@ -410,16 +474,16 @@ li[class*="instagram"] {
 		height: 2em;
 	}
 
-	input.placeholder {
+	#code {
 		width: 125px;
 		height: 52px;
 		font-size: .7em;
 	}
 
-	input[type="submit"] {
+	input[type="button"] {
 		width: 50px;
 		height: 52px;
-		font-size: 2em;
+		font-size: .7em;
 
 	}
 
@@ -443,10 +507,8 @@ li[class*="instagram"] {
 
 	}
 
-	.mobile{
-		display: block !important;
-		margin-top: 0;
-		margin-bottom: 0;
+	p{
+		color: white;
 	}
 
 	#main-content-wrapper{
@@ -456,7 +518,6 @@ li[class*="instagram"] {
 
 	#main-content-wrapper p {
 		font-size: 3em;
-		line-height: 1em;
 		margin-left: none;
 	}
 

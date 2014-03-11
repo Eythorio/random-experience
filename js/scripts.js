@@ -1,6 +1,6 @@
 $(function(){
 // some Jquery to control switching between right and left side of the website
-    $("#sub-wrapper, #sub-content-wrapper, #activate, .link").click(function(e){
+    $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
         e.stopPropagation();
         $("#wrapper").animate({"margin-left":"-58%"});
     });
@@ -28,41 +28,41 @@ $(function(){
     });
 
 
-
-
     $(".aboutus").click(function() {
-        $("#sub-content-wrapper").load("aboutus.php");
+        $("#sub-content-wrapper").load("pages/aboutus.php");
 
         return false;
     });
 
     $(".winners").click(function() {
-        $("#sub-content-wrapper").load("winners.php");
+        $("#sub-content-wrapper").load("pages/winners.php");
 
         return false;
     });
 
     $(".prizes").click(function() {
-        $("#sub-content-wrapper").load("prizes.php");
+        $("#sub-content-wrapper").load("pages/prizes.php");
 
         return false;
     });
 
     $(".campaign").click(function() {
-        $("#sub-content-wrapper").load("campaign.php");
+        $("#sub-content-wrapper").load("pages/campaign.php");
 
         return false;
     });
+
 // Back button animation
-	$("#sub-wrapper, #sub-content-wrapper, #activate, .link").click(function() {
+	$("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function() {
 //		$(".back").show();
 		$(".back").css('visibility', 'visible');
 	});
 		$("#main-content-wrapper").click(function() {
 		$(".back").css('visibility', 'hidden');
 	});
-	$(".back").click(function() {
+	$("#back-button, .back, .back a").click(function() {
 		$(".back").css('visibility', 'hidden');
-	});	
+	});
 //
+
 });

@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 $out=" ";
 include("dbconnect.php");
 include("functions.php");
@@ -20,27 +20,31 @@ if ((isset($_GET['form']))&&($_GET['form']!=null)){
 			$_SESSION['category']=get_category($code);
 			$category=$_SESSION['category'];
 
-
-			$out.="
-			<p>You entered a valid $code. What city do you want to have your prize in: </p>
-			<form action='index.php' method='get' enctype='multipart/form-data'>";
-
-			// puts out the city form if they didn't win a super awesome incredible prize
-			if($category!='very high'){
+			if ($code) {
 
 				$out.="
-				<input type='radio' name='city' value='Copenhagen'>København <br>
-				<input type='radio' name='city' value='Aalborg'>Aalborg <br>
-				<input type='radio' name='city' value='Aarhus'>Aarhus <br>
-				<input type='radio' name='city' value='roskilde'>Roskilde <br>
-				";
+				<p>You entered a valid $code. What city do you want to have your prize in: </p>
+				<form id= 'city-form' action='index.php' method='get' enctype='multipart/form-data'>";
 
+				// puts out the city form if they didn't win a super awesome incredible prize
+				if($category!='very high'){
+
+					$out.="
+					<input type='radio' name='city' value='Copenhagen'>København <br>
+					<input type='radio' name='city' value='Aalborg'>Aalborg <br>
+					<input type='radio' name='city' value='Aarhus'>Aarhus <br>
+					<input type='radio' name='city' value='roskilde'>Roskilde <br>
+					";
+
+				}
+
+				//select city button
+				$out.="<button id='select-city-button'type='submit' name='form' value='city-button'>Select City</button></form>";
+				break;
+			} else{
+				$out.="<p>You didn't enter a code... You'll need to go back and enter a valid activation code</p>";
+				break;
 			}
-
-			//select city button
-			$out.="<button type='submit' name='form' value='city-button'>Select City</button></form>";
-			break;
-
 		//case for when they have selected a city
 		case 'city-button':
 			//stores the session variable
