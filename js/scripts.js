@@ -28,8 +28,6 @@ $(function(){
     });
 
 
-
-
     $(".aboutus").click(function() {
         $("#sub-content-wrapper").load("pages/aboutus.php");
 
@@ -55,16 +53,16 @@ $(function(){
     });
 
 // Back button animation
-	$("#sub-wrapper, #sub-content-wrapper, #activate, .link").click(function() {
+	$("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function() {
 //		$(".back").show();
 		$(".back").css('visibility', 'visible');
 	});
 		$("#main-content-wrapper").click(function() {
 		$(".back").css('visibility', 'hidden');
 	});
-	$(".back").click(function() {
+	$("#back-button, .back, .back a").click(function() {
 		$(".back").css('visibility', 'hidden');
-	});	
+	});
 //
 
 });
