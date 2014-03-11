@@ -8,11 +8,14 @@
 
         <!-- fonts -->
         <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
 
         <!-- jquery, rumble, and custom scripts  -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/bjqs-1.3.min.js"></script>
 
         <!-- stylesheet -->
         <link href="style.css" type="text/css" rel="stylesheet"/>
@@ -88,6 +91,8 @@
                     div.innerHTML = data;
                 });
             }
+
+        });
         </script>
     </head>
 
@@ -97,9 +102,18 @@
             <!-- main menu/content on the left side of the site -->
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
+                 <div id="slider">
+               <!-- start Basic Jquery Slider -->
+                <ul class="bjqs">
+                  <li><img src="img/nyhavn.jpg"></li>
+                  <li><img src="img/nyhavn.jpg"></li>
+                </ul>
+                <!-- end Basic jQuery Slider -->
+
+              </div>
                 <section id='main-content-wrapper'>
                     <h2>
-                        Hej Denmark!!! We're <br> <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
@@ -121,7 +135,7 @@
 
                     <form action="activation-city.php" class='' method="post">
 
-                        Activation Code: <input name='code' id='code' type="text">
+                        <h4>Activation Code:</h4> <input name='code' id='code' type="text">
                         <input type="button" id="activate-button" onclick="SubmitCode();" value="GO!" />
                     </form>
 
@@ -178,7 +192,7 @@
                     <input type="checkbox" class="checkbox" id="share">
                     <label for="share" class="label entypo-export" id="share-button"></label>
                     <div class="social">
-                      <ul>
+                      <ul class='socialm'>
                         <li class="entypo-twitter"><a id="twitter"></a></li>
                         <li class="entypo-facebook"><a id="facebook"></a></li>
                         <li class="entypo-instagram"><a id="instagram"></a></li>

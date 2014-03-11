@@ -1,4 +1,16 @@
 $(function(){
+
+//background
+
+    $('#slider').bjqs({
+                height : '100%',
+                width : '100%',
+                showcontrol: false,
+                showmarkers : false,
+                automatic: true,
+                keyboardnav : true
+            });
+
 // some Jquery to control switching between right and left side of the website
     $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
         e.stopPropagation();
@@ -47,7 +59,7 @@ $(function(){
     });
 
     $(".campaign").click(function() {
-        $("#sub-content-wrapper").load("pages/campaign.php");
+        $("#sub-content-wrapper").load("pages/aboutus.php");
 
         return false;
     });
@@ -64,5 +76,6 @@ $(function(){
 		$(".back").css('visibility', 'hidden');
 	});
 //
+
 
 });
