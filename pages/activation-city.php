@@ -1,3 +1,5 @@
+<h1>Activate Your Code: </h1>
+
 <?php
 
 	include ('../dbconnect.php');
@@ -12,11 +14,13 @@
 
 	$_SESSION['category']=$category;
 
+	if (($code == '') or ($datacategory == false))  {
+		echo "<p>Uh Oh! There seems to be some sort of mistake somewhere, we can't seem to find the code you entered. You might have to go back and start again. Sorry about that :-(</p>
 
-  echo $_POST['code']."<br />";
-  echo "All Data Submitted Sucessfully!";
+			<p>Just click the Back arrow at the top of the page here and try entering your code again</p>";
 
-if ($code) {
+			echo $_POST['code']."<br />";
+	} else {
 
 	echo "
 	<p>You entered a valid $code. What city do you want to have your prize in: </p>
@@ -41,7 +45,7 @@ if ($code) {
 	}
 
 	?>
-	<input id='city-button' class='city-style' type='button' value='Select City' onClick="SubmitCity();"></form>
+	<input id='city-button' class='city-style form-submit-button' type='button' value='Select City' onClick="SubmitCity();"></form>
 	<?php
 	//select city button
 

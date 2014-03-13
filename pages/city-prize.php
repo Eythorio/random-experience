@@ -1,9 +1,20 @@
+<h1>Activate Your Code: </h1>
+
 <?php
 
 	include('../dbconnect.php');
 	session_start();
 
-	$city = $_POST['city'];
+	$city = '';
+
+	if(isset($_POST['city'])){
+		$city = $_POST['city'];
+	} else {
+		echo "<p>Uh Oh! There seems to be some sort of mistake somewhere, we can't seem to find the city you chose. You might have to go back and start again. Sorry about that :-( </p> <br>";
+
+		echo "<input id='prize-button' class='form-submit-button' type='button' value='Back' onClick='SubmitCode();'></form>";
+		die();
+	}
 
 	$category=$_SESSION['category'];
 
@@ -25,5 +36,5 @@
 				echo "<input type='radio' name='prize' value='$prizename'>$prizename<br>";
 				}
 
-			echo "<input id='prize-button'type='button' value='Select Prize' onClick='SubmitPrize();'></form>";
+			echo "<input id='prize-button' class='form-submit-button' type='button' value='Select Prize' onClick='SubmitPrize();'></form>";
  ?>

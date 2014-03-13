@@ -96,6 +96,9 @@ a{
 	text-decoration: none;
 }
 
+p{
+	font-family: "Alef";
+}
 /***
 	IMAGES
 ***/
@@ -113,35 +116,7 @@ img.hashtag {
 /***
 	FORM
 ***/
-form{
-	display: inline;
-	font-size: 1.5em;
-	color: white;
-	font-family: "Alef";
-}
 
-form h4 {
-	font-family: "Amatic SC";
-	margin-top: 0;
-	margin-bottom: 0;
-	display: inline-block;
-	font-size: 2em;
-}
-
-
-form input{
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-.city-style{
-	font-family: "Alef";
-	font-size: .5em;
-	margin-top: .3em;
-	margin-bottom: .3em;
-
-
-}
 /***
 	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
 ***/
@@ -226,7 +201,6 @@ i{
 	height:100% !important;
 	display:inline-block;
 	vertical-align: top;
-	background-color: #39A617;
 }
 
 #sub-content-wrapper{
@@ -243,8 +217,37 @@ i{
 /* 			Here Starts a Button Form			*/
 /*----------------------------------------*/
 
+form{
+	display: inline;
+	font-size: 1.5em;
+	font-family: "Alef";
+}
 
+form h4 {
+	font-family: "Amatic SC";
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	font-size: 2em;
+	color: white;
+}
 
+.form-submit-button{
+	font-family: "Amatic SC";
+	background-color: #39A617;
+	font-size: 1em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #39A617;
+}
+
+form input{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
 
 #code {
 	text-align: center;
@@ -267,7 +270,7 @@ i{
 	padding: 6px;
 }
 
-input[type="button"] {
+#activate-button {
 	width: 100px;
 	height: 70px;
 	font-family: "Amatic SC";
@@ -294,6 +297,10 @@ input[type="radio"]{
 	padding-bottom: 25px;
 	margin-top: -1px;
   vertical-align: middle;
+}
+
+input[type="radio"]{
+	background-color: #39A617;
 }
 
 #share-button{
