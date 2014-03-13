@@ -28,7 +28,9 @@
 
 			//outing the different prizes into a radio input
 
-	echo "<form id='prize-form' action='prize-user.php' method='post' enctype='multipart/form-data'><br>";
+	echo "<p>These are the prizes available in $city</p>
+
+		<form id='prize-form' action='prize-user.php' method='post' enctype='multipart/form-data'>";
 
 			//loop that grabs all the prizes
 			while($dataprizes=mysql_fetch_assoc($resultprizes)){

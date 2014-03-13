@@ -2,26 +2,14 @@
 <?php
 	include('../dbconnect.php');
 	session_start();
-	$prize = "";
+	$prize=" ";
 
-	if(isset($_POST['prize'])){
-		$prize= $_POST['prize'];
-	} else {
-		echo "<p>Uh Oh! There seems to be some sort of mistake somewhere, we can't seem to find the prize you chose - if you chose one at all. You might have to go back and try that step again. Sorry about that :-( </p> <br>";
-
-			echo "<input id='prize-button' class='form-submit-button' type='button' value='Back' onClick='SubmitCity();'></form>";
-
-		die();
-	}
+	$prize= $_POST['prize'];
 
 	$city = $_SESSION['city'];
 
-	echo $prize;
-
-
-
 	echo "<p>Almost done. You entered chose $prize in $city. We just need to know who you are so we can send you your prize!</p>
-			<form action='user-confirmation.php' method='get' enctype='multipart/form-data'><br>
+			<form action='user-confirmation.php' method='get' enctype='multipart/form-data'>
 			<input type='text' id='fname' name='fname' placeholder='First Name'/><br>
 			<input type='text' id='lname' name='lname' placeholder='Last Name'/><br>
 			<input type='text' id='email' name='email' placeholder='Email Address'/><br>

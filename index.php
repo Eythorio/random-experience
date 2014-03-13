@@ -9,6 +9,7 @@
         <!-- fonts -->
         <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
         <!-- jquery, rumble, and custom scripts  -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -69,7 +70,7 @@
 
 
                     <h2 class='desktop'>
-                        <a><img src="img/hashtag.png" alt="hashtag" class="hashtag"></a>
+                        <a><img src="img/hashtag.png" alt="hashtag" id="hashtag"></a>
                     </h2>
 
                     <p class='mobile'>
@@ -103,8 +104,7 @@
 
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
                 <div class="back">
-                    <a  href="">
-                        <img id='back-button' src="img/back.png" alt="">Home</a>
+                    <span><a  href="">Home</a></span>
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>

@@ -2,15 +2,9 @@
 GENERAL STYLINGS
 */
 
-#logo{
-	height: 100%;
-	width: 100%;
-	max-width: 500px;
-}
-
 
 body,html {
-	font-family:'Alef', sans-serif ;
+	font-family:'Lato', sans-serif ;
     margin:0;
     height:100% !important;
     width:100%;
@@ -22,140 +16,6 @@ body {
     overflow: hidden;
     font-weight: 400;
 }
-
-/*==========
-back button
-============*/
-
-.back{
-	margin-top: 1em;
-	margin-left: .5em;
-	visibility: hidden;
-	color:black;
-}
-.back a{
-	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-#back-button{
-	height: 1em;
-}
-
-
-/***
-***
-	HEADINGS
-***
-***/
-
-h1, h2, h3, a {
-	font-family: "Amatic SC",'Original Surfer';
-}
-h1{
-	font-size: 4em;
-	margin-top: .5em;
-	margin-bottom: 0;
-	font-weight: 400;
-}
-
-h2{
-	color:white;
-	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-weight: 400;
-}
-
-h2 span a{
-	background-color: #39A617;
-	color:white;
-	padding:0em 0.2em;
-}
-
-span a{
-	background-color: #39A617;
-	color:white;
-
-}
-
-a{
-	text-decoration: none;
-}
-
-p{
-	font-family: "Alef";
-}
-/***
-	IMAGES
-***/
-img {
-
-	height:3em;
-	vertical-align: middle;
-}
-
-img.hashtag {
-	width:7em;
-	height:auto;
-}
-
-/***
-	FORM
-***/
-
-form{
-	display: inline;
-	font-size: 1.5em;
-	font-family: "Alef";
-}
-
-form h4 {
-	font-family: "Amatic SC";
-	margin-top: 0;
-	margin-bottom: 0;
-	display: inline-block;
-	color:white;
-	font-size: 2em;
-}
-
-
-form input{
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-.city-style{
-	font-family: "Alef";
-	font-size: .5em;
-	margin-top: .3em;
-	margin-bottom: .3em;
-
-
-}
-
-/***
-	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
-***/
-.desktop {
-	display: block;
-	margin-top: 0;
-	margin-bottom: 0;
-	}
-
-.mobile {
-	display: none !important;
-	}
-
-/***
-	SOCIAL ICONS ON HOMEPAGE
-***/
-i{
-	font-size: 2em;
-	color: #39A617;
-}
-
 /*WRAPPER FOR THE ENTIRE SITE*/
 #wrapper {
 	position:absolute;
@@ -229,14 +89,126 @@ i{
  	padding-bottom:6em;
  }
 
+/*==========
+back button
+============*/
+
+.back{
+	margin-top: 1em;
+	margin-left: .5em;
+	visibility: hidden;
+	color:black;
+}
+.back a{
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#back-button{
+	height: 1em;
+}
+
+
+/***
+***
+	HEADINGS
+***
+***/
+
+h1, h2, h3, a {
+	font-family: "Amatic SC",'Original Surfer';
+}
+h1{
+	font-size: 4em;
+	margin-top: .5em;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+h2{
+	color:white;
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+span a{
+	background-color: #39A617;
+	color:white;
+	padding:0em 0.2em;
+}
+
+span a{
+	background-color: #39A617;
+	color:white;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: "Lato";
+}
+/***
+	IMAGES
+***/
+#main-content-wrapper img {
+
+	height:3em;
+	width:auto;
+	vertical-align: middle;
+}
+
+#hashtag {
+	width:7em;
+	height:auto;
+}
+
+#logo{
+	height: 100%;
+	width: 100%;
+	max-width: 500px;
+}
+
+
+/***
+	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
+***/
+.desktop {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+.mobile {
+	display: none !important;
+	}
+
+/***
+	SOCIAL ICONS ON HOMEPAGE
+***/
+i{
+	font-size: 2em;
+	color: #39A617;
+}
+
+
+
 /*------------------------------------------*/
 /* 			Here Starts a Button Form			*/
 /*----------------------------------------*/
 
+/***
+	FORM main page
+***/
+
 form{
 	display: inline;
 	font-size: 1.5em;
-	font-family: "Alef";
 }
 
 form h4 {
@@ -244,9 +216,20 @@ form h4 {
 	margin-top: 0;
 	margin-bottom: 0;
 	display: inline-block;
+	color:white;
 	font-size: 2em;
-	color: white;
 }
+
+
+form input{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+#sub-content-wrapper form {
+	font-size: 1em;
+}
+
 
 .form-submit-button{
 	font-family: "Amatic SC";
@@ -260,10 +243,6 @@ form h4 {
 	border: 1px solid #39A617;
 }
 
-form input{
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
 
 #code {
 	text-align: center;
@@ -342,7 +321,7 @@ footer{
 	background-color: #8E8E8E;
 }
 
-.nextle{
+.nestle{
 	position: fixed;
 	color: black;
 	bottom: 0;
