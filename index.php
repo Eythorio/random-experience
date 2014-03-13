@@ -112,11 +112,11 @@
               </div>
                 <section id='main-content-wrapper'>
                     <h2>
-                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/logo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
-                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prize">prize</a></span>. We're giving away
+                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prize">prize</a></span>. We're giving away
 
                         <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
                         and much more...
@@ -157,7 +157,7 @@
 
                         <br>
 
-                        <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>
 
                         <br>
 
@@ -173,12 +173,10 @@
                 </section> <!-- content of the left half of site -->
             </div> <!-- the left side of the site -->
 
-
-
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
                 <div class="back">
                     <a  href="">
-                        <img id='back-button' src="img/website/back.png" alt="">Home</a>
+                        <img id='back-button' src="img/back.png" alt="">Home</a>
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
