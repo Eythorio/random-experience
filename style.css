@@ -2,22 +2,6 @@
 GENERAL STYLINGS
 */
 
-.back{
-	margin-top: 1em;
-	margin-left: .5em;
-	visibility: hidden;
-}
-.back a{
-	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 0;
-	color: white;
-}
-
-#back-button{
-	height: 1em;
-}
-
 #logo{
 	height: 100%;
 	width: 100%;
@@ -26,6 +10,7 @@ GENERAL STYLINGS
 
 
 body,html {
+	font-family:'Alef', sans-serif ;
     margin:0;
     height:100% !important;
     width:100%;
@@ -37,16 +22,17 @@ body {
     overflow: hidden;
     font-weight: 400;
 }
+
 /*==========
 back button
 ============*/
 
 .back{
-	margin-top: .5em;
+	margin-top: 1em;
 	margin-left: .5em;
+	visibility: hidden;
 }
 .back a{
-	font-family: "Amatic SC";
 	font-size: 3em;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -55,6 +41,7 @@ back button
 #back-button{
 	height: 1em;
 }
+
 
 /***
 ***
@@ -116,7 +103,39 @@ img.hashtag {
 /***
 	FORM
 ***/
+<<<<<<< HEAD
 
+=======
+form{
+	display: inline;
+	font-size: 1.5em;
+	font-family: "Alef";
+}
+
+form h4 {
+	font-family: "Amatic SC";
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	color:white;
+	font-size: 2em;
+}
+
+
+form input{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+.city-style{
+	font-family: "Alef";
+	font-size: .5em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+
+
+}
+>>>>>>> FETCH_HEAD
 /***
 	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
 ***/
@@ -156,9 +175,7 @@ i{
 	top:0;
 	left:0;
 	overflow: hidden;
-	dbackground-image: url('img/nyhavn.jpg');
-	dbackground-size: cover;
-	}
+}
 
 
 /*CONTENT BOX ON THE LEFT HAND SIDE */
