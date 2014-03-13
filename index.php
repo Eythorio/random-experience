@@ -133,7 +133,7 @@
 
                     </p>
 
-                    <form action="activation-city.php" class='' method="post">
+                    <form action="pages/activation-city.php" class='' method="post">
 
                         <h4>Activation Code:</h4> <input name='code' id='code' type="text">
                         <input type="button" id="activate-button" onclick="SubmitCode();" value="GO!" />
@@ -178,7 +178,7 @@
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
                 <div class="back">
                     <a  href="">
-                        <img id='back-button' src="img/website/back.png" alt="">Back</a>
+                        <img id='back-button' src="img/website/back.png" alt="">Home</a>
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>

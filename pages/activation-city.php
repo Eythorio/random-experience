@@ -36,9 +36,7 @@ if ($code) {
 			<input type='radio' name='city' class='city' value='Aarhus'> Aarhus<br>
 
 
-			<input type='radio' name='city' class='city' value='roskilde'> Roskilde<br>
-
-		";
+			<input type='radio' name='city' class='city' value='roskilde'> Roskilde<br>";
 
 	}
 
