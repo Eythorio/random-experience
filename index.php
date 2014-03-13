@@ -92,7 +92,7 @@
                 });
             }
 
-        });
+        //}); //error
         </script>
     </head>
 
@@ -112,6 +112,18 @@
 
               </div>
                 <section id='main-content-wrapper'>
+                    <!-- Mobile Navigation -->
+                    <div id="mob-menu" ><samp class="mob-menu-icon"></samp></div>
+                    <nav>
+                        <section class="menu">
+                            <li><a href="#" id="home">Home</a></li>
+                            <li><a href="#" class="link aboutus" id="aboutus">About Us</a></li>
+                            <li><a href="#" class="link prizes" id="prizes">Prize</a></li>
+                            <li><a href="index.php" class="link winners" id="winners">Winner</a></li>
+                            <li><a>Activation code</a></li>
+                        </section>
+                    </nav>
+                    
                     <h2>
                         Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
                     </h2>
@@ -123,13 +135,13 @@
                         and much more...
 
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>?
+                       <span> <a href="index.php" class="link winners">winner</a></span>
                         </h2>
                     </article>
 
                     <p class="mobile">
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>?
+                       <span> <a href="index.php" class="link winners">winner</a></span>
 
                     </p>
 

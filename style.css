@@ -143,6 +143,62 @@ form input{
 	}
 
 /***
+	/MOBILE / NAVIGATION
+***/
+	
+nav {
+	right: 0;
+	top: 0;
+}
+
+#mob-menu {
+	display: none;
+	position: fixed;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border: solid 1px #000000;
+	margin: 10px;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.mob-menu-icon {
+	display: block;
+	background-image: url("img/randoms_icon.png");
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: -176px -12px;
+	width: 35px;
+	height: 26px;
+	margin: 12px auto;
+	left:0;
+	right:0;
+}
+
+.menu {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #FFFFFF;
+}
+
+/*&:after { content: '☰'; }
+&.nav-open:after { content: '×'; }
+*/
+
+/*	background-color: #6EFFF7;
+	border-radius: 10px;*/
+
+
+/***
 	SOCIAL ICONS ON HOMEPAGE
 ***/
 i{
@@ -493,11 +549,14 @@ ul.bjqs li img {
 @media screen and (max-width: 500px) {
 
 	#wrapper{
-		width: 200%;$
+		width: 200%;
 	}
 	/*switches out the mobile and desktop main text*/
-	.desktop{
+	.desktop {
 		display: none !important;
+	}
+	#mob-menu {
+		display: block;
 	}
 
 	.mobile{
