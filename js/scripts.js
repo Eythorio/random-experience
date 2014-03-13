@@ -17,6 +17,7 @@ function SubmitCode() {
 function SubmitCity() {
     var cityForm = document.getElementById('city-form');
     var counter = 0;
+    var div = document.getElementById('sub-content-wrapper');
 
     for(var i = 0; i < cityForm.city.length; i++){
 
@@ -25,18 +26,16 @@ function SubmitCity() {
         } else {
             counter += 1;
         }
-
     }
      if (counter == cityForm.city.length) {
-            alert("You've got to choose a city");
+            var errorMessage = "<p class='error'> ***Oops! We're really sorry about this, but we can't seem to find the city you chose. Please try again. Sorry about that :-( ***</p>";
+            div.innerHTML = div.innerHTML +  errorMessage;
             return;
 
         }
 
     $.post("pages/city-prize.php", { city: chosenCity},
     function(data) {
-
-        var div = document.getElementById('sub-content-wrapper');
 
         div.innerHTML =  data;
     });
@@ -45,26 +44,31 @@ function SubmitCity() {
 function SubmitPrize() {
 
     var prizeForm = document.getElementById('prize-form');
-    var counter = 0;
+    var count = 0;
+    var div = document.getElementById('sub-content-wrapper');
+
+    var test = prizeForm.prize.length;
+    alert(test);
+    alert(count);
 
     for(var i = 0; i < prizeForm.prize.length; i++){
 
+        alert(count);
         if(prizeForm.prize[i].checked){
             var valueSelected = prizeForm.prize[i].value;
-        } else{
-            counter += 1;
+        } else {
+            count += 1;
         }
     }
 
     if (counter == prizeForm.prize.length) {
-            alert("You've got to choose a prize");
+            var errorMessage = "<p>*** Whoopsy Dasiy, something went wrong. We think it has to do with your prize. Do you mind choosing your prize again and hitting the 'Select Prize' button again for us? Thanks! ***</p>";
+            div.innerHTML = div.innerHTML + errorMessage;
             return;
     }
 
     $.post("pages/prize-user.php", { prize: valueSelected},
     function(data) {
-
-        var div = document.getElementById('sub-content-wrapper');
 
         div.innerHTML =  data;
     });
