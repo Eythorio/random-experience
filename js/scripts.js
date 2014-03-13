@@ -42,26 +42,20 @@ function SubmitCity() {
 }
 
 function SubmitPrize() {
-
-    var prizeForm = document.getElementById('prize-form');
+    var prizeInputs = document.getElementsByName('prize');
     var count = 0;
     var div = document.getElementById('sub-content-wrapper');
 
-    var test = prizeForm.prize.length;
-    alert(test);
-    alert(count);
+    for(var i = 0; i < prizeInputs.length; i++){
 
-    for(var i = 0; i < prizeForm.prize.length; i++){
-
-        alert(count);
-        if(prizeForm.prize[i].checked){
-            var valueSelected = prizeForm.prize[i].value;
+        if(prizeInputs[i].checked){
+            var valueSelected = prizeInputs[i].value;
         } else {
             count += 1;
         }
     }
 
-    if (counter == prizeForm.prize.length) {
+    if (count == prizeInputs.length) {
             var errorMessage = "<p>*** Whoopsy Dasiy, something went wrong. We think it has to do with your prize. Do you mind choosing your prize again and hitting the 'Select Prize' button again for us? Thanks! ***</p>";
             div.innerHTML = div.innerHTML + errorMessage;
             return;

@@ -35,7 +35,7 @@
 			//loop that grabs all the prizes
 			while($dataprizes=mysql_fetch_assoc($resultprizes)){
 				$prizename=$dataprizes['name'];
-				echo "<input type='radio' name='prize' class='prize' value='$prizename'>$prizename<br>";
+				echo "<input type='radio' name='prize' class='prize' value='$prizename'/>$prizename<br>";
 				}
 
 			echo "<input id='prize-button' class='form-submit-button' type='button' value='Select Prize' onClick='SubmitPrize();'></form>";
