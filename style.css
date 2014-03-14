@@ -196,7 +196,7 @@ p{
 /***
 	/MOBILE / NAVIGATION
 ***/
-	
+
 nav {
 	right: 0;
 	top: 0;
@@ -359,6 +359,10 @@ input[type="radio"]{
 	background-color: #39A617;
 }
 
+/*
+FOOOTER STYLING
+
+ */
 #share-button{
 	position: fixed;
 	background-image: url("img/randoms_icon.png");
