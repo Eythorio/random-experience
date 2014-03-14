@@ -15,6 +15,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/bjqs-1.3.min.js"></script>
 
@@ -32,14 +33,22 @@
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                  <div id="slider">
+                    
                <!-- start Basic Jquery Slider -->
                 <ul class="bjqs">
-                  <li><img src="img/nyhavn.jpg"></li>
-                  <li><img src="img/nyhavn.jpg"></li>
+                  <li><img src="img/slider/slider1.jpg"></li>
+                  <li><img src="img/slider/slider2.jpg"></li>
+                  <li><img src="img/slider/slider4.jpg"></li>
+                  <li><img src="img/slider/slider6.jpg"></li>
+                  <li><img src="img/slider/slider8.jpg"></li>
+                  <li><img src="img/slider/slider9.jpg"></li>
+                  <li><img src="img/slider/slider10.jpg"></li>
+                  <li><img src="img/slider/slider12.jpg"></li>
                 </ul>
                 <!-- end Basic jQuery Slider -->
-
-              </div>
+                </div>
+                <div id="background">
+                </div>
                 <section id='main-content-wrapper'>
                     <!-- Mobile Navigation -->
                     <div id="mob-menu" ><samp class="mob-menu-icon"></samp></div>
@@ -53,11 +62,11 @@
                     </nav>
 
                     <h2>
-                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/logo.png" alt="randoms"/></a>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/originallogo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
-                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prize">prize</a></span>. We're giving away
+                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
 
                         <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
                         and much more...

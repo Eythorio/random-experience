@@ -23,7 +23,7 @@
 	} else {
 
 	echo "
-	<p>You entered a valid code:$code. What city do you want to have your prize in: </p>
+	<p id='activation-paragraph'>You entered a valid code:$code. Where would you like to claim your prize? </p>
 	<form id='city-form' action='city-prize.php' method='post' enctype='multipart/form-data'>";
 
 	// puts out the city form if they didn't win a super awesome incredible prize
