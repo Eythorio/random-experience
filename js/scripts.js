@@ -102,7 +102,11 @@ $(function(){
                 automatic: true,
                 keyboardnav : true
             });
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> Janis
 function checkSize() {
     //small-screen
     if (window.innerWidth < 500) {
@@ -112,8 +116,12 @@ function checkSize() {
 	  });
     }
     //end small-screen
+<<<<<<< HEAD
 	else {
 		  $('.widescreen').remove();
+=======
+	else { 
+>>>>>>> Janis
 	  $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
 	  e.stopPropagation();
 	  $("#wrapper").animate({"margin-left":"-58%"});
