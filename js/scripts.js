@@ -36,11 +36,9 @@ $(window).resize(function() {
 
 /* NAV Mobile slide */	
   $('#mob-menu, #prizes, #winners, #aboutus, #home').click(function () {
-  $('.menu').slideToggle(0);
-  return false;
+  $('.menu').slideToggle(200);
+	return false;
 });
-
-
 
 // some Jquery to control switching between right and left side of the website
 //    $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
@@ -53,7 +51,7 @@ $(window).resize(function() {
         $("#wrapper").animate({"margin-left":"0"});
     });
 
-    $(".back, #back-button").click(function(e){
+    $(".back, #back-button, #home").click(function(e){
         e.stopPropagation();
         $("#wrapper").animate({"margin-left" : "0"});
         return false;
