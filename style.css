@@ -165,8 +165,8 @@ p{
 }
 
 #hashtag {
-	width:7em;
-	height:auto;
+	width:auto !important;
+	height:2em !important;
 }
 
 #logo{
@@ -177,6 +177,8 @@ p{
 
 .packets {
 	width:28%;
+	height:auto;
+	min-width:200px;
 }
 
 
@@ -552,6 +554,18 @@ ul.socialm li[class*="instagram"] {
 
 }
 
+#background {
+	position:absolute !important;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: 100;
+	background-color: black;
+	opacity: 0.5px;
+}
+
+
 /* Basic jQuery Slider essential styles */
 
 ul.bjqs{ position:relative; list-style:none;padding:0;margin:0;overflow:hidden;}
@@ -639,15 +653,13 @@ ul.bjqs li img {
 
 	}
 
-	p{
-		color: white;
-	}
 	
 	#sub-content-wrapper p{
 		color: #000000;
 	}
 
 	#main-content-wrapper{
+		z-index: 200;
 		margin-left: 0;
 		padding-left: 1em;
 	}
@@ -655,6 +667,7 @@ ul.bjqs li img {
 	#main-content-wrapper p {
 		font-size: 3em;
 		margin-left: none;
+		color: white;
 	}
 
 	#content {
