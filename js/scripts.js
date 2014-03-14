@@ -83,7 +83,6 @@ function SubmitConfirmation() {
     });
 }
 
-
 //
 //  JQUERY FUNCTIONS
 //
@@ -112,7 +111,7 @@ function checkSize() {
 	  });
     }
     //end small-screen
-    
+
 	else {
 	  $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
 	  e.stopPropagation();
