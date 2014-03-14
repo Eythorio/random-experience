@@ -23,80 +23,6 @@
 
         <title>Rowntrees Randoms dk</title>
 
-
-
-      <script>
-            function SubmitCode() {
-                var code = $("#code").val();
-                $.post("pages/activation-city.php", { code: code },
-                function(data) {
-                    //alert("Data Loaded: " + data);
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML = data;
-                });
-            }
-
-
-            function SubmitCity() {
-
-                var cityForm = document.getElementById('city-form');
-
-                for(var i = 0; i < cityForm.city.length; i++){
-
-                    if(cityForm.city[i].checked){
-                        var chosenCity = cityForm.city[i].value;
-                    }
-                }
-
-
-                $.post("pages/city-prize.php", { city: chosenCity},
-                function(data) {
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML =  data;
-                });
-            }
-
-            function SubmitPrize() {
-
-                var prizeForm = document.getElementById('prize-form');
-
-                for(var i = 0; i < prizeForm.prize.length; i++){
-
-                    if(prizeForm.prize[i].checked){
-                        var valueSelected = prizeForm.prize[i].value;
-                    }
-                }
-
-                $.post("pages/prize-user.php", { prize: valueSelected},
-                function(data) {
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML =  data;
-                });
-            }
-
-            function SubmitConfirmation() {
-                var fname = $("#fname").val();
-                var lname = $("#lname").val();
-                var email = $("#email").val();
-
-                $.post("pages/user-confirmation.php", { fname: fname, lname: lname, email: email  },
-                function(data) {
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML = data;
-                });
-            }
-
-
-        </script>
-
     </head>
 
     <body>
@@ -126,7 +52,7 @@
                             <li><a>Activation code</a></li>
                         </section>
                     </nav>
-                    
+
                     <h2>
                         Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/logo.png" alt="randoms"/></a>
                     </h2>

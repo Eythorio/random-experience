@@ -102,23 +102,6 @@ $(function(){
                 automatic: true,
                 keyboardnav : true
             });
-			
-			 
-//$(window).resize(function() {
-//        //small-screen
-//	  if (window.innerWidth < 500) {
-//		$("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
-//		e.stopPropagation();
-//		$("#wrapper").animate({"margin-left":"-100%"});
-//		});
-//	  }
-//	  else { 
-//		$("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
-//		e.stopPropagation();
-//		$("#wrapper").animate({"margin-left":"-58%"});
-//		});
-//	  }
-//});
 
 function checkSize() {
     //small-screen
@@ -129,7 +112,7 @@ function checkSize() {
 	  });
     }
     //end small-screen
-	else { 
+	else {
 		  $('.widescreen').remove();
 	  $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
 	  e.stopPropagation();
@@ -140,23 +123,16 @@ function checkSize() {
 
 checkSize();
 
-$(window).resize(function() {
-    checkSize();
-});
+    $(window).resize(function() {
+        checkSize();
+    });
 
-/* NAV Mobile slide */	
+/* NAV Mobile slide */
   $('#mob-menu, #prizes, #winners, #aboutus, #home').click(function () {
-  $('.menu').slideToggle(0);
-  return false;
-});
+        $('.menu').slideToggle(0);
+        return false;
+    });
 
-
-
-// some Jquery to control switching between right and left side of the website
-//    $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
-//        e.stopPropagation();
-//        $("#wrapper").animate({"margin-left":"-58%"});
-//    });
 
     $("#main-wrapper, #main-content-wrapper").click(function(e){
         e.stopPropagation();
