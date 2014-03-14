@@ -15,6 +15,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/bjqs-1.3.min.js"></script>
 

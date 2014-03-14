@@ -152,6 +152,13 @@ a{
 
 p{
 	font-family: "Lato";
+	margin: 0;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+#activation-paragraph{
+	margin-bottom: 1em;
 }
 /***
 	IMAGES
@@ -241,22 +248,6 @@ nav {
 	background-color: #FFFFFF;
 }
 
-/*&:after { content: '☰'; }
-&.nav-open:after { content: '×'; }
-*/
-
-/*	background-color: #6EFFF7;
-	border-radius: 10px;*/
-
-
-/***
-	SOCIAL ICONS ON HOMEPAGE
-***/
-i{
-	font-size: 2em;
-	color: #39A617;
-}
-
 
 
 /*------------------------------------------*/
@@ -281,10 +272,13 @@ form h4 {
 	font-size: 2em;
 }
 
-
 form input{
 	margin-top: .5em;
 	margin-bottom: .5em;
+}
+
+#city-form{
+	margin-top: .5em;
 }
 
 #sub-content-wrapper form {
@@ -295,7 +289,7 @@ form input{
 .form-submit-button{
 	font-family: "Amatic SC";
 	background-color: #39A617;
-	font-size: 1em;
+	font-size: 1.5em;
 	margin-top: .3em;
 	margin-bottom: .3em;
 	outline: none;
@@ -352,18 +346,24 @@ input[type="button"]:focus {
 input[type="radio"]{
 	padding-bottom: 25px;
 	margin-top: -1px;
-  vertical-align: middle;
-}
-
-input[type="radio"]{
 	background-color: #39A617;
+	margin-right: .1em;
+	margin-bottom: .4em;
 }
 
 .user-input-fields{
 	line-height: 2em;
 	min-width: 150px;
+	font-size: 1em;
 }
 
+.city{
+	font-size: 2em;
+}
+
+#user-form{
+	margin-top: -1em;
+}
 /*
 FOOOTER STYLING
 
@@ -647,7 +647,7 @@ ul.bjqs li img {
 	p{
 		color: white;
 	}
-	
+
 	#sub-content-wrapper p{
 		color: #000000;
 	}
