@@ -565,9 +565,9 @@ ul.socialm li[class*="instagram"] {
 	left:0;
 	width:100%;
 	height:100%;
-	z-index: 100;
+	z-index: 0;
 	background-color: black;
-	opacity: 0.5px;
+	opacity: 0.5;
 }
 
 
@@ -658,14 +658,7 @@ ul.bjqs li img {
 
 	}
 
-<<<<<<< HEAD
-	p{
-		color: white;
-	}
-
-=======
 	
->>>>>>> natashaagain
 	#sub-content-wrapper p{
 		color: #000000;
 	}
@@ -674,6 +667,7 @@ ul.bjqs li img {
 		z-index: 200;
 		margin-left: 0;
 		padding-left: 1em;
+		z-index:200;
 	}
 
 	#main-content-wrapper p {
@@ -690,7 +684,6 @@ ul.bjqs li img {
 		bottom: 0;
 		padding: 30px 25px;
 		height: 10px;
-
 		padding: 20px 15px;
 		height: 5px;
 	}

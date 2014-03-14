@@ -73,13 +73,13 @@
                         and much more...
 
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>
+                       <span> <a href="index.php" class="link winners">winner?</a></span>
                         </h2>
                     </article>
 
                     <p class="mobile">
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>
+                       <span> <a href="index.php" class="link winners">winner?</a></span>
 
                     </p>
 

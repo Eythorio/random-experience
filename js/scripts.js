@@ -104,7 +104,7 @@ $(function(){
 
 function checkSize() {
     //small-screen
-    if (window.innerWidth < 500) {
+    if (window.innerWidth < 600) {
 	  $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
 	  e.stopPropagation();
 	  $("#wrapper").animate({"margin-left":"-100%"});
