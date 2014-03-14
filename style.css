@@ -359,6 +359,11 @@ input[type="radio"]{
 	background-color: #39A617;
 }
 
+.user-input-fields{
+	line-height: 2em;
+	min-width: 150px;
+}
+
 /*
 FOOOTER STYLING
 
