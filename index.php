@@ -19,6 +19,8 @@
         <script src="js/scripts.js"></script>
         <script src="js/bjqs-1.3.min.js"></script>
 
+
+
         <!-- stylesheet -->
         <link href="style.css" type="text/css" rel="stylesheet"/>
 
@@ -33,7 +35,7 @@
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                  <div id="slider">
-                    
+
                <!-- start Basic Jquery Slider -->
                 <ul class="bjqs">
                   <li><img src="img/slider/slider1.jpg"></li>
