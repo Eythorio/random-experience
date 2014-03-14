@@ -153,13 +153,6 @@ a{
 
 p{
 	font-family: "Lato";
-	margin: 0;
-	padding-top: .2em;
-	padding-bottom: .2em;
-}
-
-#activation-paragraph{
-	margin-bottom: 1em;
 }
 /***
 	IMAGES
@@ -173,8 +166,8 @@ p{
 }
 
 #hashtag {
-	width:auto !important;
-	height:2em !important;
+	width:7em;
+	height:auto;
 }
 
 #logo{
@@ -185,8 +178,6 @@ p{
 
 .packets {
 	width:28%;
-	height:auto;
-	min-width:200px;
 }
 
 
@@ -243,12 +234,37 @@ nav {
 .menu {
 	display: none;
 	position: fixed;
+	padding-top: 40px;
 	z-index: 1;
 	top: 0;
 	left: 0;
 	min-width: 100%;
 	min-height: 100%;
-	background-color: #FFFFFF;
+	background-color: #39A617;
+}
+
+#home, #aboutus, #prizes, #winners {
+	font-size: 40px;
+	color: #F8F8F8;
+}
+
+nav li a:active {
+	border: solid 1px #FFFFFF;
+	border-radius: 20px;
+	width: 100px;
+}
+
+nav li{
+	list-style: none;
+	margin: 30px;
+}
+
+/***
+	SOCIAL ICONS ON HOMEPAGE
+***/
+i{
+	font-size: 2em;
+	color: #39A617;
 }
 
 
@@ -275,13 +291,10 @@ form h4 {
 	font-size: 2em;
 }
 
+
 form input{
 	margin-top: .5em;
 	margin-bottom: .5em;
-}
-
-#city-form{
-	margin-top: .5em;
 }
 
 #sub-content-wrapper form {
@@ -292,7 +305,7 @@ form input{
 .form-submit-button{
 	font-family: "Amatic SC";
 	background-color: #39A617;
-	font-size: 1.5em;
+	font-size: 1em;
 	margin-top: .3em;
 	margin-bottom: .3em;
 	outline: none;
@@ -349,24 +362,18 @@ input[type="button"]:focus {
 input[type="radio"]{
 	padding-bottom: 25px;
 	margin-top: -1px;
+  vertical-align: middle;
+}
+
+input[type="radio"]{
 	background-color: #39A617;
-	margin-right: .1em;
-	margin-bottom: .4em;
 }
 
 .user-input-fields{
 	line-height: 2em;
 	min-width: 150px;
-	font-size: 1em;
 }
 
-.city{
-	font-size: 2em;
-}
-
-#user-form{
-	margin-top: -1em;
-}
 /*
 FOOOTER STYLING
 
@@ -560,18 +567,6 @@ ul.socialm li[class*="instagram"] {
 
 }
 
-#background {
-	position:absolute !important;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	z-index: 100;
-	background-color: black;
-	opacity: 0.5px;
-}
-
-
 /* Basic jQuery Slider essential styles */
 
 ul.bjqs{ position:relative; list-style:none;padding:0;margin:0;overflow:hidden;}
@@ -603,6 +598,7 @@ ul.bjqs li img {
 	.desktop {
 		display: none !important;
 	}
+
 	#mob-menu {
 		display: block;
 	}
@@ -655,24 +651,17 @@ ul.bjqs li img {
 		background-position: 0px -48px;
 		width: 50px;
 		height: 48px;
-
-
 	}
 
-<<<<<<< HEAD
 	p{
-		color: white;
+		color:#FFFFFF;
 	}
 
-=======
-
->>>>>>> natashaagain
 	#sub-content-wrapper p{
 		color: #000000;
 	}
 
 	#main-content-wrapper{
-		z-index: 200;
 		margin-left: 0;
 		padding-left: 1em;
 	}
@@ -680,7 +669,6 @@ ul.bjqs li img {
 	#main-content-wrapper p {
 		font-size: 3em;
 		margin-left: none;
-		color: white;
 	}
 
 	#content {

@@ -60,7 +60,6 @@
                             <li><a href="#" class="link aboutus" id="aboutus">About Us</a></li>
                             <li><a href="#" class="link prizes" id="prizes">Prize</a></li>
                             <li><a href="index.php" class="link winners" id="winners">Winner</a></li>
-                            <li><a>Activation code</a></li>
                         </section>
                     </nav>
 
@@ -75,13 +74,13 @@
                         and much more...
 
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>
+                       <span> <a href="index.php" class="link winners">winner?</a></span>
                         </h2>
                     </article>
 
                     <p class="mobile">
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>
+                       <span> <a href="index.php" class="link winners">winner?</a></span>
 
                     </p>
 
