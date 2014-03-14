@@ -549,6 +549,7 @@ ul.bjqs li img {
 @media screen and (max-width: 500px) {
 
 	#wrapper{
+		position: relative;
 		width: 200%;
 	}
 	/*switches out the mobile and desktop main text*/
@@ -613,6 +614,10 @@ ul.bjqs li img {
 
 	p{
 		color: white;
+	}
+	
+	#sub-content-wrapper p{
+		color: #000000;
 	}
 
 	#main-content-wrapper{

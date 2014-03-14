@@ -11,23 +11,6 @@ $(document).ready(function() {
                 keyboardnav : true
             });
 			
-			 
-//$(window).resize(function() {
-//        //small-screen
-//	  if (window.innerWidth < 500) {
-//		$("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
-//		e.stopPropagation();
-//		$("#wrapper").animate({"margin-left":"-100%"});
-//		});
-//	  }
-//	  else { 
-//		$("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
-//		e.stopPropagation();
-//		$("#wrapper").animate({"margin-left":"-58%"});
-//		});
-//	  }
-//});
-
 function checkSize() {
     //small-screen
     if (window.innerWidth < 500) {
@@ -38,7 +21,6 @@ function checkSize() {
     }
     //end small-screen
 	else { 
-		  $('.widescreen').remove();
 	  $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
 	  e.stopPropagation();
 	  $("#wrapper").animate({"margin-left":"-58%"});
