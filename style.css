@@ -633,6 +633,11 @@ ul.bjqs li img {
 		font-size: .7em;
 
 	}
+	
+	#activate-button {
+		height: 52px;
+		font-size: 35px;
+	}
 
 	#share-button{
 		background-size: 200px;
