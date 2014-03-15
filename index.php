@@ -62,11 +62,11 @@
                     </nav>
 
                     <h2>
-                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/originallogo.png" alt="randoms"/></a>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/logo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
-                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
+                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
 
                         <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
                         and much more...
