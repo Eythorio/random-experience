@@ -2,15 +2,9 @@
 GENERAL STYLINGS
 */
 
-#logo{
-	height: 100%;
-	width: 100%;
-	max-width: 500px;
-}
-
 
 body,html {
-	font-family:'Alef', sans-serif ;
+	font-family:'Lato', sans-serif ;
     margin:0;
     height:100% !important;
     width:100%;
@@ -22,199 +16,6 @@ body {
     overflow: hidden;
     font-weight: 400;
 }
-
-/*==========
-back button
-============*/
-
-.back{
-	margin-top: 1em;
-	margin-left: .5em;
-	visibility: hidden;
-}
-.back a{
-	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-#back-button{
-	height: 1em;
-}
-
-
-/***
-***
-	HEADINGS
-***
-***/
-
-h1, h2, h3, a {
-	font-family: "Amatic SC",'Original Surfer';
-}
-h1{
-	font-size: 4em;
-	margin-top: .5em;
-	margin-bottom: 0;
-	font-weight: 400;
-}
-
-h2{
-	color:white;
-	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-weight: 400;
-}
-
-h2 span a{
-	background-color: #39A617;
-	color:white;
-	padding:0em 0.2em;
-}
-
-span a{
-	background-color: #39A617;
-	color:white;
-
-}
-
-a{
-	text-decoration: none;
-}
-
-/***
-	IMAGES
-***/
-img {
-
-	height:3em;
-	vertical-align: middle;
-}
-
-img.hashtag {
-	width:7em;
-	height:auto;
-}
-
-/***
-	FORM
-***/
-form{
-	display: inline;
-	font-size: 1.5em;
-	font-family: "Alef";
-}
-
-form h4 {
-	font-family: "Amatic SC";
-	margin-top: 0;
-	margin-bottom: 0;
-	display: inline-block;
-	color:white;
-	font-size: 2em;
-}
-
-
-form input{
-	margin-top: .5em;
-	margin-bottom: .5em;
-}
-
-.city-style{
-	font-family: "Alef";
-	font-size: .5em;
-	margin-top: .3em;
-	margin-bottom: .3em;
-
-
-}
-/***
-	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
-***/
-.desktop {
-	display: block;
-	margin-top: 0;
-	margin-bottom: 0;
-	}
-
-.mobile {
-	display: none !important;
-	}
-
-/***
-	/MOBILE / NAVIGATION
-***/
-	
-nav {
-	right: 0;
-	top: 0;
-}
-
-#mob-menu {
-	display: none;
-	position: fixed;
-	z-index: 2;
-	width: 50px;
-	height: 50px;
-	background-color: #FFFFFF;
-	border-radius: 10px;
-	border: solid 1px #000000;
-	margin: 10px;
-	right: 0;
-	top: 0;
-	cursor: pointer;
-}
-
-.mob-menu-icon {
-	display: block;
-	background-image: url("img/randoms_icon.png");
-	background-repeat: no-repeat;
-	background-size: 250px;
-	background-position: -176px -12px;
-	width: 35px;
-	height: 26px;
-	margin: 12px auto;
-	left:0;
-	right:0;
-}
-
-.menu {
-	display: none;
-	position: fixed;
-	padding-top: 40px;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	min-height: 100%;
-	background-color: #39A617;
-}
-
-#home, #aboutus, #prizes, #winners {
-	font-size: 40px;
-	color: #F8F8F8;
-}
-
-nav li a:active {
-	border: solid 1px #FFFFFF;
-	border-radius: 20px;
-	width: 100px;
-}
-
-nav li{
-	list-style: none;
-	margin: 30px;
-}
-
-/***
-	SOCIAL ICONS ON HOMEPAGE
-***/
-i{
-	font-size: 2em;
-	color: #39A617;
-}
-
 /*WRAPPER FOR THE ENTIRE SITE*/
 #wrapper {
 	position:absolute;
@@ -288,11 +89,229 @@ i{
  	padding-bottom:6em;
  }
 
+/*==========
+back button
+============*/
+
+.back{
+	margin-top: 1em;
+	margin-left: .5em;
+	visibility: hidden;
+	color:black;
+}
+.back a{
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#back-button{
+	height: 1em;
+}
+
+
+/***
+***
+	HEADINGS
+***
+***/
+
+h1, h2, h3, a {
+	font-family: "Amatic SC",'Original Surfer';
+}
+h1{
+	font-size: 4em;
+	margin-top: .5em;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+h2{
+	color:white;
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+span a{
+	background-color: #39A617;
+	color:white;
+	padding:0em 0.2em;
+}
+
+span a{
+	background-color: #39A617;
+	color:white;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: "Lato";
+}
+/***
+	IMAGES
+***/
+
+#main-content-wrapper img {
+
+	height:3em;
+	width:auto;
+	vertical-align: middle;
+}
+
+#hashtag {
+	width:7em;
+	height:auto;
+}
+
+#logo{
+	height: 100%;
+	width: 100%;
+	max-width: 500px;
+}
+
+.packets {
+	width:28%;
+}
+
+
+/***
+	THE STYLES FOR THE DIFFERENT MOBILE / DESKTOP VERSIONS OF THE LANDING PAGE
+***/
+.desktop {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+.mobile {
+	display: none !important;
+	}
+
+/***
+	/MOBILE / NAVIGATION
+***/
+
+nav {
+	right: 0;
+	top: 0;
+}
+
+#mob-menu {
+	display: none;
+	position: fixed;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border: solid 1px #000000;
+	margin: 10px;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.mob-menu-icon {
+	display: block;
+	background-image: url("img/randoms_icon.png");
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: -176px -12px;
+	width: 35px;
+	height: 26px;
+	margin: 12px auto;
+	left:0;
+	right:0;
+}
+
+.menu {
+	display: none;
+	position: fixed;
+	padding-top: 40px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #39A617;
+}
+
+#home, #aboutus, #prizes, #winners {
+	font-size: 40px;
+	color: #F8F8F8;
+}
+
+nav li a:active {
+	border: solid 1px #FFFFFF;
+	border-radius: 20px;
+	width: 100px;
+}
+
+nav li{
+	list-style: none;
+	margin: 30px;
+}
+
+/***
+	SOCIAL ICONS ON HOMEPAGE
+***/
+i{
+	font-size: 2em;
+	color: #39A617;
+}
+
+
+
 /*------------------------------------------*/
 /* 			Here Starts a Button Form			*/
 /*----------------------------------------*/
 
+/***
+	FORM main page
+***/
 
+form{
+	display: inline;
+	font-size: 1.5em;
+}
+
+form h4 {
+	font-family: "Amatic SC";
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	color:white;
+	font-size: 2em;
+}
+
+
+form input{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+#sub-content-wrapper form {
+	font-size: 1em;
+}
+
+
+.form-submit-button{
+	font-family: "Amatic SC";
+	background-color: #39A617;
+	font-size: 1em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #39A617;
+}
 
 
 #code {
@@ -316,7 +335,7 @@ i{
 	padding: 6px;
 }
 
-input[type="button"] {
+#activate-button {
 	width: 100px;
 	height: 70px;
 	font-family: "Amatic SC";
@@ -345,6 +364,19 @@ input[type="radio"]{
   vertical-align: middle;
 }
 
+input[type="radio"]{
+	background-color: #39A617;
+}
+
+.user-input-fields{
+	line-height: 2em;
+	min-width: 150px;
+}
+
+/*
+FOOOTER STYLING
+
+ */
 #share-button{
 	position: fixed;
 	background-image: url("img/randoms_icon.png");
@@ -368,7 +400,7 @@ footer{
 	background-color: #8E8E8E;
 }
 
-.nextle{
+.nestle{
 	position: fixed;
 	color: black;
 	bottom: 0;

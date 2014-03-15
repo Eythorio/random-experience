@@ -9,11 +9,13 @@
         <!-- fonts -->
         <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
         <!-- jquery, rumble, and custom scripts  -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/bjqs-1.3.min.js"></script>
 
@@ -22,78 +24,6 @@
 
         <title>Rowntrees Randoms dk</title>
 
-
-      <script>
-            function SubmitCode() {
-                var code = $("#code").val();
-                $.post("pages/activation-city.php", { code: code },
-                function(data) {
-                    //alert("Data Loaded: " + data);
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML = data;
-                });
-            }
-
-
-            function SubmitCity() {
-
-                var cityForm = document.getElementById('city-form');
-
-                for(var i = 0; i < cityForm.city.length; i++){
-
-                    if(cityForm.city[i].checked){
-                        var chosenCity = cityForm.city[i].value;
-                    }
-                }
-
-
-                $.post("pages/city-prize.php", { city: chosenCity},
-                function(data) {
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML =  data;
-                });
-            }
-
-            function SubmitPrize() {
-
-                var prizeForm = document.getElementById('prize-form');
-
-                for(var i = 0; i < prizeForm.prize.length; i++){
-
-                    if(prizeForm.prize[i].checked){
-                        var valueSelected = prizeForm.prize[i].value;
-                    }
-                }
-
-                $.post("pages/prize-user.php", { prize: valueSelected},
-                function(data) {
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML =  data;
-                });
-            }
-
-            function SubmitConfirmation() {
-                var fname = $("#fname").val();
-                var lname = $("#lname").val();
-                var email = $("#email").val();
-
-                $.post("pages/user-confirmation.php", { fname: fname, lname: lname, email: email  },
-                function(data) {
-
-                    var div = document.getElementById('sub-content-wrapper');
-
-                    div.innerHTML = data;
-                });
-            }
-
-        //}); //error
-        </script>
     </head>
 
     <body>
@@ -103,14 +33,22 @@
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
                  <div id="slider">
+                    
                <!-- start Basic Jquery Slider -->
                 <ul class="bjqs">
-                  <li><img src="img/nyhavn.jpg"></li>
-                  <li><img src="img/nyhavn.jpg"></li>
+                  <li><img src="img/slider/slider1.jpg"></li>
+                  <li><img src="img/slider/slider2.jpg"></li>
+                  <li><img src="img/slider/slider4.jpg"></li>
+                  <li><img src="img/slider/slider6.jpg"></li>
+                  <li><img src="img/slider/slider8.jpg"></li>
+                  <li><img src="img/slider/slider9.jpg"></li>
+                  <li><img src="img/slider/slider10.jpg"></li>
+                  <li><img src="img/slider/slider12.jpg"></li>
                 </ul>
                 <!-- end Basic jQuery Slider -->
-
-              </div>
+                </div>
+                <div id="background">
+                </div>
                 <section id='main-content-wrapper'>
                     <!-- Mobile Navigation -->
                     <div id="mob-menu" ><samp class="mob-menu-icon"></samp></div>
@@ -122,37 +60,38 @@
                             <li><a href="index.php" class="link winners" id="winners">Winner</a></li>
                         </section>
                     </nav>
-                    
+
                     <h2>
-                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/website/logo.png" alt="randoms"/></a>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/originallogo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
-                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prize">prize</a></span>. We're giving away
+                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
 
                         <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
                         and much more...
 
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>
+                       <span> <a href="index.php" class="link winners">winner?</a></span>
                         </h2>
                     </article>
 
                     <p class="mobile">
                         Are you a lucky
-                       <span> <a href="index.php" class="link winners">winner</a></span>
+                       <span> <a href="index.php" class="link winners">winner?</a></span>
 
                     </p>
 
-                    <form action="pages/activation-city.php" class='' method="post">
+                    <form action="index.php" class='' method="post">
 
-                        <h4>Activation Code:</h4> <input name='code' id='code' type="text">
-                        <input type="button" id="activate-button" onclick="SubmitCode();" value="GO!" />
+                        <h4>Activation Code:</h4>
+                        <input name='code' id='code' type="text">
+                        <input type="button" id="activate-button" onClick="SubmitCode();"  value="GO!" />
                     </form>
 
 
                     <h2 class='desktop'>
-                        <a><img src="img/hashtag.png" alt="hashtag" class="hashtag"></a>
+                        <a><img src="img/hashtag.png" alt="hashtag" id="hashtag"></a>
                     </h2>
 
                     <p class='mobile'>
@@ -168,7 +107,7 @@
 
                         <br>
 
-                        <a href="index.php" class="link aboutus"><img src="img/website/candy.png" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>
 
                         <br>
 
@@ -184,12 +123,9 @@
                 </section> <!-- content of the left half of site -->
             </div> <!-- the left side of the site -->
 
-
-
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
                 <div class="back">
-                    <a  href="">
-                        <img id='back-button' src="img/website/back.png" alt="">Home</a>
+                    <span><a  href="">Home</a></span>
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
