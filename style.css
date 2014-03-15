@@ -275,7 +275,15 @@ i{
 	color: #39A617;
 }
 
+/***
+	instagram feed
+***/
 
+#instafeed img {
+	width:30%;
+	height:auto;
+	max-width:300px;
+}
 
 /*------------------------------------------*/
 /* 			Here Starts a Button Form			*/
