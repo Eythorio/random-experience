@@ -186,6 +186,7 @@ img#hashtag  {
 
 .packets {
 	width:28%;
+	height:auto;
 }
 
 
@@ -588,6 +589,7 @@ ul.socialm li[class*="instagram"] {
 #background img {
 	min-width: 300px;
 	width:30%;
+	height:auto;
 	position: absolute;
 	right:0;
 	bottom:0;
