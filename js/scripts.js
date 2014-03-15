@@ -129,6 +129,7 @@ checkSize();
     $("#main-wrapper, #main-content-wrapper").click(function(e){
         e.stopPropagation();
         $("#wrapper").animate({"margin-left":"0"});
+		 return false;
     });
 
     $(".back, #back-button, #home").click(function(e){
@@ -136,6 +137,22 @@ checkSize();
         $("#wrapper").animate({"margin-left" : "0"});
         return false;
     });
+
+
+	
+	$(".link, #main-wrapper, #main-content-wrapper").click(function(e){
+	e.stopPropagation();
+	$("footer h1").css('visibility', 'hidden');
+	return false;
+    });
+	
+	$(".back, #back-button, #home, #main-wrapper, #main-content-wrapper").click(function(e){
+	e.stopPropagation();
+	$("footer h1").css('visibility', 'visible');
+	return false;
+    });
+	
+	
 
     //uses the rumble plugin to shake the links and images on hover
     $("a").jrumble({

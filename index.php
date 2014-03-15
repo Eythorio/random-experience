@@ -122,7 +122,8 @@
 
                 </section> <!-- content wrapper - right side -->
             </div> <!-- wrapper for the right side of the site -->
-           <footer>
+        </div> <!-- entire site wrapper -->
+        <footer>
               <h1 class="nextle">© 2014 Nestlé</h1>
               <main>
                   <div id="content">
@@ -138,6 +139,5 @@
                   </div>
               </main>
           </footer>
-        </div> <!-- entire site wrapper -->
     </body>
     </html>
