@@ -39,7 +39,8 @@
                     <img src="img/handpacket.png">
 
                 </div>
-                <section id='main-content-wrapper'>
+                <section id="main-content-wrapper">
+                <div class="click-background"></div>
                     <!-- Mobile Navigation -->
                     <div id="mob-menu" ><samp class="mob-menu-icon"></samp></div>
                     <nav>
@@ -119,12 +120,12 @@
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>
-
                 </section> <!-- content wrapper - right side -->
+                <h1 class="nestle">© 2014 Nestlé</h1>
             </div> <!-- wrapper for the right side of the site -->
         </div> <!-- entire site wrapper -->
         <footer>
-              <h1 class="nextle">© 2014 Nestlé</h1>
+              <h1>© 2014 Nestlé</h1>
               <main>
                   <div id="content">
                     <input type="checkbox" class="checkbox" id="share">

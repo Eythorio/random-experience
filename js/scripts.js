@@ -143,12 +143,14 @@ checkSize();
 	$(".link, #main-wrapper, #main-content-wrapper").click(function(e){
 	e.stopPropagation();
 	$("footer h1").css('visibility', 'hidden');
+	$(".nestle").css('visibility', 'visible');
 	return false;
     });
 	
 	$(".back, #back-button, #home, #main-wrapper, #main-content-wrapper").click(function(e){
 	e.stopPropagation();
 	$("footer h1").css('visibility', 'visible');
+	$(".nestle").css('visibility', 'hidden');
 	return false;
     });
 	

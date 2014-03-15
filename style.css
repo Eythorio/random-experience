@@ -265,7 +265,7 @@ nav li a:active {
 
 nav li{
 	list-style: none;
-	margin: 30px;
+	margin: 10px;
 }
 
 /***
@@ -413,6 +413,15 @@ FOOOTER STYLING
 
 footer{
 	position: fixed;
+	bottom: 0;
+}
+
+.nestle {
+	visibility: hidden;
+	position: absolute;
+	margin: 10px;
+	margin-bottom: 0;
+	font-size: 20px;
 	bottom: 0;
 }
 
@@ -576,14 +585,15 @@ ul.socialm li[class*="instagram"] {
 **/
 
 #background {
-	position:absolute !important;
-	top:0;
-	left:0;
+	position:absolute;
 	width:100%;
 	height:100%;
-	background-image:url(img/rundtaarn.jpg);
-	background-size: auto 100%;
-	background-position: cover; 
+	background: url(img/rundtaarn.jpg) no-repeat center;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 }
  
@@ -604,6 +614,9 @@ ul.socialm li[class*="instagram"] {
 ***
 **/
 @media screen and (max-width: 500px) {
+	#main-content-wrapper {
+		padding-top: 4em;
+	}
 
 	#wrapper{
 		position: relative;
@@ -685,6 +698,10 @@ ul.socialm li[class*="instagram"] {
 	#main-content-wrapper{
 		margin-left: 0;
 		padding-left: 1em;
+	}
+	
+	.click-background {
+		background-color: #FF0004;
 	}
 
 	#main-content-wrapper p {
