@@ -157,6 +157,11 @@ a{
 p{
 	font-family: "Lato";
 }
+
+.nowrap {
+	white-space: nowrap;
+}
+
 /***
 	IMAGES
 ***/

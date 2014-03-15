@@ -58,7 +58,7 @@
                     <article class="desktop">
                         <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
 
-                        <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
+                        <span><a href="index.php" class="link prizes nowrap">Roskilde Tickets</a></span>
                         and much more...
 
                         Are you a lucky
@@ -75,8 +75,8 @@
                     <form action="index.php" class='' method="post">
 
                         <h4>Activation Code:</h4>
-                        <input name='code' id='code' type="text">
-                        <input type="button" id="activate-button" onClick="SubmitCode();"  value="GO!" />
+                        <span class='nowrap'><input name='code' id='code' type="text">
+                        <input type="button" id="activate-button" onClick="SubmitCode();"  value="GO!" /></span>
                     </form>
 
 
@@ -86,7 +86,7 @@
 
                     <p class='mobile'>
 
-                        We're giving away <span><a href="index.php" class="link prizes">Roskilde Tickets</a></span>
+                        We're giving away <span><a href="index.php" class="link prizes nowrap">Roskilde Tickets</a></span>
 
 
 
