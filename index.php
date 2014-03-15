@@ -19,6 +19,8 @@
         <script src="js/scripts.js"></script>
         <script src="js/bjqs-1.3.min.js"></script>
 
+
+
         <!-- stylesheet -->
         <link href="style.css" type="text/css" rel="stylesheet"/>
 
@@ -32,22 +34,10 @@
             <!-- main menu/content on the left side of the site -->
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
-                 <div id="slider">
-                    
-               <!-- start Basic Jquery Slider -->
-                <ul class="bjqs">
-                  <li><img src="img/slider/slider1.jpg"></li>
-                  <li><img src="img/slider/slider2.jpg"></li>
-                  <li><img src="img/slider/slider4.jpg"></li>
-                  <li><img src="img/slider/slider6.jpg"></li>
-                  <li><img src="img/slider/slider8.jpg"></li>
-                  <li><img src="img/slider/slider9.jpg"></li>
-                  <li><img src="img/slider/slider10.jpg"></li>
-                  <li><img src="img/slider/slider12.jpg"></li>
-                </ul>
-                <!-- end Basic jQuery Slider -->
-                </div>
-                <div id="background">
+                 <div id="background">
+
+                    <img src="img/handpacket.png">
+
                 </div>
                 <section id='main-content-wrapper'>
                     <!-- Mobile Navigation -->

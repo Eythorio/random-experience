@@ -91,17 +91,6 @@ function SubmitConfirmation() {
 $(function(){
 
 
-//background slider
-
-    $('#slider').bjqs({
-                height : '100%',
-                width : '100%',
-                showcontrol: false,
-                showmarkers : false,
-                automatic: true,
-                keyboardnav : true
-            });
-
 function checkSize() {
     //small-screen
     if (window.innerWidth < 500) {
