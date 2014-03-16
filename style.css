@@ -321,7 +321,7 @@ form input{
 }
 
 
-#code {
+#code, #code1 {
 	text-align: center;
 	font-size: 18px;
 	width: 200px;
@@ -336,7 +336,7 @@ form input{
 
 }
 
-#code:focus {
+#code:focus, #code1:focus {
 	background-color: #F2F1F1;
 	border: none;
 	padding: 6px;
@@ -641,11 +641,12 @@ ul.socialm li[class*="instagram"] {
 		font-size: 3em;
 	}
 
-	#code {
+	#code, #code1  {
 		width: 125px;
 		height: 52px;
 		font-size: .7em;
 	}
+
 
 	input[type="button"] {
 		width: 50px;
