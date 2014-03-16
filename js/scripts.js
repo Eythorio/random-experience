@@ -4,7 +4,7 @@
 //
 
 function SubmitCode() {
-    var code = $("#code").val();
+    var code = $(".code").val();
     $.post("pages/activation-city.php", { code: code },
     function(data) {
         //alert("Data Loaded: " + data);

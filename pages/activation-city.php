@@ -7,6 +7,7 @@
 
 
 	$code = $_POST['code'];
+	$_SESSION['code'] = $code;
 
 	$resultcategory = mysql_query("SELECT category FROM re_activation_code where code='$code'");
 	$datacategory=mysql_fetch_assoc($resultcategory);

@@ -20,8 +20,6 @@
 
 	$_SESSION['city']=$city;
 
-
-
 	$prizes="SELECT * FROM re_prize where category='$category' AND city = '$city'";
 	$resultprizes=mysql_query($prizes);
 

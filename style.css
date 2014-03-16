@@ -65,7 +65,7 @@ body,html {
  }
 
 
- #main-content-wrapper p:last-child {
+ #sub-content-wrapper {
  	padding-bottom:6em;
  }
 

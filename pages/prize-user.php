@@ -5,6 +5,7 @@
 
 	$prize = "";
 	$prize= $_POST['prize'];
+	$_SESSION['prize']=$prize;
 	$city = $_SESSION['city'];
 
 	echo "<p>Almost done. You chose  $prize in $city.</p>
