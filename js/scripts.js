@@ -2,6 +2,7 @@
 //
 // ACTIVATION JAVASCRIPT
 //
+
 function SubmitCode() {
     var code = $("#code").val();
     $.post("pages/activation-city.php", { code: code },
@@ -91,29 +92,6 @@ function SubmitConfirmation() {
 $(function(){
 
 
-function checkSize() {
-    //small-screen
-    if (window.innerWidth < 500) {
-	  $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
-	  e.stopPropagation();
-	  $("#wrapper").animate({"margin-left":"-100%"});
-	  });
-    }
-    //end small-screen
-	else {
-	  $("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function(e){
-	  e.stopPropagation();
-	  $("#wrapper").animate({"margin-left":"-58%"});
-	  });
-	}
-}
-
-checkSize();
-
-    $(window).resize(function() {
-        checkSize();
-    });
-
 /* NAV Mobile slide */
   $('#mob-menu, #prizes, #winners, #aboutus, #home').click(function () {
   $('.menu').slideToggle(200);
@@ -126,14 +104,12 @@ checkSize();
 //        $("#wrapper").animate({"margin-left":"-58%"});
 //    });
 
-    $("#main-wrapper, #main-content-wrapper").click(function(e){
-        e.stopPropagation();
-        $("#wrapper").animate({"margin-left":"0"});
-		 return false;
-    });
+      $(".link, #activate-button").click(function(e){
+      e.stopPropagation();
+      $("#wrapper").animate({"margin-left":"-100%"});
+      });
 
-    $(".back, #back-button, #home").click(function(e){
-        e.stopPropagation();
+    $(".sub-menu, #home").click(function(e){
         $("#wrapper").animate({"margin-left" : "0"});
         return false;
     });
@@ -190,20 +166,16 @@ checkSize();
     });
 
     $(".campaign").click(function() {
-        $("#sub-content-wrapper").load("pages/aboutus.php");
+        $("#sub-content-wrapper").load("pages/campaign.php");
 
         return false;
     });
 
-// Back button animation
-	$("#sub-wrapper, #sub-content-wrapper, #activate-button, .link").click(function() {
-		$(".back").css('visibility', 'visible');
-	});
-		$("#main-content-wrapper").click(function() {
-		$(".back").css('visibility', 'hidden');
-	});
-	$("#back-button, .back, .back a").click(function() {
-		$(".back").css('visibility', 'hidden');
-	});
+    $(".activate").click(function() {
+        $("#sub-content-wrapper").load("pages/activation-form.php");
+
+        return false;
+    });
+
 
 });

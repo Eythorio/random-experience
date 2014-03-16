@@ -41,23 +41,24 @@
                 </div>
                 <section id="main-content-wrapper">
                 <div class="click-background"></div>
+                    
                     <!-- Mobile Navigation -->
                     <div id="mob-menu" ><samp class="mob-menu-icon"></samp></div>
                     <nav>
                         <section class="menu">
                             <li><a href="#" id="home">Home</a></li>
                             <li><a href="#" class="link aboutus" id="aboutus">About Us</a></li>
-                            <li><a href="#" class="link prizes" id="prizes">Prize</a></li>
-                            <li><a href="index.php" class="link winners" id="winners">Winner</a></li>
+                            <li><a href="#" class="link prizes" id="prizes">Prizes</a></li>
+                            <li><a href="index.php" class="link winners" id="winners">Winners</a></li>
                         </section>
                     </nav>
 
                     <h2>
-                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/logo.png" alt="randoms"/></a>
+                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/originallogo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
-                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
+                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
 
                         <span><a href="index.php" class="link prizes nowrap">Roskilde Tickets</a></span>
                         and much more...
@@ -98,7 +99,7 @@
 
                         <br>
 
-                        <a href="index.php" class="link aboutus"><img src="img/candy.png" alt="randoms"/></a>
+                        <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>
 
                         <br>
 
@@ -115,8 +116,15 @@
             </div> <!-- the left side of the site -->
 
             <div id="sub-wrapper"> <!-- wrapper for the sub-pages/ dynamic content -->
-                <div class="back">
-                    <span><a  href="">Home</a></span>
+                  <div class="sub-menu">
+                    <ul>
+                        <li> <span class='home'><a  href="">Home</a></span></li>
+                        <li> <span class='aboutus'><a  href="">About</a></span></li>
+                        <li> <span class='campaign'><a  href="">The Campaign</a></span></li>
+                        <li> <span class='activate'><a  href="">Activate Code</a></span></li>
+                        <li> <span class='prizes'><a  href="">Prizes</a></span></li>
+                        <li> <span class='winners'><a  href="">Winners</a></span></li>
+                    </ul>
                 </div>
                 <!-- content wrapper on the right side of the site -->
                 <section id='sub-content-wrapper'>

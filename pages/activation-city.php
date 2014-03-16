@@ -15,9 +15,7 @@
 	$_SESSION['category']=$category;
 
 	if (($code == '') or ($datacategory == false))  {
-		echo "<p>Uh Oh! There seems to be some sort of mistake somewhere, we can't seem to find the code you entered. You might have to go back and start again. Sorry about that :-(</p>
-
-			<p>Just click the Back arrow at the top of the page here and try entering your code again</p>";
+		echo "<p>Uh Oh! There seems to be some sort of mistake somewhere, we can't seem to find the code you entered. You might have to go back and start again. Sorry about that :-(</p>";
 
 			echo $_POST['code']."<br />";
 	} else {
