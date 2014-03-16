@@ -93,7 +93,7 @@ $(function(){
 
 
 /* NAV Mobile slide */
-  $('#mob-menu, #prizes, #winners, #aboutus, #home').click(function () {
+  $('#mobile-menu, #prizes, #winners, #aboutus, #home').click(function () {
   $('.menu').slideToggle(200);
 	return false;
 });
@@ -115,22 +115,22 @@ $(function(){
     });
 
 
-	
+
 	$(".link, #main-wrapper, #main-content-wrapper").click(function(e){
 	e.stopPropagation();
 	$("footer h1").css('visibility', 'hidden');
 	$(".nestle").css('visibility', 'visible');
 	return false;
     });
-	
+
 	$(".back, #back-button, #home, #main-wrapper, #main-content-wrapper").click(function(e){
 	e.stopPropagation();
 	$("footer h1").css('visibility', 'visible');
 	$(".nestle").css('visibility', 'hidden');
 	return false;
     });
-	
-	
+
+
 
     //uses the rumble plugin to shake the links and images on hover
     $("a").jrumble({
@@ -142,7 +142,6 @@ $(function(){
     }, function(){
         $(this).trigger("stopRumble");
     });
-
 
 
     //sub-pages

@@ -41,9 +41,8 @@
                 </div>
                 <section id="main-content-wrapper">
                 <div class="click-background"></div>
-                    
+
                     <!-- Mobile Navigation -->
-                    <div id="mob-menu" ><samp class="mob-menu-icon"></samp></div>
                     <nav>
                         <section class="menu">
                             <li><a href="#" id="home">Home</a></li>
@@ -86,32 +85,6 @@
                         <a><img src="img/hashtag.png" alt="hashtag" id="hashtag"></a>
                     </h2>
 
-                    <p class='mobile'>
-
-                        We're giving away <span><a href="index.php" class="link prizes nowrap">Roskilde Tickets</a></span>
-
-
-
-                        and much more...<span>
-
-
-                        1/50 </span> of
-
-                        <br>
-
-                        <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>
-
-                        <br>
-
-                        contains a random
-
-                        <span><a href="#" class="link prize">prize</a></span>
-
-                        in it.
-
-                        <br>
-                    </p>
-
                 </section> <!-- content of the left half of site -->
             </div> <!-- the left side of the site -->
 
@@ -131,21 +104,24 @@
                 </section> <!-- content wrapper - right side -->
                 <h1 class="nestle">© 2014 Nestlé</h1>
             </div> <!-- wrapper for the right side of the site -->
+
         </div> <!-- entire site wrapper -->
         <footer>
-              <h1>© 2014 Nestlé</h1>
-              <main>
-                  <div id="content">
+            <h1>© 2014 Nestlé</h1>
+
+            <main>
+                <div id="content">
+                    <span id='mobile-menu'>Menu</span>
                     <input type="checkbox" class="checkbox" id="share">
                     <label for="share" class="label entypo-export" id="share-button"></label>
                     <div class="social">
-                      <ul class='socialm'>
-                        <li class="entypo-twitter"><a id="twitter"></a></li>
-                        <li class="entypo-facebook"><a id="facebook"></a></li>
-                        <li class="entypo-instagram"><a id="instagram"></a></li>
-                      </ul>
+                        <ul class='socialm'>
+                            <li class="entypo-twitter"><a id="twitter"></a></li>
+                            <li class="entypo-facebook"><a id="facebook"></a></li>
+                            <li class="entypo-instagram"><a id="instagram"></a></li>
+                        </ul>
                     </div>
-                  </div>
+                </div>
               </main>
           </footer>
     </body>

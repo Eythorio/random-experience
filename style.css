@@ -108,7 +108,7 @@ sub button
 }
 
 .sub-menu ul li {
-	display:inline-block; 
+	display:inline-block;
 }
 
 
@@ -201,7 +201,7 @@ nav {
 	right: 0;
 	top: 0;
 }
-
+/*
 #mob-menu {
 	display: none;
 	position: fixed;
@@ -215,9 +215,9 @@ nav {
 	right: 0;
 	top: 0;
 	cursor: pointer;
-}
+}*/
 
-.mob-menu-icon {
+/*.mob-menu-icon {
 	display: block;
 	background-image: url("img/randoms_icon.png");
 	background-repeat: no-repeat;
@@ -228,7 +228,7 @@ nav {
 	margin: 12px auto;
 	left:0;
 	right:0;
-}
+}*/
 
 .menu {
 	display: none;
@@ -579,14 +579,14 @@ ul.socialm li[class*="instagram"] {
 	width:100%;
 	height:100%;
 	background: url(img/rundtaarn.jpg) no-repeat center;
-	
+
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 
 }
- 
+
 #background img {
 	min-width: 300px;
 	width:30%;
@@ -604,10 +604,6 @@ ul.socialm li[class*="instagram"] {
 ***
 **/
 @media screen and (max-width: 500px) {
-	#main-content-wrapper {
-		padding-top: 4em;
-	}
-
 	#wrapper{
 		position: relative;
 		width: 200%;
@@ -629,7 +625,11 @@ ul.socialm li[class*="instagram"] {
 	}
 
 	.sub-menu{
-	display: none;
+		display: none;
+	}
+
+	img#logo{
+		height: 3em;
 	}
 
 	footer h1{
@@ -652,12 +652,17 @@ ul.socialm li[class*="instagram"] {
 		width: 50px;
 		height: 52px;
 		font-size: .7em;
-
 	}
-	
+
+	#background img{
+		width: 40%;
+		min-width: 75px;
+	}
+
 	#activate-button {
 		height: 52px;
 		font-size: 35px;
+		margin-top: 18px;
 	}
 
 	#share-button{
@@ -678,12 +683,25 @@ ul.socialm li[class*="instagram"] {
 		height: 48px;
 	}
 
+	#mobile-menu{
+		font-size: 2.5em;
+		position: fixed;
+		bottom: 10px;
+		right: 150px;
+		background-color: #39A617;
+		color:white;
+		padding:0em 0.2em;
+		font-family: "Amatic SC";
+
+	}
 
 	#main-content-wrapper{
 		margin-left: 0;
 		padding-left: 1em;
+		height: 80%;
+
 	}
-	
+
 	.click-background {
 		background-color: #FF0004;
 	}
@@ -698,10 +716,6 @@ ul.socialm li[class*="instagram"] {
 		position: fixed;
 		right: 0;
 		bottom: 0;
-		padding: 30px 25px;
-		height: 10px;
-
-		padding: 20px 15px;
 		height: 5px;
 	}
 }
