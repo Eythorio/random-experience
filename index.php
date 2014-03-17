@@ -47,6 +47,7 @@
                         <section class="menu">
                             <li><a href="#" id="home">Home</a></li>
                             <li><a href="#" class="link aboutus" id="aboutus">About Us</a></li>
+                            <li><a href="#" class="link campaign" id="campaign">The Campaign</a></li>
                             <li><a href="#" class="link prizes" id="prizes">Prizes</a></li>
                             <li><a href="index.php" class="link winners" id="winners">Winners</a></li>
                         </section>
