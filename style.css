@@ -198,8 +198,9 @@ img#logo{
 ***/
 
 nav {
-	right: 0;
-	top: 0;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 14px;
 }
 /*
 #mob-menu {
@@ -217,7 +218,7 @@ nav {
 	cursor: pointer;
 }*/
 
-/*.mob-menu-icon {
+/*#x{
 	display: block;
 	background-image: url("img/randoms_icon.png");
 	background-repeat: no-repeat;
@@ -232,8 +233,7 @@ nav {
 
 .menu {
 	display: none;
-	position: fixed;
-	padding-top: 40px;
+	padding-top: 20px;
 	z-index: 1;
 	top: 0;
 	left: 0;
@@ -242,7 +242,7 @@ nav {
 	background-color: #39A617;
 }
 
-#home, #aboutus, #prizes, #winners {
+#home, #aboutus, #prizes, #winners, #campaign {
 	font-size: 40px;
 	color: #F8F8F8;
 }
@@ -250,12 +250,13 @@ nav {
 nav li a:active {
 	border: solid 1px #FFFFFF;
 	border-radius: 20px;
-	width: 100px;
 }
 
 nav li{
+	margin: auto;
+	text-align: center;
 	list-style: none;
-	margin: 10px;
+	padding-bottom: 4px;
 }
 
 /***
@@ -393,7 +394,7 @@ FOOOTER STYLING
 	width: 72px;
 	height: 71px;
 	bottom: 0;
-	right: 0;
+	left: 0;
 	margin: 7px;
 }
 
@@ -403,6 +404,7 @@ FOOOTER STYLING
 
 footer{
 	position: fixed;
+	width: 100%;
 	bottom: 0;
 }
 
@@ -415,24 +417,23 @@ footer{
 	bottom: 0;
 }
 
-footer .nestle {
-	position: fixed;
-	color: #000000;
-	margin: 10px;
-}
-
 footer h1 {
 	font-size: 20px;
 	margin: 10px;
+	float: right;
 	color: #FFFFFF;
 }
 
-#content {
+#mobile-menu {
+	visibility: hidden;
+}
+
+#social-position {
 	text-align: right;
 	position: fixed;
-	right: 0;
+	left: 0;
 	bottom: 0;
-	padding: 30px 25px;
+	padding: 46px 25px;
 	height: 20px;
 }
 
@@ -499,13 +500,13 @@ ul.socialm:after {
 	display: block;
 	z-index: -1;
 	position: absolute;
-	right: 0;
+	left: 0;
 	margin: 35px auto;
 	height: 0;
 	width: 0;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #E63737;
+	border-top: 20px solid #6CDFEA;
 }
 
 ul.socialm li[class*="twitter"] {
@@ -622,6 +623,7 @@ ul.socialm li[class*="instagram"] {
 		margin-top: 0;
 		margin-bottom: 0;
 		font-family: "Amatic SC";
+		cursor: pointer;
 	}
 
 	.hide{
@@ -635,6 +637,7 @@ ul.socialm li[class*="instagram"] {
 	footer h1{
 		font-size: 22px;
 		margin: 10px;
+		float: right;
 	}
 
 	h2{
@@ -684,15 +687,19 @@ ul.socialm li[class*="instagram"] {
 	}
 
 	#mobile-menu{
+		visibility: visible;
 		font-size: 2.5em;
 		position: fixed;
 		bottom: 10px;
-		right: 150px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		width: 100px;
+		text-align: center;
 		background-color: #39A617;
 		color:white;
 		padding:0em 0.2em;
 		font-family: "Amatic SC";
-
 	}
 
 	#main-content-wrapper{
@@ -711,12 +718,13 @@ ul.socialm li[class*="instagram"] {
 		margin-left: none;
 	}
 
-	#content {
+	#social-position {
 		text-align: right;
 		position: fixed;
-		right: 0;
+		left: 0;
 		bottom: 0;
 		height: 5px;
+		padding: 24px 8px;
 	}
 }
 

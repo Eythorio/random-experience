@@ -31,6 +31,7 @@
     <body>
         <!-- entire site wrapper -->
         <div id="wrapper">
+
             <!-- main menu/content on the left side of the site -->
             <div id="main-wrapper">
                 <!-- wrapper for all the content within this side of the site -->
@@ -41,17 +42,6 @@
                 </div>
                 <section id="main-content-wrapper">
                 <div class="click-background"></div>
-
-                    <!-- Mobile Navigation -->
-                    <nav>
-                        <section class="menu">
-                            <li><a href="#" id="home">Home</a></li>
-                            <li><a href="#" class="link aboutus" id="aboutus">About Us</a></li>
-                            <li><a href="#" class="link campaign" id="campaign">The Campaign</a></li>
-                            <li><a href="#" class="link prizes" id="prizes">Prizes</a></li>
-                            <li><a href="index.php" class="link winners" id="winners">Winners</a></li>
-                        </section>
-                    </nav>
 
                     <h2>
                         Hej Denmark! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/originallogo.png" alt="randoms"/></a>
@@ -108,10 +98,21 @@
 
         </div> <!-- entire site wrapper -->
         <footer>
+		 <!-- Mobile Navigation -->
+                    <nav>
+                        <section class="menu">
+                            <!--<span id="x"></span>-->
+                            <li><a href="#" id="home">Home</a></li>
+                            <li><a href="#" class="link aboutus" id="aboutus">About Us</a></li>
+                            <li><a href="#" class="link campaign" id="campaign">The Campaign</a></li>
+                            <li><a href="#" class="link prizes" id="prizes">Prizes</a></li>
+                            <li><a href="index.php" class="link winners" id="winners">Winners</a></li>
+                        </section>
+                    </nav>
             <h1>© 2014 Nestlé</h1>
 
             <main>
-                <div id="content">
+                <div id="social-position">
                     <span id='mobile-menu'>Menu</span>
                     <input type="checkbox" class="checkbox" id="share">
                     <label for="share" class="label entypo-export" id="share-button"></label>

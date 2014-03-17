@@ -93,7 +93,7 @@ $(function(){
 
 
 /* NAV Mobile slide */
-  $('#mobile-menu, #prizes, #winners, #aboutus, #home').click(function () {
+  $('#mobile-menu, #prizes, #winners, #aboutus, #home, #campaign').click(function () {
   $('.menu').slideToggle(200);
 	return false;
 });
@@ -109,26 +109,29 @@ $(function(){
       $("#wrapper").animate({"margin-left":"-100%"});
       });
 
-    $(".sub-menu, #home").click(function(e){
+    $(".sub-menu, #home, .home").click(function(e){
         $("#wrapper").animate({"margin-left" : "0"});
+		 $("footer h1").css('color', '#FFFFFF');
         return false;
     });
-
-
-
-	$(".link, #main-wrapper, #main-content-wrapper").click(function(e){
-	e.stopPropagation();
-	$("footer h1").css('visibility', 'hidden');
-	$(".nestle").css('visibility', 'visible');
+	
+	$("#aboutus, #campaign, #prizes, #winners").click(function(e){
+	$("footer h1").css('color', '#000000');
 	return false;
     });
 
-	$(".back, #back-button, #home, #main-wrapper, #main-content-wrapper").click(function(e){
+	$("#home").click(function(e){
 	e.stopPropagation();
-	$("footer h1").css('visibility', 'visible');
-	$(".nestle").css('visibility', 'hidden');
+	$("footer h1").css('color', '#FFFFFF');
 	return false;
     });
+	
+	$(".winners").click(function(e){
+	e.stopPropagation();
+	$("footer h1").css('color', '#000000');
+	return false;
+    });
+
 
 
 
