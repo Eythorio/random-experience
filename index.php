@@ -53,11 +53,11 @@
                     </nav>
 
                     <h2>
-                        Hej Denmark!!! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/originallogo.png" alt="randoms"/></a>
+                        Hej Denmark! We're <a href="index.php" class="link aboutus"><img id='logo' src="img/originallogo.png" alt="randoms"/></a>
                     </h2>
 
                     <article class="desktop">
-                        <h2> We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
+                        <h2> We just arrived from <a href="index.php" class="link aboutus"><img src='img/ukflag.png'></a> and We're running a <span><a href="#" class="link campaign">campaign</a></span> where 1/50 of every <a href="index.php" class="link aboutus"><img src="img/greenpacket.png" alt="randoms"/></a>contains a random <span><a href="#" class="link prizes">prize</a></span>. We're giving away
 
                         <span><a href="index.php" class="link prizes nowrap">Roskilde Tickets</a></span>
                         and much more...
@@ -76,7 +76,7 @@
                     <form action="index.php" class='' method="post">
 
                         <h4>Activation Code:</h4>
-                        <span class='nowrap'><input name='code' class='code' type="text">
+                        <span class='nowrap'><input name='code' id='code' type="text">
                         <input type="button" id="activate-button" onClick="SubmitCode();"  value="GO!" /></span>
                     </form>
 
@@ -92,11 +92,11 @@
                   <div class="sub-menu">
                     <ul>
                         <li> <span class='home'><a  href="">Home</a></span></li>
-                        <li> <span class='aboutus'><a  href="">About</a></span></li>
-                        <li> <span class='campaign'><a  href="">The Campaign</a></span></li>
-                        <li> <span class='activate'><a  href="">Activate Code</a></span></li>
-                        <li> <span class='prizes'><a  href="">Prizes</a></span></li>
-                        <li> <span class='winners'><a  href="">Winners</a></span></li>
+                        <li> <span class='aboutus hide'><a  href="">About</a></span></li>
+                        <li> <span class='campaign hide'><a  href="">The Campaign</a></span></li>
+                        <li> <span class='activate hide'><a  href="">Activate Code</a></span></li>
+                        <li> <span class='prizes hide'><a  href="">Prizes</a></span></li>
+                        <li> <span class='winners hide'><a  href="">Winners</a></span></li>
                     </ul>
                 </div>
                 <!-- content wrapper on the right side of the site -->

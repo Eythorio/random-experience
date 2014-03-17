@@ -159,7 +159,7 @@ span a{
 
 #main-content-wrapper img {
 
-	height:2em;
+	height:1.5em;
 	width:auto;
 	vertical-align: bottom;
 }
@@ -624,7 +624,7 @@ ul.socialm li[class*="instagram"] {
 		font-family: "Amatic SC";
 	}
 
-	.sub-menu{
+	.hide{
 		display: none;
 	}
 
