@@ -65,10 +65,6 @@ body,html {
  }
 
 
- #sub-content-wrapper {
- 	padding-bottom:6em;
- }
-
 
 /*RIGHT SIDE OF THE SITE*/
 #sub-wrapper {
@@ -652,9 +648,9 @@ ul.socialm li[class*="instagram"] {
 
 
 	input[type="button"] {
-		width: 50px;
-		height: 52px;
-		font-size: .7em;
+		width: auto;
+		min-height: 30px;
+		font-size: 1.3em;
 	}
 
 	#background img{
@@ -725,6 +721,10 @@ ul.socialm li[class*="instagram"] {
 		bottom: 0;
 		height: 5px;
 		padding: 24px 8px;
+	}
+
+	#sub-content-wrapper {
+		height:60% !important;
 	}
 }
 
